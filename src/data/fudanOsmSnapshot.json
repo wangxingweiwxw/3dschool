@@ -1,0 +1,8458 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-20T05:43:48Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 24474353,
+  "center": {
+    "lat": 31.3015791,
+    "lon": 121.5115885
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 24474360,
+  "center": {
+    "lat": 31.3029785,
+    "lon": 121.5134186
+  },
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "50",
+    "name": "翔殷路",
+    "name:en": "Xiangyin Road",
+    "oneway": "yes",
+    "source:maxspeed": "survey;sign;dashcam_yolo_human_verified"
+  }
+},
+{
+  "type": "way",
+  "id": 24474366,
+  "center": {
+    "lat": 31.2989631,
+    "lon": 121.5126255
+  },
+  "tags": {
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "黄兴路",
+    "name:en": "Huangxing Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 27203811,
+  "center": {
+    "lat": 31.3046536,
+    "lon": 121.5081452
+  },
+  "tags": {
+    "cycleway": "opposite_lane",
+    "cycleway:right": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政通路",
+    "name:en": "Zhengtong Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 27496947,
+  "center": {
+    "lat": 31.3043251,
+    "lon": 121.5112503
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "国济路",
+    "name:en": "Guoji Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39150193,
+  "center": {
+    "lat": 31.3042196,
+    "lon": 121.5100474
+  },
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "name": "黄兴路地道",
+    "name:en": "Huangxing Road Tunnel",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39150363,
+  "center": {
+    "lat": 31.2990797,
+    "lon": 121.5096516
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "四平路",
+    "name:en": "Siping Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39150570,
+  "center": {
+    "lat": 31.3018457,
+    "lon": 121.5097982
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39150977,
+  "center": {
+    "lat": 31.3021485,
+    "lon": 121.5119576
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "翔殷路",
+    "name:en": "Xiangyin Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39150988,
+  "center": {
+    "lat": 31.3022702,
+    "lon": 121.5119777
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "4",
+    "layer": "2",
+    "maxspeed": "80",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39153788,
+  "center": {
+    "lat": 31.3019555,
+    "lon": 121.5112567
+  },
+  "tags": {
+    "covered": "yes",
+    "foot": "yes",
+    "highway": "footway",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39215741,
+  "center": {
+    "lat": 31.3034878,
+    "lon": 121.5127341
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政旦东路",
+    "name:en": "East Zhengdan Road",
+    "old_name:en": "Tsung Tai Tong Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39657461,
+  "center": {
+    "lat": 31.3033425,
+    "lon": 121.4995023
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政民路",
+    "name:en": "Zhengmin Road"
+  }
+},
+{
+  "type": "way",
+  "id": 39687206,
+  "center": {
+    "lat": 31.2938422,
+    "lon": 121.5037085
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政熙路",
+    "name:en": "Zhengxi Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 39687227,
+  "center": {
+    "lat": 31.2958030,
+    "lon": 121.5034293
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "国年路",
+    "name:en": "Guonian Road"
+  }
+},
+{
+  "type": "way",
+  "id": 39687250,
+  "center": {
+    "lat": 31.2948848,
+    "lon": 121.4982523
+  },
+  "tags": {
+    "highway": "service",
+    "name": "政肃路",
+    "name:en": "Zhengsu Road",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39687255,
+  "center": {
+    "lat": 31.2931359,
+    "lon": 121.5055154
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政化路",
+    "name:en": "Zhenghua Road"
+  }
+},
+{
+  "type": "way",
+  "id": 39687257,
+  "center": {
+    "lat": 31.2983677,
+    "lon": 121.5027419
+  },
+  "tags": {
+    "highway": "service",
+    "name": "国福路",
+    "name:en": "Guofu Road"
+  }
+},
+{
+  "type": "way",
+  "id": 39687259,
+  "center": {
+    "lat": 31.2981998,
+    "lon": 121.5040695
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "国达路",
+    "name:en": "Guoda Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 43925759,
+  "center": {
+    "lat": 31.2940826,
+    "lon": 121.5071994
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "四平路",
+    "name:en": "Siping Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 43925952,
+  "center": {
+    "lat": 31.2948521,
+    "lon": 121.5088301
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政法路",
+    "name:en": "Zhengfa Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 43926117,
+  "center": {
+    "lat": 31.2988300,
+    "lon": 121.5066014
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 43926121,
+  "center": {
+    "lat": 31.2988460,
+    "lon": 121.5111389
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 47052553,
+  "center": {
+    "lat": 31.3004548,
+    "lon": 121.5060969
+  },
+  "tags": {
+    "highway": "trunk",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47052802,
+  "center": {
+    "lat": 31.2981969,
+    "lon": 121.4990868
+  },
+  "tags": {
+    "highway": "trunk",
+    "layer": "-1",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "邯郸路地道"
+  }
+},
+{
+  "type": "way",
+  "id": 47052875,
+  "center": {
+    "lat": 31.2987960,
+    "lon": 121.5010477
+  },
+  "tags": {
+    "highway": "trunk_link",
+    "layer": "-1",
+    "oneway": "yes",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 47052979,
+  "center": {
+    "lat": 31.2972198,
+    "lon": 121.4953675
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "trunk",
+    "maxspeed": "80",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47084752,
+  "center": {
+    "lat": 31.3029899,
+    "lon": 121.5081331
+  },
+  "tags": {
+    "bicycle": "yes",
+    "cycleway": "lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "国宾路",
+    "name:en": "Guobin Road"
+  }
+},
+{
+  "type": "way",
+  "id": 47086049,
+  "center": {
+    "lat": 31.3038236,
+    "lon": 121.5105188
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "淞沪路",
+    "name:en": "Songhu Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 47090156,
+  "center": {
+    "lat": 31.3048765,
+    "lon": 121.5071473
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 47090159,
+  "center": {
+    "lat": 31.3052196,
+    "lon": 121.5086202
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 47090174,
+  "center": {
+    "lat": 31.3050169,
+    "lon": 121.5079841
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 47097486,
+  "center": {
+    "lat": 31.3005804,
+    "lon": 121.5060433
+  },
+  "tags": {
+    "highway": "trunk",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47097487,
+  "center": {
+    "lat": 31.2975420,
+    "lon": 121.4961850
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "trunk",
+    "maxspeed": "80",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 47214201,
+  "center": {
+    "lat": 31.2947209,
+    "lon": 121.5050388
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "国顺路",
+    "name:en": "Guoshun Road"
+  }
+},
+{
+  "type": "way",
+  "id": 47214205,
+  "center": {
+    "lat": 31.2965480,
+    "lon": 121.5019851
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政肃路",
+    "name:en": "Zhengsu Road",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52509361,
+  "center": {
+    "lat": 31.3004663,
+    "lon": 121.5005015
+  },
+  "tags": {
+    "highway": "service",
+    "name": "光华大道",
+    "name:en": "Guanghua Avenue"
+  }
+},
+{
+  "type": "way",
+  "id": 52509397,
+  "center": {
+    "lat": 31.2994341,
+    "lon": 121.4968220
+  },
+  "tags": {
+    "highway": "service",
+    "name": "博学北路",
+    "name:en": "North Boxue Road",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52509501,
+  "center": {
+    "lat": 31.2995921,
+    "lon": 121.4976750
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52509502,
+  "center": {
+    "lat": 31.2987907,
+    "lon": 121.4995052
+  },
+  "tags": {
+    "highway": "service",
+    "name": "日月路",
+    "name:en": "Riyue Road"
+  }
+},
+{
+  "type": "way",
+  "id": 52509503,
+  "center": {
+    "lat": 31.2988558,
+    "lon": 121.4991413
+  },
+  "tags": {
+    "highway": "service",
+    "name": "望道路",
+    "name:en": "Wangdao Road"
+  }
+},
+{
+  "type": "way",
+  "id": 52509551,
+  "center": {
+    "lat": 31.3003358,
+    "lon": 121.4977367
+  },
+  "tags": {
+    "highway": "service",
+    "name": "相伯路",
+    "name:en": "Xiangbo Road"
+  }
+},
+{
+  "type": "way",
+  "id": 52519781,
+  "center": {
+    "lat": 31.3004921,
+    "lon": 121.5003433
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52519809,
+  "center": {
+    "lat": 31.2996533,
+    "lon": 121.4999945
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "第二教学楼",
+    "name:en": "Teaching Building 2"
+  }
+},
+{
+  "type": "way",
+  "id": 52519829,
+  "center": {
+    "lat": 31.3000655,
+    "lon": 121.4999117
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "第三教学楼",
+    "name:en": "Teaching Building 3"
+  }
+},
+{
+  "type": "way",
+  "id": 52519858,
+  "center": {
+    "lat": 31.3005578,
+    "lon": 121.5029184
+  },
+  "tags": {
+    "building": "yes",
+    "name": "1#",
+    "name:en": "Building 1"
+  }
+},
+{
+  "type": "way",
+  "id": 52519921,
+  "center": {
+    "lat": 31.3002413,
+    "lon": 121.5019384
+  },
+  "tags": {
+    "building": "yes",
+    "name": "2#",
+    "name:en": "Building 2"
+  }
+},
+{
+  "type": "way",
+  "id": 52519928,
+  "center": {
+    "lat": 31.3000100,
+    "lon": 121.5011009
+  },
+  "tags": {
+    "building": "yes",
+    "name": "3#",
+    "name:en": "Building 3"
+  }
+},
+{
+  "type": "way",
+  "id": 52519929,
+  "center": {
+    "lat": 31.3003732,
+    "lon": 121.5009443
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "7#",
+    "name:en": "Building 7"
+  }
+},
+{
+  "type": "way",
+  "id": 52519932,
+  "center": {
+    "lat": 31.3006145,
+    "lon": 121.5017888
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "6#",
+    "name:en": "Building 6"
+  }
+},
+{
+  "type": "way",
+  "id": 52520108,
+  "center": {
+    "lat": 31.3024812,
+    "lon": 121.5011844
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52531142,
+  "center": {
+    "lat": 31.2991470,
+    "lon": 121.4994320
+  },
+  "tags": {
+    "highway": "service",
+    "name": "日月东路",
+    "name:en": "East Riyue Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 52531143,
+  "center": {
+    "lat": 31.2991003,
+    "lon": 121.4992814
+  },
+  "tags": {
+    "highway": "service",
+    "name": "日月西路",
+    "name:en": "West Riyue Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 52531334,
+  "center": {
+    "lat": 31.3000872,
+    "lon": 121.4993044
+  },
+  "tags": {
+    "highway": "service",
+    "name": "日月东路",
+    "name:en": "East Riyue Road"
+  }
+},
+{
+  "type": "way",
+  "id": 52531396,
+  "center": {
+    "lat": 31.3003067,
+    "lon": 121.5014443
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52531398,
+  "center": {
+    "lat": 31.3000945,
+    "lon": 121.5020206
+  },
+  "tags": {
+    "highway": "service",
+    "name": "望道路",
+    "name:en": "Wangdao Road"
+  }
+},
+{
+  "type": "way",
+  "id": 52531400,
+  "center": {
+    "lat": 31.3022514,
+    "lon": 121.5019405
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52531401,
+  "center": {
+    "lat": 31.3003336,
+    "lon": 121.5014379
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 52531417,
+  "center": {
+    "lat": 31.2990996,
+    "lon": 121.4970149
+  },
+  "tags": {
+    "highway": "service",
+    "name": "博学南路",
+    "name:en": "South Boxue Road",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 52531427,
+  "center": {
+    "lat": 31.3018882,
+    "lon": 121.4972465
+  },
+  "tags": {
+    "highway": "service",
+    "name": "本北高速",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 52531432,
+  "center": {
+    "lat": 31.3014941,
+    "lon": 121.5009634
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 52531456,
+  "center": {
+    "lat": 31.3016865,
+    "lon": 121.5029050
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 68741995,
+  "center": {
+    "lat": 31.3052481,
+    "lon": 121.5050463
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政民路",
+    "name:en": "Zhengmin Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68742006,
+  "center": {
+    "lat": 31.3042705,
+    "lon": 121.5021200
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "大学路",
+    "name:en": "Daxue Road"
+  }
+},
+{
+  "type": "way",
+  "id": 68915095,
+  "center": {
+    "lat": 31.3020578,
+    "lon": 121.5113624
+  },
+  "tags": {
+    "access": "yes",
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "layer": "-1",
+    "motor_vehicle": "yes",
+    "name": "黄兴路地道",
+    "name:en": "Huangxing Road Tunnel",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68915096,
+  "center": {
+    "lat": 31.3042744,
+    "lon": 121.5102021
+  },
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "layer": "-1",
+    "motor_vehicle": "yes",
+    "name": "黄兴路地道",
+    "name:en": "Huangxing Road Tunnel",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68915097,
+  "center": {
+    "lat": 31.3020255,
+    "lon": 121.5112742
+  },
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "primary",
+    "horse": "no",
+    "lanes": "2",
+    "layer": "-1",
+    "name": "黄兴路地道",
+    "name:en": "Huangxing Road Tunnel",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 71461970,
+  "center": {
+    "lat": 31.3032814,
+    "lon": 121.5025227
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 71461971,
+  "center": {
+    "lat": 31.3036613,
+    "lon": 121.5022935
+  },
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 71461972,
+  "center": {
+    "lat": 31.2999034,
+    "lon": 121.4986875
+  },
+  "tags": {
+    "highway": "service",
+    "name": "日月西路",
+    "name:en": "West Riyue Road"
+  }
+},
+{
+  "type": "way",
+  "id": 71461988,
+  "center": {
+    "lat": 31.2941571,
+    "lon": 121.5070929
+  },
+  "tags": {
+    "highway": "primary",
+    "maxspeed": "60",
+    "name": "四平路",
+    "name:en": "Siping Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 72250075,
+  "center": {
+    "lat": 31.2968742,
+    "lon": 121.5016484
+  },
+  "tags": {
+    "building": "yes",
+    "name": "复旦招待所"
+  }
+},
+{
+  "type": "way",
+  "id": 72250080,
+  "center": {
+    "lat": 31.2966221,
+    "lon": 121.5018012
+  },
+  "tags": {
+    "building": "yes",
+    "name": "宿舍0号楼"
+  }
+},
+{
+  "type": "way",
+  "id": 72250107,
+  "center": {
+    "lat": 31.2992457,
+    "lon": 121.5025375
+  },
+  "tags": {
+    "highway": "trunk_link",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 72259307,
+  "center": {
+    "lat": 31.3001396,
+    "lon": 121.4956078
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 72259309,
+  "center": {
+    "lat": 31.2988905,
+    "lon": 121.4954819
+  },
+  "tags": {
+    "highway": "service",
+    "name": "登辉环路",
+    "name:en": "Denghui Ring Road"
+  }
+},
+{
+  "type": "way",
+  "id": 72259322,
+  "center": {
+    "lat": 31.3019143,
+    "lon": 121.5023329
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 72259335,
+  "center": {
+    "lat": 31.2943385,
+    "lon": 121.4979403
+  },
+  "tags": {
+    "building": "stadium",
+    "name": "游泳馆",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 74424202,
+  "center": {
+    "lat": 31.2981537,
+    "lon": 121.4986937
+  },
+  "tags": {
+    "highway": "primary_link",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 74424206,
+  "center": {
+    "lat": 31.2974409,
+    "lon": 121.4951273
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 74424207,
+  "center": {
+    "lat": 31.2994329,
+    "lon": 121.5027140
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 74424213,
+  "center": {
+    "lat": 31.3022606,
+    "lon": 121.5117117
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424219,
+  "center": {
+    "lat": 31.3014621,
+    "lon": 121.5110017
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424223,
+  "center": {
+    "lat": 31.3014417,
+    "lon": 121.5112960
+  },
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424225,
+  "center": {
+    "lat": 31.3018820,
+    "lon": 121.5117842
+  },
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424227,
+  "center": {
+    "lat": 31.3024040,
+    "lon": 121.5110862
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424229,
+  "center": {
+    "lat": 31.3024741,
+    "lon": 121.5114451
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424239,
+  "center": {
+    "lat": 31.3022153,
+    "lon": 121.5107801
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424241,
+  "center": {
+    "lat": 31.3019125,
+    "lon": 121.5106854
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 74424243,
+  "center": {
+    "lat": 31.3016053,
+    "lon": 121.5107942
+  },
+  "tags": {
+    "highway": "primary",
+    "junction": "roundabout",
+    "lanes": "5",
+    "name": "五角场",
+    "name:en": "Wujiaochang",
+    "oneway": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 89085638,
+  "center": {
+    "lat": 31.3030957,
+    "lon": 121.5088930
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 89085646,
+  "center": {
+    "lat": 31.3022480,
+    "lon": 121.5093637
+  },
+  "tags": {
+    "building": "yes",
+    "name": "第一食品商店",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 89085657,
+  "center": {
+    "lat": 31.3028086,
+    "lon": 121.5100451
+  },
+  "tags": {
+    "building": "yes",
+    "name": "巴黎春天百货",
+    "name:en": "Printemps Paris",
+    "name:fr": "Printemps Paris",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 89085665,
+  "center": {
+    "lat": 31.3041370,
+    "lon": 121.5093543
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 89085669,
+  "center": {
+    "lat": 31.3037072,
+    "lon": 121.5112209
+  },
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "淞沪路",
+    "building": "yes",
+    "name": "百联又一城购物中心",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 89085691,
+  "center": {
+    "lat": 31.3003107,
+    "lon": 121.5101641
+  },
+  "tags": {
+    "highway": "platform"
+  }
+},
+{
+  "type": "way",
+  "id": 100234258,
+  "center": {
+    "lat": 31.3012836,
+    "lon": 121.4996037
+  },
+  "tags": {
+    "building": "university",
+    "building:levels": "4",
+    "name": "智库楼"
+  }
+},
+{
+  "type": "way",
+  "id": 100234317,
+  "center": {
+    "lat": 31.3017762,
+    "lon": 121.4993535
+  },
+  "tags": {
+    "building": "university",
+    "building:levels": "5",
+    "name": "计算中心"
+  }
+},
+{
+  "type": "way",
+  "id": 136017314,
+  "center": {
+    "lat": 31.3018400,
+    "lon": 121.5116901
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "layer": "-1",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136017317,
+  "center": {
+    "lat": 31.3015531,
+    "lon": 121.5112906
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "layer": "-1",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136017319,
+  "center": {
+    "lat": 31.3016818,
+    "lon": 121.5109035
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "layer": "-1",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136017323,
+  "center": {
+    "lat": 31.3023019,
+    "lon": 121.5106234
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 136017330,
+  "center": {
+    "lat": 31.3021642,
+    "lon": 121.5108986
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "layer": "-1",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136017333,
+  "center": {
+    "lat": 31.3019621,
+    "lon": 121.5112663
+  },
+  "tags": {
+    "area": "yes",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "layer": "-1",
+    "name": "五角场广场",
+    "name:en": "Wujiaochang Square"
+  }
+},
+{
+  "type": "way",
+  "id": 136017335,
+  "center": {
+    "lat": 31.3025817,
+    "lon": 121.5114675
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 136017337,
+  "center": {
+    "lat": 31.3023154,
+    "lon": 121.5114628
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "layer": "-1",
+    "name": "五角场步行隧道",
+    "name:en": "Wujiaochang Pedestrian Tunnel",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136018510,
+  "center": {
+    "lat": 31.2999937,
+    "lon": 121.5112555
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 136018511,
+  "center": {
+    "lat": 31.3029143,
+    "lon": 121.5120909
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "国济路",
+    "name:en": "Guoji Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136018512,
+  "center": {
+    "lat": 31.3029499,
+    "lon": 121.5108798
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 136232031,
+  "center": {
+    "lat": 31.3037535,
+    "lon": 121.4939294
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "武东路",
+    "name:en": "Wudong Road",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 136362666,
+  "center": {
+    "lat": 31.3017956,
+    "lon": 121.5033282
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136362667,
+  "center": {
+    "lat": 31.3008650,
+    "lon": 121.5077992
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136362670,
+  "center": {
+    "lat": 31.2991953,
+    "lon": 121.5048780
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136763043,
+  "center": {
+    "lat": 31.3039540,
+    "lon": 121.5105020
+  },
+  "tags": {
+    "highway": "platform"
+  }
+},
+{
+  "type": "way",
+  "id": 136763046,
+  "center": {
+    "lat": 31.3037957,
+    "lon": 121.5101300
+  },
+  "tags": {
+    "highway": "platform"
+  }
+},
+{
+  "type": "way",
+  "id": 136764974,
+  "center": {
+    "lat": 31.2977147,
+    "lon": 121.5086649
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136764977,
+  "center": {
+    "lat": 31.2985327,
+    "lon": 121.5090924
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136796358,
+  "center": {
+    "lat": 31.3039777,
+    "lon": 121.5020966
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136796365,
+  "center": {
+    "lat": 31.2995037,
+    "lon": 121.5026768
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136796732,
+  "center": {
+    "lat": 31.3051323,
+    "lon": 121.5035648
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "大学路",
+    "name:en": "Daxue Road"
+  }
+},
+{
+  "type": "way",
+  "id": 136798933,
+  "center": {
+    "lat": 31.3036872,
+    "lon": 121.5102017
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "淞沪路",
+    "name:en": "Songhu Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136798937,
+  "center": {
+    "lat": 31.3016479,
+    "lon": 121.5034983
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136957129,
+  "center": {
+    "lat": 31.2972322,
+    "lon": 121.4959001
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136957131,
+  "center": {
+    "lat": 31.2986020,
+    "lon": 121.4998031
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 136957133,
+  "center": {
+    "lat": 31.2978467,
+    "lon": 121.4982992
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 148762389,
+  "center": {
+    "lat": 31.3038062,
+    "lon": 121.5118512
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 148762391,
+  "center": {
+    "lat": 31.3044332,
+    "lon": 121.5119672
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 148762395,
+  "center": {
+    "lat": 31.3035926,
+    "lon": 121.5119828
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 154401632,
+  "center": {
+    "lat": 31.3060693,
+    "lon": 121.5008434
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 154406303,
+  "center": {
+    "lat": 31.3040295,
+    "lon": 121.5083589
+  },
+  "tags": {
+    "building": "yes",
+    "name": "特力时尚汇",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 166724070,
+  "center": {
+    "lat": 31.3057866,
+    "lon": 121.5027903
+  },
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "5",
+    "name": "锦建路",
+    "name:en": "Jinjian Road"
+  }
+},
+{
+  "type": "way",
+  "id": 166749010,
+  "center": {
+    "lat": 31.3054511,
+    "lon": 121.5038577
+  },
+  "tags": {
+    "foot": "yes",
+    "footway": "sidewalk",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 166770353,
+  "center": {
+    "lat": 31.3048902,
+    "lon": 121.5105540
+  },
+  "tags": {
+    "building": "yes",
+    "name": "平盛大厦",
+    "name:en": "Pingsheng Tower"
+  }
+},
+{
+  "type": "way",
+  "id": 166774648,
+  "center": {
+    "lat": 31.3050688,
+    "lon": 121.5039951
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 166774652,
+  "center": {
+    "lat": 31.3052681,
+    "lon": 121.5032272
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 169022281,
+  "center": {
+    "lat": 31.2997248,
+    "lon": 121.5118038
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169022282,
+  "center": {
+    "lat": 31.3000707,
+    "lon": 121.5100236
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169022285,
+  "center": {
+    "lat": 31.3006654,
+    "lon": 121.5112405
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169022300,
+  "center": {
+    "lat": 31.2990738,
+    "lon": 121.5110819
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 169022301,
+  "center": {
+    "lat": 31.3002624,
+    "lon": 121.5114874
+  },
+  "tags": {
+    "building": "yes",
+    "name": "百联ZX造趣场",
+    "shop": "mall",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 169022304,
+  "center": {
+    "lat": 31.3001324,
+    "lon": 121.5105561
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169023346,
+  "center": {
+    "lat": 31.2995347,
+    "lon": 121.5119246
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 169026103,
+  "center": {
+    "lat": 31.2972471,
+    "lon": 121.5095159
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 169026107,
+  "center": {
+    "lat": 31.2988888,
+    "lon": 121.5087487
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026108,
+  "center": {
+    "lat": 31.2991209,
+    "lon": 121.5092884
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026129,
+  "center": {
+    "lat": 31.2969910,
+    "lon": 121.5082896
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026132,
+  "center": {
+    "lat": 31.2966854,
+    "lon": 121.5092356
+  },
+  "tags": {
+    "building": "yes",
+    "name": "国定大厦",
+    "name:en": "Guoding Tower"
+  }
+},
+{
+  "type": "way",
+  "id": 169026147,
+  "center": {
+    "lat": 31.2970098,
+    "lon": 121.5079516
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026149,
+  "center": {
+    "lat": 31.2997423,
+    "lon": 121.5085359
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 169026157,
+  "center": {
+    "lat": 31.2972091,
+    "lon": 121.5083561
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026158,
+  "center": {
+    "lat": 31.2969074,
+    "lon": 121.5093992
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 169026160,
+  "center": {
+    "lat": 31.2966926,
+    "lon": 121.5097980
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176715585,
+  "center": {
+    "lat": 31.3008730,
+    "lon": 121.5083756
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176715587,
+  "center": {
+    "lat": 31.3020831,
+    "lon": 121.5112045
+  },
+  "tags": {
+    "building": "yes",
+    "name": "五角场广场 彩蛋",
+    "name:en": "Coloured Egg in Wujiaochang Square",
+    "tourism": "attraction",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 176802614,
+  "center": {
+    "lat": 31.3023153,
+    "lon": 121.5046507
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176802616,
+  "center": {
+    "lat": 31.3017903,
+    "lon": 121.5058831
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176802619,
+  "center": {
+    "lat": 31.3013859,
+    "lon": 121.5042396
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176802621,
+  "center": {
+    "lat": 31.3012000,
+    "lon": 121.5044502
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176802623,
+  "center": {
+    "lat": 31.3009027,
+    "lon": 121.5045423
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176802629,
+  "center": {
+    "lat": 31.3034273,
+    "lon": 121.5095631
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 176802630,
+  "center": {
+    "lat": 31.3007482,
+    "lon": 121.5051323
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176802631,
+  "center": {
+    "lat": 31.3001983,
+    "lon": 121.5046720
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176802639,
+  "center": {
+    "lat": 31.3020360,
+    "lon": 121.5048367
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176802640,
+  "center": {
+    "lat": 31.3011506,
+    "lon": 121.5048860
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176802642,
+  "center": {
+    "lat": 31.3006417,
+    "lon": 121.5052595
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176802643,
+  "center": {
+    "lat": 31.3033368,
+    "lon": 121.5094880
+  },
+  "tags": {
+    "foot": "designated",
+    "highway": "footway",
+    "layer": "-1"
+  }
+},
+{
+  "type": "way",
+  "id": 176802646,
+  "center": {
+    "lat": 31.3033288,
+    "lon": 121.5096261
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 176802648,
+  "center": {
+    "lat": 31.3017637,
+    "lon": 121.5051610
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176803405,
+  "center": {
+    "lat": 31.3033625,
+    "lon": 121.5091876
+  },
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "万达广场",
+    "name:en": "Wanda Plaza"
+  }
+},
+{
+  "type": "way",
+  "id": 176803406,
+  "center": {
+    "lat": 31.3032588,
+    "lon": 121.5092190
+  },
+  "tags": {
+    "area": "yes",
+    "footway": "sidewalk",
+    "highway": "pedestrian"
+  }
+},
+{
+  "type": "way",
+  "id": 176803409,
+  "center": {
+    "lat": 31.3043454,
+    "lon": 121.5075325
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 176803835,
+  "center": {
+    "lat": 31.3043972,
+    "lon": 121.5090181
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176803836,
+  "center": {
+    "lat": 31.3021739,
+    "lon": 121.5091560
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176803837,
+  "center": {
+    "lat": 31.3027051,
+    "lon": 121.5088612
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176804322,
+  "center": {
+    "lat": 31.3015740,
+    "lon": 121.5105253
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 176804323,
+  "center": {
+    "lat": 31.3013691,
+    "lon": 121.5107119
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 176978389,
+  "center": {
+    "lat": 31.2943844,
+    "lon": 121.5093374
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176978394,
+  "center": {
+    "lat": 31.2948639,
+    "lon": 121.5098373
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176978405,
+  "center": {
+    "lat": 31.2949911,
+    "lon": 121.5104096
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176978406,
+  "center": {
+    "lat": 31.2946476,
+    "lon": 121.5094607
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176978407,
+  "center": {
+    "lat": 31.2939804,
+    "lon": 121.5106755
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176978842,
+  "center": {
+    "lat": 31.2939433,
+    "lon": 121.5087235
+  },
+  "tags": {
+    "access": "permissive",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176978843,
+  "center": {
+    "lat": 31.2946046,
+    "lon": 121.5093035
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 176978847,
+  "center": {
+    "lat": 31.2946553,
+    "lon": 121.5094663
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 176979421,
+  "center": {
+    "lat": 31.2942935,
+    "lon": 121.5080825
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176979431,
+  "center": {
+    "lat": 31.2939835,
+    "lon": 121.5079353
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176979432,
+  "center": {
+    "lat": 31.2942067,
+    "lon": 121.5080500
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176979433,
+  "center": {
+    "lat": 31.2943013,
+    "lon": 121.5077451
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176979434,
+  "center": {
+    "lat": 31.2940816,
+    "lon": 121.5079633
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176979606,
+  "center": {
+    "lat": 31.2951801,
+    "lon": 121.5082561
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176981341,
+  "center": {
+    "lat": 31.3005041,
+    "lon": 121.5078211
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981342,
+  "center": {
+    "lat": 31.2995361,
+    "lon": 121.5094991
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981343,
+  "center": {
+    "lat": 31.3008205,
+    "lon": 121.5098547
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981344,
+  "center": {
+    "lat": 31.3001991,
+    "lon": 121.5090200
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981345,
+  "center": {
+    "lat": 31.3009624,
+    "lon": 121.5099992
+  },
+  "tags": {
+    "building": "yes",
+    "name": "苏宁电器"
+  }
+},
+{
+  "type": "way",
+  "id": 176981351,
+  "center": {
+    "lat": 31.3006429,
+    "lon": 121.5095696
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981352,
+  "center": {
+    "lat": 31.2996334,
+    "lon": 121.5102842
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981353,
+  "center": {
+    "lat": 31.3005382,
+    "lon": 121.5094610
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981354,
+  "center": {
+    "lat": 31.3002245,
+    "lon": 121.5098947
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981356,
+  "center": {
+    "lat": 31.2998781,
+    "lon": 121.5097387
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981362,
+  "center": {
+    "lat": 31.3009578,
+    "lon": 121.5099848
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981363,
+  "center": {
+    "lat": 31.2999132,
+    "lon": 121.5086757
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176981364,
+  "center": {
+    "lat": 31.3008436,
+    "lon": 121.5088345
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 176982480,
+  "center": {
+    "lat": 31.2977911,
+    "lon": 121.5116924
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176982481,
+  "center": {
+    "lat": 31.2964942,
+    "lon": 121.5116977
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 176982483,
+  "center": {
+    "lat": 31.2959908,
+    "lon": 121.5111768
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 177046320,
+  "center": {
+    "lat": 31.2980323,
+    "lon": 121.4983584
+  },
+  "tags": {
+    "highway": "primary_link",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177046321,
+  "center": {
+    "lat": 31.2983025,
+    "lon": 121.4987416
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177046322,
+  "center": {
+    "lat": 31.2991588,
+    "lon": 121.5016108
+  },
+  "tags": {
+    "highway": "trunk",
+    "lanes": "4",
+    "layer": "-1",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "邯郸路地道"
+  }
+},
+{
+  "type": "way",
+  "id": 177047473,
+  "center": {
+    "lat": 31.2969046,
+    "lon": 121.4932201
+  },
+  "tags": {
+    "highway": "trunk_link",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177066619,
+  "center": {
+    "lat": 31.2981970,
+    "lon": 121.5058302
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177066622,
+  "center": {
+    "lat": 31.2972327,
+    "lon": 121.5073861
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177066625,
+  "center": {
+    "lat": 31.2981991,
+    "lon": 121.4989080
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 177066626,
+  "center": {
+    "lat": 31.2974626,
+    "lon": 121.5067754
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 177066630,
+  "center": {
+    "lat": 31.2977674,
+    "lon": 121.5062455
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 188862025,
+  "center": {
+    "lat": 31.3008222,
+    "lon": 121.4937494
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 226472186,
+  "center": {
+    "lat": 31.2966054,
+    "lon": 121.5045015
+  },
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "政修路",
+    "name:en": "Zhengxiu Road"
+  }
+},
+{
+  "type": "way",
+  "id": 240000349,
+  "center": {
+    "lat": 31.2969382,
+    "lon": 121.5035969
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "国福路",
+    "name:en": "Guofu Road"
+  }
+},
+{
+  "type": "way",
+  "id": 244262924,
+  "center": {
+    "lat": 31.3005042,
+    "lon": 121.4969956
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "5",
+    "name": "第四教学楼",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 296012277,
+  "center": {
+    "lat": 31.2946541,
+    "lon": 121.4992750
+  },
+  "tags": {
+    "addr:city": "上海市",
+    "addr:district": "杨浦区",
+    "addr:postcode": "200433",
+    "addr:province": "Shanghai",
+    "addr:street": "国权路",
+    "building": "yes",
+    "leisure": "sports_hall",
+    "name": "正大体育馆",
+    "operator": "Fudan University",
+    "sport": "badminton;basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 301674303,
+  "center": {
+    "lat": 31.3001025,
+    "lon": 121.5030154
+  },
+  "tags": {
+    "addr:housenumber": "5#",
+    "building": "university",
+    "name": "校医院",
+    "official_name": "佩琳院"
+  }
+},
+{
+  "type": "way",
+  "id": 301674304,
+  "center": {
+    "lat": 31.3019568,
+    "lon": 121.5008298
+  },
+  "tags": {
+    "building": "university",
+    "building:levels": "5",
+    "name": "光华楼",
+    "name:en": "Guanghua Building",
+    "wikidata": "Q130755773",
+    "wikipedia": "zh:光華樓"
+  }
+},
+{
+  "type": "way",
+  "id": 301674305,
+  "center": {
+    "lat": 31.3013442,
+    "lon": 121.5025895
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "8#",
+    "name:en": "Building 8"
+  }
+},
+{
+  "type": "way",
+  "id": 301674306,
+  "center": {
+    "lat": 31.3007599,
+    "lon": 121.5023042
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 301674307,
+  "center": {
+    "lat": 31.3001937,
+    "lon": 121.4979523
+  },
+  "tags": {
+    "building": "yes",
+    "name": "化学楼",
+    "name:en": "Chemistry Building"
+  }
+},
+{
+  "type": "way",
+  "id": 301674308,
+  "center": {
+    "lat": 31.3018221,
+    "lon": 121.5024015
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "11#",
+    "name:en": "Building 11"
+  }
+},
+{
+  "type": "way",
+  "id": 301674309,
+  "center": {
+    "lat": 31.3017349,
+    "lon": 121.5030034
+  },
+  "tags": {
+    "building": "yes",
+    "name": "10#",
+    "name:en": "Building 10"
+  }
+},
+{
+  "type": "way",
+  "id": 301674310,
+  "center": {
+    "lat": 31.3004709,
+    "lon": 121.5036939
+  },
+  "tags": {
+    "building": "university",
+    "name": "卿云楼"
+  }
+},
+{
+  "type": "way",
+  "id": 301674311,
+  "center": {
+    "lat": 31.2994914,
+    "lon": 121.5009230
+  },
+  "tags": {
+    "building": "yes",
+    "name": "学生活动中心"
+  }
+},
+{
+  "type": "way",
+  "id": 301674312,
+  "center": {
+    "lat": 31.3010228,
+    "lon": 121.5034176
+  },
+  "tags": {
+    "building": "yes",
+    "name": "4#",
+    "name:en": "Building 4"
+  }
+},
+{
+  "type": "way",
+  "id": 301674313,
+  "center": {
+    "lat": 31.3011404,
+    "lon": 121.5011748
+  },
+  "tags": {
+    "landuse": "grass",
+    "name": "光华楼前草坪"
+  }
+},
+{
+  "type": "way",
+  "id": 301674314,
+  "center": {
+    "lat": 31.2992603,
+    "lon": 121.4983458
+  },
+  "tags": {
+    "amenity": "library",
+    "building": "yes",
+    "name": "复旦大学理科图书馆"
+  }
+},
+{
+  "type": "way",
+  "id": 301674315,
+  "center": {
+    "lat": 31.3009087,
+    "lon": 121.5028856
+  },
+  "tags": {
+    "building": "university",
+    "building:levels": "3",
+    "name": "学生服务站"
+  }
+},
+{
+  "type": "way",
+  "id": 301674316,
+  "center": {
+    "lat": 31.3009925,
+    "lon": 121.4985968
+  },
+  "tags": {
+    "building": "university",
+    "name": "恒隆物理楼",
+    "name:en": "Physics Building"
+  }
+},
+{
+  "type": "way",
+  "id": 301674317,
+  "center": {
+    "lat": 31.3030445,
+    "lon": 121.5019342
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "university",
+    "building:levels": "4",
+    "name": "旦苑餐厅（本部食堂）"
+  }
+},
+{
+  "type": "way",
+  "id": 301674318,
+  "center": {
+    "lat": 31.3001324,
+    "lon": 121.5037071
+  },
+  "tags": {
+    "building": "university",
+    "name": "正大发展中心"
+  }
+},
+{
+  "type": "way",
+  "id": 301674319,
+  "center": {
+    "lat": 31.3007126,
+    "lon": 121.4996061
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "name": "立人生物楼",
+    "name:en": "Biology Building"
+  }
+},
+{
+  "type": "way",
+  "id": 301742776,
+  "center": {
+    "lat": 31.2955387,
+    "lon": 121.5010755
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742778,
+  "center": {
+    "lat": 31.2957085,
+    "lon": 121.5009639
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742781,
+  "center": {
+    "lat": 31.2958757,
+    "lon": 121.5008735
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742782,
+  "center": {
+    "lat": 31.2953636,
+    "lon": 121.5011756
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742783,
+  "center": {
+    "lat": 31.2951843,
+    "lon": 121.5012919
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742785,
+  "center": {
+    "lat": 31.2953653,
+    "lon": 121.5017038
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742786,
+  "center": {
+    "lat": 31.2955456,
+    "lon": 121.5016002
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742788,
+  "center": {
+    "lat": 31.2957150,
+    "lon": 121.5014934
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742790,
+  "center": {
+    "lat": 31.2958920,
+    "lon": 121.5013843
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742791,
+  "center": {
+    "lat": 31.2960609,
+    "lon": 121.5012818
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 301742792,
+  "center": {
+    "lat": 31.2989366,
+    "lon": 121.4962207
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 301742796,
+  "center": {
+    "lat": 31.2991569,
+    "lon": 121.4966717
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 302086320,
+  "center": {
+    "lat": 31.3024147,
+    "lon": 121.4925066
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 302086323,
+  "center": {
+    "lat": 31.3037319,
+    "lon": 121.4924159
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 302089574,
+  "center": {
+    "lat": 31.2998604,
+    "lon": 121.4942123
+  },
+  "tags": {
+    "building": "university",
+    "name": "外文楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302089575,
+  "center": {
+    "lat": 31.2991259,
+    "lon": 121.5003722
+  },
+  "tags": {
+    "natural": "water",
+    "water": "pond"
+  }
+},
+{
+  "type": "way",
+  "id": 302089584,
+  "center": {
+    "lat": 31.2940511,
+    "lon": 121.4963749
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302089596,
+  "center": {
+    "lat": 31.2944284,
+    "lon": 121.4962641
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302207139,
+  "center": {
+    "lat": 31.2994176,
+    "lon": 121.4972865
+  },
+  "tags": {
+    "building": "university",
+    "name": "第一教学楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302207140,
+  "center": {
+    "lat": 31.2988579,
+    "lon": 121.4974951
+  },
+  "tags": {
+    "building": "university",
+    "name": "综合楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302214171,
+  "center": {
+    "lat": 31.2985209,
+    "lon": 121.4980927
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302214182,
+  "center": {
+    "lat": 31.2986691,
+    "lon": 121.4979951
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302214195,
+  "center": {
+    "lat": 31.2983783,
+    "lon": 121.4981921
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302214213,
+  "center": {
+    "lat": 31.2984753,
+    "lon": 121.4978351
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 302226351,
+  "center": {
+    "lat": 31.2988916,
+    "lon": 121.4977634
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 302531942,
+  "center": {
+    "lat": 31.3003714,
+    "lon": 121.4966896
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 302532394,
+  "center": {
+    "lat": 31.2986255,
+    "lon": 121.4990838
+  },
+  "tags": {
+    "building": "yes",
+    "name": "邮局"
+  }
+},
+{
+  "type": "way",
+  "id": 302532395,
+  "center": {
+    "lat": 31.2988780,
+    "lon": 121.4999001
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302532396,
+  "center": {
+    "lat": 31.2990022,
+    "lon": 121.4984668
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 302532397,
+  "center": {
+    "lat": 31.2998970,
+    "lon": 121.4999873
+  },
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 302897740,
+  "center": {
+    "lat": 31.3000563,
+    "lon": 121.4938546
+  },
+  "tags": {
+    "building": "university",
+    "name": "帝斯曼合成方法及手性技术联合实验室"
+  }
+},
+{
+  "type": "way",
+  "id": 302897742,
+  "center": {
+    "lat": 31.2984922,
+    "lon": 121.4964704
+  },
+  "tags": {
+    "building": "university",
+    "name": "马锦明楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302897744,
+  "center": {
+    "lat": 31.2996269,
+    "lon": 121.4942329
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302897745,
+  "center": {
+    "lat": 31.3007397,
+    "lon": 121.4951473
+  },
+  "tags": {
+    "building": "university",
+    "name": "现代物理研究所"
+  }
+},
+{
+  "type": "way",
+  "id": 302897747,
+  "center": {
+    "lat": 31.2994148,
+    "lon": 121.4958860
+  },
+  "tags": {
+    "addr:housenumber": "600#",
+    "building": "university",
+    "loc_name": "小白楼",
+    "name": "子彬院",
+    "official_name": "吕志和楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302897749,
+  "center": {
+    "lat": 31.2996739,
+    "lon": 121.4962749
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302897755,
+  "center": {
+    "lat": 31.2990638,
+    "lon": 121.4947540
+  },
+  "tags": {
+    "building": "university",
+    "name": "博物馆（景莱堂）300#"
+  }
+},
+{
+  "type": "way",
+  "id": 302897759,
+  "center": {
+    "lat": 31.2997139,
+    "lon": 121.4956837
+  },
+  "tags": {
+    "addr:housenumber": "500#",
+    "building": "university",
+    "name": "寒冰馆"
+  }
+},
+{
+  "type": "way",
+  "id": 302897765,
+  "center": {
+    "lat": 31.2982645,
+    "lon": 121.4958641
+  },
+  "tags": {
+    "building": "university",
+    "name": "校友馆（奕住堂） 700#"
+  }
+},
+{
+  "type": "way",
+  "id": 302897767,
+  "center": {
+    "lat": 31.2986854,
+    "lon": 121.4950288
+  },
+  "tags": {
+    "building": "university",
+    "name": "博物馆（简公堂）200#"
+  }
+},
+{
+  "type": "way",
+  "id": 302897772,
+  "center": {
+    "lat": 31.2998308,
+    "lon": 121.4970424
+  },
+  "tags": {
+    "building": "university",
+    "name": "兴业光学楼",
+    "name:en": "Optics Building"
+  }
+},
+{
+  "type": "way",
+  "id": 302897774,
+  "center": {
+    "lat": 31.3001046,
+    "lon": 121.4971182
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302897776,
+  "center": {
+    "lat": 31.2984244,
+    "lon": 121.4967922
+  },
+  "tags": {
+    "building": "university",
+    "name": "日本研究中心"
+  }
+},
+{
+  "type": "way",
+  "id": 302897780,
+  "center": {
+    "lat": 31.2996118,
+    "lon": 121.4965819
+  },
+  "tags": {
+    "building": "university",
+    "name": "电光源楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302897782,
+  "center": {
+    "lat": 31.3002332,
+    "lon": 121.4953433
+  },
+  "tags": {
+    "building": "university",
+    "name": "材料一楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302897784,
+  "center": {
+    "lat": 31.3002870,
+    "lon": 121.4941425
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302897786,
+  "center": {
+    "lat": 31.3006776,
+    "lon": 121.4941165
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302897790,
+  "center": {
+    "lat": 31.3012840,
+    "lon": 121.4972353
+  },
+  "tags": {
+    "building": "university",
+    "name": "逸夫楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302897793,
+  "center": {
+    "lat": 31.3001742,
+    "lon": 121.4962548
+  },
+  "tags": {
+    "building": "university",
+    "name": "逸夫科技楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302928367,
+  "center": {
+    "lat": 31.2941248,
+    "lon": 121.4965518
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 302928371,
+  "center": {
+    "lat": 31.3024388,
+    "lon": 121.4997144
+  },
+  "tags": {
+    "building": "university",
+    "name": "微电子学院"
+  }
+},
+{
+  "type": "way",
+  "id": 302928372,
+  "center": {
+    "lat": 31.2974868,
+    "lon": 121.4989544
+  },
+  "tags": {
+    "addr:housenumber": "680",
+    "addr:postcode": "200433",
+    "addr:street": "国权路",
+    "amenity": "college",
+    "building": "university",
+    "education": "college",
+    "name": "美国研究中心",
+    "name:en": "Center for American Studies",
+    "name:zh": "美国研究中心",
+    "operator": "复旦大学"
+  }
+},
+{
+  "type": "way",
+  "id": 302928373,
+  "center": {
+    "lat": 31.2939905,
+    "lon": 121.4954703
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "university",
+    "name": "复旦南区食堂",
+    "opening_hours": "PH,Mo-Su 06:00-20:00"
+  }
+},
+{
+  "type": "way",
+  "id": 302928374,
+  "center": {
+    "lat": 31.3019573,
+    "lon": 121.4981458
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302928375,
+  "center": {
+    "lat": 31.3022029,
+    "lon": 121.4989478
+  },
+  "tags": {
+    "building": "university",
+    "name": "袁成英楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302928376,
+  "center": {
+    "lat": 31.3025674,
+    "lon": 121.5004962
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 302928378,
+  "center": {
+    "lat": 31.3017275,
+    "lon": 121.4973741
+  },
+  "tags": {
+    "building": "university",
+    "name": "跃进楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302928379,
+  "center": {
+    "lat": 31.3016941,
+    "lon": 121.4982380
+  },
+  "tags": {
+    "building": "university",
+    "name": "科学楼"
+  }
+},
+{
+  "type": "way",
+  "id": 302928384,
+  "center": {
+    "lat": 31.3014222,
+    "lon": 121.4964901
+  },
+  "tags": {
+    "building": "university",
+    "name": "遗传学楼",
+    "name:en": "Genetics Building"
+  }
+},
+{
+  "type": "way",
+  "id": 302928387,
+  "center": {
+    "lat": 31.3027077,
+    "lon": 121.5001768
+  },
+  "tags": {
+    "building": "university"
+  }
+},
+{
+  "type": "way",
+  "id": 335802660,
+  "center": {
+    "lat": 31.2995540,
+    "lon": 121.5124391
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "五角场隧道",
+    "name:en": "Wujiaochang Tunnel",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 369193836,
+  "center": {
+    "lat": 31.3042912,
+    "lon": 121.5115828
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193837,
+  "center": {
+    "lat": 31.3044830,
+    "lon": 121.5060160
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193840,
+  "center": {
+    "lat": 31.3030827,
+    "lon": 121.5046564
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193841,
+  "center": {
+    "lat": 31.3042388,
+    "lon": 121.5051036
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193842,
+  "center": {
+    "lat": 31.3033111,
+    "lon": 121.5045354
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193844,
+  "center": {
+    "lat": 31.3031399,
+    "lon": 121.5088767
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193847,
+  "center": {
+    "lat": 31.2973519,
+    "lon": 121.5050090
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193850,
+  "center": {
+    "lat": 31.3023005,
+    "lon": 121.5065848
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193851,
+  "center": {
+    "lat": 31.3037773,
+    "lon": 121.5058930
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193856,
+  "center": {
+    "lat": 31.3031338,
+    "lon": 121.5062904
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193859,
+  "center": {
+    "lat": 31.3039346,
+    "lon": 121.5083080
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193860,
+  "center": {
+    "lat": 31.2973864,
+    "lon": 121.5042791
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193865,
+  "center": {
+    "lat": 31.3021816,
+    "lon": 121.5081551
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193867,
+  "center": {
+    "lat": 31.3048606,
+    "lon": 121.5054442
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193868,
+  "center": {
+    "lat": 31.2975889,
+    "lon": 121.5047665
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193872,
+  "center": {
+    "lat": 31.3046810,
+    "lon": 121.5038322
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193873,
+  "center": {
+    "lat": 31.2984067,
+    "lon": 121.5063723
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193874,
+  "center": {
+    "lat": 31.3035839,
+    "lon": 121.5067222
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193877,
+  "center": {
+    "lat": 31.2994928,
+    "lon": 121.5054605
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193879,
+  "center": {
+    "lat": 31.3032361,
+    "lon": 121.5051363
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193880,
+  "center": {
+    "lat": 31.3034852,
+    "lon": 121.5073605
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193883,
+  "center": {
+    "lat": 31.3033839,
+    "lon": 121.5055422
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193884,
+  "center": {
+    "lat": 31.3018103,
+    "lon": 121.5066767
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193886,
+  "center": {
+    "lat": 31.3019145,
+    "lon": 121.5072603
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193888,
+  "center": {
+    "lat": 31.3034908,
+    "lon": 121.5049550
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193891,
+  "center": {
+    "lat": 31.3013880,
+    "lon": 121.5051759
+  },
+  "tags": {
+    "building": "yes",
+    "name": "屠海鸣图书馆",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193893,
+  "center": {
+    "lat": 31.3037082,
+    "lon": 121.5072795
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193894,
+  "center": {
+    "lat": 31.3049459,
+    "lon": 121.5116393
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193896,
+  "center": {
+    "lat": 31.3028813,
+    "lon": 121.5078832
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193897,
+  "center": {
+    "lat": 31.3049372,
+    "lon": 121.5047707
+  },
+  "tags": {
+    "addr:housenumber": "194-196",
+    "addr:street": "政民路",
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193898,
+  "center": {
+    "lat": 31.3047634,
+    "lon": 121.5111863
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193900,
+  "center": {
+    "lat": 31.2993778,
+    "lon": 121.5050930
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193901,
+  "center": {
+    "lat": 31.3049818,
+    "lon": 121.5058848
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193902,
+  "center": {
+    "lat": 31.3031141,
+    "lon": 121.5077402
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193903,
+  "center": {
+    "lat": 31.2978513,
+    "lon": 121.5052907
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193904,
+  "center": {
+    "lat": 31.3044219,
+    "lon": 121.5039331
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193905,
+  "center": {
+    "lat": 31.3029911,
+    "lon": 121.5073367
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193908,
+  "center": {
+    "lat": 31.3047978,
+    "lon": 121.5043581
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193909,
+  "center": {
+    "lat": 31.3036144,
+    "lon": 121.5053901
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193911,
+  "center": {
+    "lat": 31.3049521,
+    "lon": 121.5075528
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193912,
+  "center": {
+    "lat": 31.3032082,
+    "lon": 121.5072445
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193914,
+  "center": {
+    "lat": 31.3041210,
+    "lon": 121.5069991
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193915,
+  "center": {
+    "lat": 31.2972091,
+    "lon": 121.5038342
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193916,
+  "center": {
+    "lat": 31.2970370,
+    "lon": 121.5040958
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193917,
+  "center": {
+    "lat": 31.3039461,
+    "lon": 121.5071263
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193918,
+  "center": {
+    "lat": 31.3033660,
+    "lon": 121.5061934
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193921,
+  "center": {
+    "lat": 31.3016073,
+    "lon": 121.5055991
+  },
+  "tags": {
+    "building": "yes",
+    "name": "新闻学院教学楼",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193922,
+  "center": {
+    "lat": 31.3025380,
+    "lon": 121.5064930
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193923,
+  "center": {
+    "lat": 31.3017364,
+    "lon": 121.5060361
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193924,
+  "center": {
+    "lat": 31.3014904,
+    "lon": 121.5061305
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193926,
+  "center": {
+    "lat": 31.3051452,
+    "lon": 121.5122724
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193928,
+  "center": {
+    "lat": 31.3046650,
+    "lon": 121.5048885
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193932,
+  "center": {
+    "lat": 31.3024337,
+    "lon": 121.5070942
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193933,
+  "center": {
+    "lat": 31.3045012,
+    "lon": 121.5069919
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193934,
+  "center": {
+    "lat": 31.3023671,
+    "lon": 121.5062255
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193937,
+  "center": {
+    "lat": 31.3027685,
+    "lon": 121.5074652
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193942,
+  "center": {
+    "lat": 31.3020463,
+    "lon": 121.5066017
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193943,
+  "center": {
+    "lat": 31.3039529,
+    "lon": 121.5064533
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193944,
+  "center": {
+    "lat": 31.3033275,
+    "lon": 121.5076284
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193945,
+  "center": {
+    "lat": 31.3002945,
+    "lon": 121.5065915
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193948,
+  "center": {
+    "lat": 31.2979079,
+    "lon": 121.5046473
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193952,
+  "center": {
+    "lat": 31.2968031,
+    "lon": 121.5039581
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193954,
+  "center": {
+    "lat": 31.3045299,
+    "lon": 121.5044756
+  },
+  "tags": {
+    "building": "apartments",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193955,
+  "center": {
+    "lat": 31.3030134,
+    "lon": 121.5068113
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193956,
+  "center": {
+    "lat": 31.3019609,
+    "lon": 121.5059730
+  },
+  "tags": {
+    "building": "yes",
+    "name": "新闻学院综合楼",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193957,
+  "center": {
+    "lat": 31.2990153,
+    "lon": 121.5053221
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193958,
+  "center": {
+    "lat": 31.3027948,
+    "lon": 121.5069000
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193959,
+  "center": {
+    "lat": 31.3035669,
+    "lon": 121.5059926
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193960,
+  "center": {
+    "lat": 31.3049660,
+    "lon": 121.5067767
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193961,
+  "center": {
+    "lat": 31.2990779,
+    "lon": 121.5041472
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193964,
+  "center": {
+    "lat": 31.3046678,
+    "lon": 121.5117672
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193965,
+  "center": {
+    "lat": 31.3037482,
+    "lon": 121.5065090
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193968,
+  "center": {
+    "lat": 31.3023029,
+    "lon": 121.5071234
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193972,
+  "center": {
+    "lat": 31.3049951,
+    "lon": 121.5083590
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193974,
+  "center": {
+    "lat": 31.2996103,
+    "lon": 121.5058541
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193977,
+  "center": {
+    "lat": 31.3025387,
+    "lon": 121.5070218
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193978,
+  "center": {
+    "lat": 31.3046961,
+    "lon": 121.5076682
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193980,
+  "center": {
+    "lat": 31.3020401,
+    "lon": 121.5076561
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193981,
+  "center": {
+    "lat": 31.3021781,
+    "lon": 121.5072992
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193988,
+  "center": {
+    "lat": 31.3026589,
+    "lon": 121.5079228
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193989,
+  "center": {
+    "lat": 31.3032942,
+    "lon": 121.5068301
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193990,
+  "center": {
+    "lat": 31.3027459,
+    "lon": 121.5063985
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193992,
+  "center": {
+    "lat": 31.3047532,
+    "lon": 121.5068858
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193994,
+  "center": {
+    "lat": 31.2978704,
+    "lon": 121.5107322
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193996,
+  "center": {
+    "lat": 31.3016014,
+    "lon": 121.5067931
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369193999,
+  "center": {
+    "lat": 31.3038419,
+    "lon": 121.5047812
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194000,
+  "center": {
+    "lat": 31.3024733,
+    "lon": 121.5074767
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194001,
+  "center": {
+    "lat": 31.2998506,
+    "lon": 121.5052692
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194002,
+  "center": {
+    "lat": 31.3000477,
+    "lon": 121.5060975
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194005,
+  "center": {
+    "lat": 31.3031437,
+    "lon": 121.5042398
+  },
+  "tags": {
+    "building": "yes",
+    "name": "东区艺术馆（杨泳曼楼）",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194007,
+  "center": {
+    "lat": 31.3009305,
+    "lon": 121.5045550
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194008,
+  "center": {
+    "lat": 31.3040854,
+    "lon": 121.5057423
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194009,
+  "center": {
+    "lat": 31.2969707,
+    "lon": 121.5044727
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194012,
+  "center": {
+    "lat": 31.2967731,
+    "lon": 121.5042644
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194013,
+  "center": {
+    "lat": 31.2984338,
+    "lon": 121.5045722
+  },
+  "tags": {
+    "addr:housenumber": "323号",
+    "addr:street": "国定路",
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 369194014,
+  "center": {
+    "lat": 31.3041228,
+    "lon": 121.5053761
+  },
+  "tags": {
+    "building": "yes",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 433779881,
+  "center": {
+    "lat": 31.2996919,
+    "lon": 121.5038848
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 433779882,
+  "center": {
+    "lat": 31.2986029,
+    "lon": 121.5006285
+  },
+  "tags": {
+    "highway": "cycleway",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 433779884,
+  "center": {
+    "lat": 31.2979702,
+    "lon": 121.4981882
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 433779885,
+  "center": {
+    "lat": 31.2986224,
+    "lon": 121.5000455
+  },
+  "tags": {
+    "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 433779886,
+  "center": {
+    "lat": 31.3003001,
+    "lon": 121.5045893
+  },
+  "tags": {
+    "highway": "primary",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875196,
+  "center": {
+    "lat": 31.2940252,
+    "lon": 121.4942921
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875197,
+  "center": {
+    "lat": 31.2943464,
+    "lon": 121.4940483
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875198,
+  "center": {
+    "lat": 31.2943224,
+    "lon": 121.4944976
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875199,
+  "center": {
+    "lat": 31.2941407,
+    "lon": 121.4949386
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875200,
+  "center": {
+    "lat": 31.2944665,
+    "lon": 121.4951777
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875201,
+  "center": {
+    "lat": 31.2945430,
+    "lon": 121.4944694
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875202,
+  "center": {
+    "lat": 31.2948404,
+    "lon": 121.4941826
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875203,
+  "center": {
+    "lat": 31.2947909,
+    "lon": 121.4946359
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875204,
+  "center": {
+    "lat": 31.2952231,
+    "lon": 121.4946265
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875205,
+  "center": {
+    "lat": 31.2958570,
+    "lon": 121.4946305
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875206,
+  "center": {
+    "lat": 31.2955242,
+    "lon": 121.4947820
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875207,
+  "center": {
+    "lat": 31.2958698,
+    "lon": 121.4941636
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875208,
+  "center": {
+    "lat": 31.2966771,
+    "lon": 121.4941920
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875209,
+  "center": {
+    "lat": 31.2968387,
+    "lon": 121.4949166
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875210,
+  "center": {
+    "lat": 31.2962888,
+    "lon": 121.4951330
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875211,
+  "center": {
+    "lat": 31.2959722,
+    "lon": 121.4949254
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875212,
+  "center": {
+    "lat": 31.2959007,
+    "lon": 121.4952656
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875213,
+  "center": {
+    "lat": 31.2954739,
+    "lon": 121.4955011
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875214,
+  "center": {
+    "lat": 31.2953272,
+    "lon": 121.4949990
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875215,
+  "center": {
+    "lat": 31.2956560,
+    "lon": 121.4962330
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875216,
+  "center": {
+    "lat": 31.2959884,
+    "lon": 121.4966265
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875217,
+  "center": {
+    "lat": 31.2964038,
+    "lon": 121.4958559
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875218,
+  "center": {
+    "lat": 31.2966821,
+    "lon": 121.4961486
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875219,
+  "center": {
+    "lat": 31.2964457,
+    "lon": 121.4961369
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875220,
+  "center": {
+    "lat": 31.2964477,
+    "lon": 121.4964367
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875221,
+  "center": {
+    "lat": 31.2967703,
+    "lon": 121.4967898
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875222,
+  "center": {
+    "lat": 31.2965077,
+    "lon": 121.4966879
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875223,
+  "center": {
+    "lat": 31.2962790,
+    "lon": 121.4968274
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875224,
+  "center": {
+    "lat": 31.2958632,
+    "lon": 121.4970288
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875225,
+  "center": {
+    "lat": 31.2969772,
+    "lon": 121.4961506
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875226,
+  "center": {
+    "lat": 31.2961701,
+    "lon": 121.4971319
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875229,
+  "center": {
+    "lat": 31.2947051,
+    "lon": 121.4952214
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875230,
+  "center": {
+    "lat": 31.2966093,
+    "lon": 121.4964298
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 436875231,
+  "center": {
+    "lat": 31.2967827,
+    "lon": 121.4945802
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 437436729,
+  "center": {
+    "lat": 31.3000622,
+    "lon": 121.5123871
+  },
+  "tags": {
+    "highway": "primary",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "黄兴路",
+    "name:en": "Huangxing Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 444014066,
+  "center": {
+    "lat": 31.3014430,
+    "lon": 121.5106710
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 444014067,
+  "center": {
+    "lat": 31.3015759,
+    "lon": 121.5105322
+  },
+  "tags": {
+    "covered": "yes",
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 478020746,
+  "center": {
+    "lat": 31.2991129,
+    "lon": 121.5092862
+  },
+  "tags": {
+    "access": "private",
+    "covered": "yes",
+    "highway": "service",
+    "tunnel": "building_passage"
+  }
+},
+{
+  "type": "way",
+  "id": 478020747,
+  "center": {
+    "lat": 31.2990156,
+    "lon": 121.5095439
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 481595026,
+  "center": {
+    "lat": 31.2956186,
+    "lon": 121.5068179
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "政化路",
+    "name:en": "Zhenghua Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 481595027,
+  "center": {
+    "lat": 31.2966027,
+    "lon": 121.5024136
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "国顺路",
+    "name:en": "Guoshun Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 483388138,
+  "center": {
+    "lat": 31.3044236,
+    "lon": 121.5032467
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 483388139,
+  "center": {
+    "lat": 31.3042110,
+    "lon": 121.5032853
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 496439916,
+  "center": {
+    "lat": 31.3040059,
+    "lon": 121.5043285
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439918,
+  "center": {
+    "lat": 31.3036295,
+    "lon": 121.5040398
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439920,
+  "center": {
+    "lat": 31.3037601,
+    "lon": 121.5036250
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439921,
+  "center": {
+    "lat": 31.3036850,
+    "lon": 121.5033547
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439923,
+  "center": {
+    "lat": 31.3035097,
+    "lon": 121.5034060
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439925,
+  "center": {
+    "lat": 31.3035616,
+    "lon": 121.5036583
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439926,
+  "center": {
+    "lat": 31.3037276,
+    "lon": 121.5043694
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439928,
+  "center": {
+    "lat": 31.3033276,
+    "lon": 121.5030646
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496439930,
+  "center": {
+    "lat": 31.3036018,
+    "lon": 121.5029430
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 496440254,
+  "center": {
+    "lat": 31.3030441,
+    "lon": 121.5037387
+  },
+  "tags": {
+    "building": "yes",
+    "name": "16#"
+  }
+},
+{
+  "type": "way",
+  "id": 496440255,
+  "center": {
+    "lat": 31.3027697,
+    "lon": 121.5039005
+  },
+  "tags": {
+    "building": "yes",
+    "name": "15#"
+  }
+},
+{
+  "type": "way",
+  "id": 496440256,
+  "center": {
+    "lat": 31.3028480,
+    "lon": 121.5032145
+  },
+  "tags": {
+    "building": "yes",
+    "name": "14#"
+  }
+},
+{
+  "type": "way",
+  "id": 496440257,
+  "center": {
+    "lat": 31.3025666,
+    "lon": 121.5033792
+  },
+  "tags": {
+    "building": "yes",
+    "name": "13#"
+  }
+},
+{
+  "type": "way",
+  "id": 496441474,
+  "center": {
+    "lat": 31.3024262,
+    "lon": 121.5039986
+  },
+  "tags": {
+    "building": "yes",
+    "name": "17#"
+  }
+},
+{
+  "type": "way",
+  "id": 496441475,
+  "center": {
+    "lat": 31.3022343,
+    "lon": 121.5034774
+  },
+  "tags": {
+    "building": "yes",
+    "name": "同舟大厦"
+  }
+},
+{
+  "type": "way",
+  "id": 496441476,
+  "center": {
+    "lat": 31.3018661,
+    "lon": 121.5043020
+  },
+  "tags": {
+    "building": "yes",
+    "name": "演播厅"
+  }
+},
+{
+  "type": "way",
+  "id": 496441480,
+  "center": {
+    "lat": 31.3039190,
+    "lon": 121.4950626
+  },
+  "tags": {
+    "building": "apartments",
+    "building:levels": "12"
+  }
+},
+{
+  "type": "way",
+  "id": 496441481,
+  "center": {
+    "lat": 31.3042537,
+    "lon": 121.4952076
+  },
+  "tags": {
+    "building": "apartments",
+    "building:levels": "14"
+  }
+},
+{
+  "type": "way",
+  "id": 496441482,
+  "center": {
+    "lat": 31.3046643,
+    "lon": 121.4951798
+  },
+  "tags": {
+    "building": "apartments",
+    "building:levels": "14"
+  }
+},
+{
+  "type": "way",
+  "id": 496441483,
+  "center": {
+    "lat": 31.3050291,
+    "lon": 121.4950938
+  },
+  "tags": {
+    "building": "apartments",
+    "building:levels": "14"
+  }
+},
+{
+  "type": "way",
+  "id": 496441484,
+  "center": {
+    "lat": 31.3045283,
+    "lon": 121.4959661
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 498522025,
+  "center": {
+    "lat": 31.3049098,
+    "lon": 121.4939290
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 498705155,
+  "center": {
+    "lat": 31.3020273,
+    "lon": 121.5010765
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "31"
+  }
+},
+{
+  "type": "way",
+  "id": 498705156,
+  "center": {
+    "lat": 31.3019030,
+    "lon": 121.5006359
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "31"
+  }
+},
+{
+  "type": "way",
+  "id": 498705157,
+  "center": {
+    "lat": 31.3019535,
+    "lon": 121.5008625
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "16"
+  }
+},
+{
+  "type": "way",
+  "id": 498705158,
+  "center": {
+    "lat": 31.3021219,
+    "lon": 121.5013460
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 498705159,
+  "center": {
+    "lat": 31.3018000,
+    "lon": 121.5003076
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "8"
+  }
+},
+{
+  "type": "way",
+  "id": 641471721,
+  "center": {
+    "lat": 31.2968430,
+    "lon": 121.4992150
+  },
+  "tags": {
+    "building": "university",
+    "name": "泛海楼",
+    "name:en": "Fanhai Building"
+  }
+},
+{
+  "type": "way",
+  "id": 729110296,
+  "center": {
+    "lat": 31.2944814,
+    "lon": 121.5009986
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110298,
+  "center": {
+    "lat": 31.2940479,
+    "lon": 121.5016390
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110303,
+  "center": {
+    "lat": 31.2948231,
+    "lon": 121.5015416
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110304,
+  "center": {
+    "lat": 31.2950773,
+    "lon": 121.5018826
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110305,
+  "center": {
+    "lat": 31.2948708,
+    "lon": 121.5020212
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110306,
+  "center": {
+    "lat": 31.2946134,
+    "lon": 121.5016930
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110307,
+  "center": {
+    "lat": 31.2944525,
+    "lon": 121.5021248
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110309,
+  "center": {
+    "lat": 31.2941032,
+    "lon": 121.5036812
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110310,
+  "center": {
+    "lat": 31.2942528,
+    "lon": 121.5033294
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110311,
+  "center": {
+    "lat": 31.2943439,
+    "lon": 121.5030172
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110312,
+  "center": {
+    "lat": 31.2943674,
+    "lon": 121.5026682
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110313,
+  "center": {
+    "lat": 31.2943118,
+    "lon": 121.5023906
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110314,
+  "center": {
+    "lat": 31.2941497,
+    "lon": 121.5027896
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110315,
+  "center": {
+    "lat": 31.2940023,
+    "lon": 121.5031685
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110318,
+  "center": {
+    "lat": 31.2939416,
+    "lon": 121.5025979
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110319,
+  "center": {
+    "lat": 31.2940414,
+    "lon": 121.5023518
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110320,
+  "center": {
+    "lat": 31.2941410,
+    "lon": 121.5020963
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110325,
+  "center": {
+    "lat": 31.2939172,
+    "lon": 121.5041364
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110373,
+  "center": {
+    "lat": 31.2947250,
+    "lon": 121.5009785
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110374,
+  "center": {
+    "lat": 31.2949277,
+    "lon": 121.5008498
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110375,
+  "center": {
+    "lat": 31.2953025,
+    "lon": 121.5000618
+  },
+  "tags": {
+    "building": "residential"
+  }
+},
+{
+  "type": "way",
+  "id": 729110376,
+  "center": {
+    "lat": 31.2954722,
+    "lon": 121.4999579
+  },
+  "tags": {
+    "building": "residential"
+  }
+},
+{
+  "type": "way",
+  "id": 729110377,
+  "center": {
+    "lat": 31.2956269,
+    "lon": 121.5003220
+  },
+  "tags": {
+    "building": "residential"
+  }
+},
+{
+  "type": "way",
+  "id": 729110378,
+  "center": {
+    "lat": 31.2954618,
+    "lon": 121.5004286
+  },
+  "tags": {
+    "building": "residential"
+  }
+},
+{
+  "type": "way",
+  "id": 729110401,
+  "center": {
+    "lat": 31.2939199,
+    "lon": 121.5001470
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110402,
+  "center": {
+    "lat": 31.2941150,
+    "lon": 121.5000330
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110403,
+  "center": {
+    "lat": 31.2943017,
+    "lon": 121.4999290
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 729110404,
+  "center": {
+    "lat": 31.2945623,
+    "lon": 121.4985377
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 729110405,
+  "center": {
+    "lat": 31.2936090,
+    "lon": 121.4997080
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 729110407,
+  "center": {
+    "lat": 31.2952468,
+    "lon": 121.4958381
+  },
+  "tags": {
+    "building": "yes",
+    "name": "南区浴室"
+  }
+},
+{
+  "type": "way",
+  "id": 729110408,
+  "center": {
+    "lat": 31.2952813,
+    "lon": 121.4962785
+  },
+  "tags": {
+    "building": "yes",
+    "name": "45#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110409,
+  "center": {
+    "lat": 31.2943474,
+    "lon": 121.4957716
+  },
+  "tags": {
+    "building": "yes",
+    "name": "30#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110410,
+  "center": {
+    "lat": 31.2943508,
+    "lon": 121.4967325
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "南区学生活动中心28#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110411,
+  "center": {
+    "lat": 31.2943859,
+    "lon": 121.4964009
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "南区学生活动中心29#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110415,
+  "center": {
+    "lat": 31.2946665,
+    "lon": 121.4957992
+  },
+  "tags": {
+    "building": "yes",
+    "name": "31#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110416,
+  "center": {
+    "lat": 31.2949708,
+    "lon": 121.4958059
+  },
+  "tags": {
+    "building": "yes",
+    "name": "32#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110422,
+  "center": {
+    "lat": 31.2950084,
+    "lon": 121.4974488
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "6#"
+  }
+},
+{
+  "type": "way",
+  "id": 729110423,
+  "center": {
+    "lat": 31.2953405,
+    "lon": 121.4986665
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110424,
+  "center": {
+    "lat": 31.2956813,
+    "lon": 121.4990794
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110437,
+  "center": {
+    "lat": 31.2968788,
+    "lon": 121.4976915
+  },
+  "tags": {
+    "building": "yes",
+    "name": "复旦皇冠假日酒店",
+    "name:en": "Crowne Plaza Shanghai Fudan",
+    "name:zh": "复旦皇冠假日酒店",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 729110438,
+  "center": {
+    "lat": 31.2972294,
+    "lon": 121.5005373
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110439,
+  "center": {
+    "lat": 31.2970063,
+    "lon": 121.4999892
+  },
+  "tags": {
+    "building": "university",
+    "name": "第六教学楼"
+  }
+},
+{
+  "type": "way",
+  "id": 729110440,
+  "center": {
+    "lat": 31.2962694,
+    "lon": 121.4993350
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110441,
+  "center": {
+    "lat": 31.2963854,
+    "lon": 121.4992562
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110442,
+  "center": {
+    "lat": 31.2964300,
+    "lon": 121.4994697
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110443,
+  "center": {
+    "lat": 31.2966837,
+    "lon": 121.5003851
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110444,
+  "center": {
+    "lat": 31.2964628,
+    "lon": 121.4999074
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110445,
+  "center": {
+    "lat": 31.2968386,
+    "lon": 121.5006787
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110446,
+  "center": {
+    "lat": 31.2964858,
+    "lon": 121.5006506
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729110447,
+  "center": {
+    "lat": 31.2961883,
+    "lon": 121.4996125
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729116299,
+  "center": {
+    "lat": 31.2981868,
+    "lon": 121.5008475
+  },
+  "tags": {
+    "amenity": "library",
+    "building": "yes",
+    "library": "文科图书馆",
+    "name": "文科图书馆",
+    "name:en": "Library of Liberal Arts"
+  }
+},
+{
+  "type": "way",
+  "id": 965366029,
+  "center": {
+    "lat": 31.3047140,
+    "lon": 121.5030791
+  },
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "name": "三角广场",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 966582126,
+  "center": {
+    "lat": 31.3035671,
+    "lon": 121.5098724
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 970888977,
+  "center": {
+    "lat": 31.3046285,
+    "lon": 121.4953658
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1006334669,
+  "center": {
+    "lat": 31.2994249,
+    "lon": 121.5065746
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1006334670,
+  "center": {
+    "lat": 31.2996559,
+    "lon": 121.5071918
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1006334671,
+  "center": {
+    "lat": 31.2991024,
+    "lon": 121.5066887
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1006334672,
+  "center": {
+    "lat": 31.2992894,
+    "lon": 121.5073020
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057676280,
+  "center": {
+    "lat": 31.2952856,
+    "lon": 121.5057720
+  },
+  "tags": {
+    "amenity": "community_centre",
+    "building": "yes",
+    "name": "五角场街道社区文化服务中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777498,
+  "center": {
+    "lat": 31.2940053,
+    "lon": 121.5055639
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777499,
+  "center": {
+    "lat": 31.2942302,
+    "lon": 121.5056917
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777500,
+  "center": {
+    "lat": 31.2944422,
+    "lon": 121.5051617
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777501,
+  "center": {
+    "lat": 31.2942157,
+    "lon": 121.5050244
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777502,
+  "center": {
+    "lat": 31.2939957,
+    "lon": 121.5049229
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777503,
+  "center": {
+    "lat": 31.2941997,
+    "lon": 121.5043816
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777504,
+  "center": {
+    "lat": 31.2944049,
+    "lon": 121.5045272
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777505,
+  "center": {
+    "lat": 31.2946301,
+    "lon": 121.5046711
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777506,
+  "center": {
+    "lat": 31.2939121,
+    "lon": 121.5061296
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777508,
+  "center": {
+    "lat": 31.2939162,
+    "lon": 121.5064703
+  },
+  "tags": {
+    "building": "apartments"
+  }
+},
+{
+  "type": "way",
+  "id": 1057777515,
+  "center": {
+    "lat": 31.2951198,
+    "lon": 121.5062061
+  },
+  "tags": {
+    "building": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 1058033661,
+  "center": {
+    "lat": 31.2976237,
+    "lon": 121.5096601
+  },
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034162,
+  "center": {
+    "lat": 31.3011478,
+    "lon": 121.5102732
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034163,
+  "center": {
+    "lat": 31.3012836,
+    "lon": 121.5106638
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034164,
+  "center": {
+    "lat": 31.3015487,
+    "lon": 121.5104142
+  },
+  "tags": {
+    "covered": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034165,
+  "center": {
+    "lat": 31.3012501,
+    "lon": 121.5111701
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034169,
+  "center": {
+    "lat": 31.3018515,
+    "lon": 121.5119740
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034752,
+  "center": {
+    "lat": 31.3013270,
+    "lon": 121.5120572
+  },
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034753,
+  "center": {
+    "lat": 31.3012553,
+    "lon": 121.5111700
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034754,
+  "center": {
+    "lat": 31.3012732,
+    "lon": 121.5114586
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034755,
+  "center": {
+    "lat": 31.3012864,
+    "lon": 121.5114378
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034756,
+  "center": {
+    "lat": 31.3012921,
+    "lon": 121.5113123
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034757,
+  "center": {
+    "lat": 31.3012113,
+    "lon": 121.5114982
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034758,
+  "center": {
+    "lat": 31.3011768,
+    "lon": 121.5111227
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034761,
+  "center": {
+    "lat": 31.3026782,
+    "lon": 121.5116819
+  },
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034762,
+  "center": {
+    "lat": 31.3026280,
+    "lon": 121.5114293
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034763,
+  "center": {
+    "lat": 31.3025803,
+    "lon": 121.5117756
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034764,
+  "center": {
+    "lat": 31.3025253,
+    "lon": 121.5117036
+  },
+  "tags": {
+    "highway": "steps"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034765,
+  "center": {
+    "lat": 31.3025393,
+    "lon": 121.5115730
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1058034769,
+  "center": {
+    "lat": 31.3018561,
+    "lon": 121.5119803
+  },
+  "tags": {
+    "building": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1101731479,
+  "center": {
+    "lat": 31.2928036,
+    "lon": 121.5111010
+  },
+  "tags": {
+    "cycleway": "no",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "政本路",
+    "name:en": "Zhengben Road"
+  }
+},
+{
+  "type": "way",
+  "id": 1112726282,
+  "center": {
+    "lat": 31.2954564,
+    "lon": 121.4995325
+  },
+  "tags": {
+    "highway": "service",
+    "name": "政肃路",
+    "name:en": "Zhengsu Road",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1123309047,
+  "center": {
+    "lat": 31.3001850,
+    "lon": 121.5043729
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1123309048,
+  "center": {
+    "lat": 31.3009539,
+    "lon": 121.5068915
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365211,
+  "center": {
+    "lat": 31.2979549,
+    "lon": 121.4958922
+  },
+  "tags": {
+    "building": "yes",
+    "name": "中华文明资源中心B楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365212,
+  "center": {
+    "lat": 31.2985880,
+    "lon": 121.4946803
+  },
+  "tags": {
+    "building": "yes",
+    "name": "中华文明资源中心A楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365213,
+  "center": {
+    "lat": 31.3015133,
+    "lon": 121.5003991
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365214,
+  "center": {
+    "lat": 31.3020596,
+    "lon": 121.5002663
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365215,
+  "center": {
+    "lat": 31.3018321,
+    "lon": 121.5003615
+  },
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365216,
+  "center": {
+    "lat": 31.3018594,
+    "lon": 121.5015184
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365217,
+  "center": {
+    "lat": 31.3023416,
+    "lon": 121.5012052
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365218,
+  "center": {
+    "lat": 31.3021064,
+    "lon": 121.5012940
+  },
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1169365219,
+  "center": {
+    "lat": 31.2979113,
+    "lon": 121.4979513
+  },
+  "tags": {
+    "highway": "cycleway",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1192226257,
+  "center": {
+    "lat": 31.2987364,
+    "lon": 121.5055251
+  },
+  "tags": {
+    "addr:city": "上海市",
+    "addr:district": "杨浦区",
+    "addr:housenumber": "320",
+    "addr:postcode": "200433",
+    "addr:province": "上海市",
+    "addr:street": "国定路",
+    "building": "house",
+    "name": "天翔花苑（1号）"
+  }
+},
+{
+  "type": "way",
+  "id": 1239824867,
+  "center": {
+    "lat": 31.3043225,
+    "lon": 121.4983812
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1272155607,
+  "center": {
+    "lat": 31.3049266,
+    "lon": 121.4939511
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1272155608,
+  "center": {
+    "lat": 31.3046869,
+    "lon": 121.4940805
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1272508527,
+  "center": {
+    "lat": 31.2989781,
+    "lon": 121.5098196
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "四平路",
+    "name:en": "Siping Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1272508528,
+  "center": {
+    "lat": 31.2945964,
+    "lon": 121.5019546
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "政修路",
+    "name:en": "Zhengxiu Road"
+  }
+},
+{
+  "type": "way",
+  "id": 1272508529,
+  "center": {
+    "lat": 31.2957299,
+    "lon": 121.4994659
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "国权路",
+    "name:en": "Guoquan Road",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1292541097,
+  "center": {
+    "lat": 31.2982058,
+    "lon": 121.4991787
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1292541098,
+  "center": {
+    "lat": 31.2989510,
+    "lon": 121.5009889
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "国顺路",
+    "name:en": "Guoshun Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1292541099,
+  "center": {
+    "lat": 31.2983104,
+    "lon": 121.5013676
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "国顺路",
+    "name:en": "Guoshun Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1294773295,
+  "center": {
+    "lat": 31.3016480,
+    "lon": 121.5095339
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "lanes": "4",
+    "layer": "2",
+    "maxspeed": "80",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1294773302,
+  "center": {
+    "lat": 31.2999824,
+    "lon": 121.5046966
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1294773303,
+  "center": {
+    "lat": 31.2994046,
+    "lon": 121.5028145
+  },
+  "tags": {
+    "highway": "trunk",
+    "layer": "-1",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "邯郸路地道"
+  }
+},
+{
+  "type": "way",
+  "id": 1322655089,
+  "center": {
+    "lat": 31.2987062,
+    "lon": 121.5004419
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1322655090,
+  "center": {
+    "lat": 31.2988915,
+    "lon": 121.5007014
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1329967866,
+  "center": {
+    "lat": 31.3036091,
+    "lon": 121.5047476
+  },
+  "tags": {
+    "cycleway": "opposite_lane",
+    "cycleway:right": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政通路",
+    "name:en": "Zhengtong Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1360363378,
+  "center": {
+    "lat": 31.2969333,
+    "lon": 121.4936280
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "trunk",
+    "maxspeed": "80",
+    "motorroad": "yes",
+    "name": "中环路",
+    "name:en": "Middle Ring Road",
+    "name:zh-Hant": "中環路",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1360721744,
+  "center": {
+    "lat": 31.2981800,
+    "lon": 121.5067088
+  },
+  "tags": {
+    "building": "dormitory"
+  }
+},
+{
+  "type": "way",
+  "id": 1360721745,
+  "center": {
+    "lat": 31.2985362,
+    "lon": 121.5068964
+  },
+  "tags": {
+    "building": "dormitory"
+  }
+},
+{
+  "type": "way",
+  "id": 1360721746,
+  "center": {
+    "lat": 31.2987812,
+    "lon": 121.5070457
+  },
+  "tags": {
+    "building": "dormitory"
+  }
+},
+{
+  "type": "way",
+  "id": 1360721747,
+  "center": {
+    "lat": 31.2979359,
+    "lon": 121.5065752
+  },
+  "tags": {
+    "building": "dormitory"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491897,
+  "center": {
+    "lat": 31.3028303,
+    "lon": 121.5005533
+  },
+  "tags": {
+    "building": "yes",
+    "name": "本部浴室"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491898,
+  "center": {
+    "lat": 31.3013386,
+    "lon": 121.5032558
+  },
+  "tags": {
+    "building": "yes",
+    "name": "临时学生活动中心"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491899,
+  "center": {
+    "lat": 31.2993253,
+    "lon": 121.5010577
+  },
+  "tags": {
+    "building": "university",
+    "name": "叶耀珍楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491900,
+  "center": {
+    "lat": 31.2990169,
+    "lon": 121.4998174
+  },
+  "tags": {
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491901,
+  "center": {
+    "lat": 31.2999868,
+    "lon": 121.4954963
+  },
+  "tags": {
+    "landuse": "grass",
+    "name": "复旦烈士雕塑纪念广场"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491902,
+  "center": {
+    "lat": 31.3004748,
+    "lon": 121.4958100
+  },
+  "tags": {
+    "building": "university",
+    "name": "材料二楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491903,
+  "center": {
+    "lat": 31.3005883,
+    "lon": 121.4962203
+  },
+  "tags": {
+    "building": "university",
+    "name": "抹云楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491905,
+  "center": {
+    "lat": 31.2983062,
+    "lon": 121.4952980
+  },
+  "tags": {
+    "building": "university",
+    "name": "博物馆（相伯堂）100#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491906,
+  "center": {
+    "lat": 31.2982585,
+    "lon": 121.4962776
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "building",
+    "name": "老校门"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491909,
+  "center": {
+    "lat": 31.2961415,
+    "lon": 121.5111700
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491913,
+  "center": {
+    "lat": 31.2962276,
+    "lon": 121.5111101
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491914,
+  "center": {
+    "lat": 31.2971239,
+    "lon": 121.5072046
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491915,
+  "center": {
+    "lat": 31.2971942,
+    "lon": 121.5071909
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491916,
+  "center": {
+    "lat": 31.2980756,
+    "lon": 121.5056195
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491917,
+  "center": {
+    "lat": 31.2988274,
+    "lon": 121.5052556
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491918,
+  "center": {
+    "lat": 31.2977225,
+    "lon": 121.5059313
+  },
+  "tags": {
+    "highway": "tertiary",
+    "maxspeed": "30",
+    "name": "政修路",
+    "name:en": "Zhengxiu Road"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491919,
+  "center": {
+    "lat": 31.3000086,
+    "lon": 121.5044856
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491920,
+  "center": {
+    "lat": 31.2999535,
+    "lon": 121.5044692
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491921,
+  "center": {
+    "lat": 31.2999857,
+    "lon": 121.5044018
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491922,
+  "center": {
+    "lat": 31.3000408,
+    "lon": 121.5044182
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491923,
+  "center": {
+    "lat": 31.2999387,
+    "lon": 121.5045349
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491924,
+  "center": {
+    "lat": 31.2999584,
+    "lon": 121.5047159
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "邯郸路",
+    "name:en": "Handan Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491925,
+  "center": {
+    "lat": 31.3029696,
+    "lon": 121.5026807
+  },
+  "tags": {
+    "cycleway": "opposite_lane",
+    "cycleway:right": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政通路",
+    "name:en": "Zhengtong Road"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491926,
+  "center": {
+    "lat": 31.3039671,
+    "lon": 121.5020288
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491927,
+  "center": {
+    "lat": 31.3036401,
+    "lon": 121.5022311
+  },
+  "tags": {
+    "bridge": "yes",
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491929,
+  "center": {
+    "lat": 31.3042168,
+    "lon": 121.5019081
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "政民路",
+    "name:en": "Zhengmin Road"
+  }
+},
+{
+  "type": "way",
+  "id": 1423491930,
+  "center": {
+    "lat": 31.3070720,
+    "lon": 121.5001754
+  },
+  "tags": {
+    "cycleway": "lane",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "国定路",
+    "name:en": "Guoding Road",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500403,
+  "center": {
+    "lat": 31.2988160,
+    "lon": 121.4969511
+  },
+  "tags": {
+    "building": "university",
+    "name": "档案馆"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500404,
+  "center": {
+    "lat": 31.2983902,
+    "lon": 121.5019818
+  },
+  "tags": {
+    "building": "university",
+    "name": "思源楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500405,
+  "center": {
+    "lat": 31.2987574,
+    "lon": 121.5021902
+  },
+  "tags": {
+    "building": "university",
+    "name": "史带楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500406,
+  "center": {
+    "lat": 31.2987105,
+    "lon": 121.5016555
+  },
+  "tags": {
+    "building": "university",
+    "name": "李达三楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500412,
+  "center": {
+    "lat": 31.2957771,
+    "lon": 121.4985726
+  },
+  "tags": {
+    "building": "yes",
+    "name": "袁天凡慧敏校园C栋"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500413,
+  "center": {
+    "lat": 31.2961309,
+    "lon": 121.4978757
+  },
+  "tags": {
+    "building": "yes",
+    "name": "袁天凡慧敏校园A栋"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500414,
+  "center": {
+    "lat": 31.2965189,
+    "lon": 121.4983914
+  },
+  "tags": {
+    "building": "yes",
+    "name": "袁天凡慧敏校园B栋"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500415,
+  "center": {
+    "lat": 31.2935698,
+    "lon": 121.4954045
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500420,
+  "center": {
+    "lat": 31.2934352,
+    "lon": 121.4971497
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500421,
+  "center": {
+    "lat": 31.2934993,
+    "lon": 121.4976408
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500422,
+  "center": {
+    "lat": 31.2939821,
+    "lon": 121.4981755
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500423,
+  "center": {
+    "lat": 31.2995629,
+    "lon": 121.4961915
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500424,
+  "center": {
+    "lat": 31.2986558,
+    "lon": 121.4948720
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500425,
+  "center": {
+    "lat": 31.2984579,
+    "lon": 121.4947883
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500426,
+  "center": {
+    "lat": 31.3010932,
+    "lon": 121.4977664
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500427,
+  "center": {
+    "lat": 31.3010219,
+    "lon": 121.4968445
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500428,
+  "center": {
+    "lat": 31.3016010,
+    "lon": 121.4978924
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500429,
+  "center": {
+    "lat": 31.3014268,
+    "lon": 121.4991470
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500430,
+  "center": {
+    "lat": 31.3022982,
+    "lon": 121.4993367
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500431,
+  "center": {
+    "lat": 31.3016728,
+    "lon": 121.5052376
+  },
+  "tags": {
+    "building": "yes",
+    "name": "新闻学院办公楼"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500433,
+  "center": {
+    "lat": 31.2952088,
+    "lon": 121.4976540
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "10#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500434,
+  "center": {
+    "lat": 31.2952868,
+    "lon": 121.4978563
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "9#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500435,
+  "center": {
+    "lat": 31.2951307,
+    "lon": 121.4983113
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "1#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500436,
+  "center": {
+    "lat": 31.2950762,
+    "lon": 121.4980986
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "2#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500438,
+  "center": {
+    "lat": 31.2954392,
+    "lon": 121.4983061
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "7#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500439,
+  "center": {
+    "lat": 31.2953525,
+    "lon": 121.4981090
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "8#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500440,
+  "center": {
+    "lat": 31.2947120,
+    "lon": 121.4974430
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "5#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500441,
+  "center": {
+    "lat": 31.2947960,
+    "lon": 121.4976318
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "4#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500442,
+  "center": {
+    "lat": 31.2948815,
+    "lon": 121.4978253
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "3#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500444,
+  "center": {
+    "lat": 31.2953493,
+    "lon": 121.4965843
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "43#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500445,
+  "center": {
+    "lat": 31.2953503,
+    "lon": 121.4967936
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "42#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500446,
+  "center": {
+    "lat": 31.2949921,
+    "lon": 121.4966742
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "40#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500447,
+  "center": {
+    "lat": 31.2949910,
+    "lon": 121.4964648
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "41#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500448,
+  "center": {
+    "lat": 31.2946855,
+    "lon": 121.4966730
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "38#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500449,
+  "center": {
+    "lat": 31.2946844,
+    "lon": 121.4964637
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "38#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500478,
+  "center": {
+    "lat": 31.3016475,
+    "lon": 121.4940835
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "2#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423500479,
+  "center": {
+    "lat": 31.3017077,
+    "lon": 121.4942678
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "1#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505037,
+  "center": {
+    "lat": 31.3019280,
+    "lon": 121.4939455
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "9#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505088,
+  "center": {
+    "lat": 31.3031410,
+    "lon": 121.4940183
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "27#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505091,
+  "center": {
+    "lat": 31.3033827,
+    "lon": 121.4942434
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "30#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505092,
+  "center": {
+    "lat": 31.3034428,
+    "lon": 121.4940552
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "31#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505094,
+  "center": {
+    "lat": 31.3036367,
+    "lon": 121.4943954
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "38#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505095,
+  "center": {
+    "lat": 31.3037008,
+    "lon": 121.4942068
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "39#"
+  }
+},
+{
+  "type": "way",
+  "id": 1423505096,
+  "center": {
+    "lat": 31.3037615,
+    "lon": 121.4940271
+  },
+  "tags": {
+    "building": "apartments",
+    "name": "40#"
+  }
+},
+{
+  "type": "way",
+  "id": 1430584485,
+  "center": {
+    "lat": 31.2988041,
+    "lon": 121.5013613
+  },
+  "tags": {
+    "highway": "cycleway",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1430584486,
+  "center": {
+    "lat": 31.2991789,
+    "lon": 121.5011067
+  },
+  "tags": {
+    "highway": "cycleway",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1500322979,
+  "center": {
+    "lat": 31.2985318,
+    "lon": 121.4975429
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1500322980,
+  "center": {
+    "lat": 31.2985370,
+    "lon": 121.4971600
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1548063940,
+  "center": {
+    "lat": 31.2998386,
+    "lon": 121.4946264
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1548063941,
+  "center": {
+    "lat": 31.2993624,
+    "lon": 121.4943817
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1548063942,
+  "center": {
+    "lat": 31.3003938,
+    "lon": 121.4941731
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1548063943,
+  "center": {
+    "lat": 31.2998962,
+    "lon": 121.4939252
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1548064559,
+  "center": {
+    "lat": 31.3029247,
+    "lon": 121.5015180
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1548065682,
+  "center": {
+    "lat": 31.2999062,
+    "lon": 121.4999608
+  },
+  "tags": {
+    "bicycle": "yes",
+    "highway": "footway"
+  }
+}
+
+  ]
+}
