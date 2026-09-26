@@ -1,0 +1,3096 @@
+{
+  "format": "3dschool-campus",
+  "version": 1,
+  "source": {
+    "kind": "user-map-with-official-evidence",
+    "imageName": "上海交通大学.jpg",
+    "imageSize": [
+      1080,
+      733
+    ],
+    "school": "上海交通大学",
+    "campus": "徐汇校区",
+    "city": "上海",
+    "coordinateSystem": {
+      "type": "image-relative",
+      "x": "east / image right",
+      "z": "south / image down",
+      "transform": "x=(pixelX-540)*0.26; z=(pixelY-330)*0.26",
+      "metresPerGameUnit": null
+    },
+    "assumptions": [
+      "附件无可靠比例尺和北箭头；按上北下南解释，水平坐标来自图像相对位置，不是经纬度或实测米制。",
+      "以附件所示年代布局为准，未声称是当前最新校园总平面。附图中的校外商业、地铁编号、文字引线不建模。",
+      "保留东侧一号门、西侧三号门、东南五号门，东北钱学森图书馆、中央绿庭、西南体育中心及主要楼群的相对位置。",
+      "地图紫线为不规则校界，v1 使用矩形可玩边界和外围林地；没有将紫线变成真实围墙或新道路。",
+      "除中院来源指导高度外，楼高、层数、屋顶、色彩均为艺术化估测。浩然大厦采用较高体量以利辨识，20 游戏单位/8层并非真实楼高层数。",
+      "中院来源总高21.48米，以艺术竖向比例3米/游戏单位处理；teaching-block屋顶最高h+0.20，因此h=6.96，最高7.16。此比例未用于水平地理标定。",
+      "文治堂依据校方文字采用浅黄色主厅和后翼；老图书馆、各校门等采用通用风格化配方，非精确历史立面复原。",
+      "北侧“工程馆”和“总办公厅”文字在附件中部分遮挡，名称结合校园语境补全，位置可信度中等；其余难以确认的体块标注为未标注建筑。",
+      "中央空地用引擎生成的草地、树木和步道表达；绿化不是逐株实测。探索点与记忆文案为游戏设计，不是历史资料。",
+      "校门支持90度整数倍旋转；一号门和三号门改为东西向穿行，五号门近似南北向。斜向角度和门楼历史样式尚未精确重建。",
+      "补充使用2017年校方规划图楼名，不混同为2026年测绘；地图年代差异、拆建和更名仍可能影响名称。",
+      "五处附属体块无法可靠对应正式楼名，隐藏占位招牌并记录为未决项，未假称教学用途；只修复已确认的五处楼名。",
+      "第六宿舍增加L形侧翼；基于图形邻接匹配，尺寸和高度仍为游戏化估测。"
+    ],
+    "excluded": [
+      "校外餐饮商铺、地铁与公交标注",
+      "图像装饰边框与放大提示",
+      "不清晰的小型附属轮廓和部分北西角细节"
+    ],
+    "footprints": [
+      {
+        "regionId": "qian-library-model",
+        "pixelCenter": [
+          768.0,
+          130.0
+        ],
+        "pixelFootprint": [
+          72.0,
+          68.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "qian-library-wing-model",
+        "pixelCenter": [
+          795.0,
+          158.0
+        ],
+        "pixelFootprint": [
+          30.0,
+          22.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "tiesheng-model",
+        "pixelCenter": [
+          758.0,
+          187.0
+        ],
+        "pixelFootprint": [
+          41.0,
+          28.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "bei-nine-model",
+        "pixelCenter": [
+          686.0,
+          200.0
+        ],
+        "pixelFootprint": [
+          44.0,
+          21.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "dong-twelve-model",
+        "pixelCenter": [
+          687.0,
+          222.0
+        ],
+        "pixelFootprint": [
+          42.0,
+          16.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "engineering-model",
+        "pixelCenter": [
+          615.0,
+          179.0
+        ],
+        "pixelFootprint": [
+          42.0,
+          55.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "overseas-model",
+        "pixelCenter": [
+          531.0,
+          172.0
+        ],
+        "pixelFootprint": [
+          42.0,
+          47.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "north-unnamed-01-model",
+        "pixelCenter": [
+          680.0,
+          155.0
+        ],
+        "pixelFootprint": [
+          16.0,
+          25.0
+        ],
+        "labelConfidence": "unresolved",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "north-unnamed-02-model",
+        "pixelCenter": [
+          680.0,
+          181.0
+        ],
+        "pixelFootprint": [
+          16.0,
+          16.0
+        ],
+        "labelConfidence": "unresolved",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "north-unnamed-03-model",
+        "pixelCenter": [
+          535.0,
+          267.0
+        ],
+        "pixelFootprint": [
+          70.0,
+          39.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "new-upper-model",
+        "pixelCenter": [
+          664.0,
+          270.0
+        ],
+        "pixelFootprint": [
+          79.0,
+          38.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "new-upper-wing-model",
+        "pixelCenter": [
+          677.0,
+          250.0
+        ],
+        "pixelFootprint": [
+          45.0,
+          15.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "middle-hall-model",
+        "pixelCenter": [
+          748.0,
+          282.0
+        ],
+        "pixelFootprint": [
+          70.0,
+          27.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "source-guided-artistic-scale"
+      },
+      {
+        "regionId": "ocean-lab-model",
+        "pixelCenter": [
+          803.0,
+          253.0
+        ],
+        "pixelFootprint": [
+          47.0,
+          37.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "teacher-center-model",
+        "pixelCenter": [
+          831.0,
+          315.0
+        ],
+        "pixelFootprint": [
+          48.0,
+          43.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "old-library-model",
+        "pixelCenter": [
+          820.0,
+          375.0
+        ],
+        "pixelFootprint": [
+          44.0,
+          41.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "south-two-model",
+        "pixelCenter": [
+          795.0,
+          447.0
+        ],
+        "pixelFootprint": [
+          53.0,
+          29.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "huigu-model",
+        "pixelCenter": [
+          794.0,
+          489.0
+        ],
+        "pixelFootprint": [
+          51.0,
+          33.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "haoran-model",
+        "pixelCenter": [
+          715.0,
+          478.0
+        ],
+        "pixelFootprint": [
+          53.0,
+          68.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "teaching-three-model",
+        "pixelCenter": [
+          627.0,
+          488.0
+        ],
+        "pixelFootprint": [
+          80.0,
+          41.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "high-voltage-model",
+        "pixelCenter": [
+          628.0,
+          550.0
+        ],
+        "pixelFootprint": [
+          59.0,
+          29.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "new-building-model",
+        "pixelCenter": [
+          589.0,
+          432.0
+        ],
+        "pixelFootprint": [
+          40.0,
+          29.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "gym-model",
+        "pixelCenter": [
+          596.0,
+          375.0
+        ],
+        "pixelFootprint": [
+          35.0,
+          45.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "office-model",
+        "pixelCenter": [
+          582.0,
+          328.0
+        ],
+        "pixelFootprint": [
+          38.0,
+          16.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "mechanical-model",
+        "pixelCenter": [
+          550.0,
+          507.0
+        ],
+        "pixelFootprint": [
+          13.0,
+          42.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "wenzhi-model",
+        "pixelCenter": [
+          393.0,
+          420.0
+        ],
+        "pixelFootprint": [
+          52.0,
+          37.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "wenzhi-wing-model",
+        "pixelCenter": [
+          393.0,
+          397.0
+        ],
+        "pixelFootprint": [
+          28.0,
+          18.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "second-canteen-model",
+        "pixelCenter": [
+          391.0,
+          357.0
+        ],
+        "pixelFootprint": [
+          59.0,
+          26.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "teaching-one-model",
+        "pixelCenter": [
+          365.0,
+          474.0
+        ],
+        "pixelFootprint": [
+          108.0,
+          28.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "teaching-one-wing-model",
+        "pixelCenter": [
+          340.0,
+          505.0
+        ],
+        "pixelFootprint": [
+          43.0,
+          34.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "taoli-model",
+        "pixelCenter": [
+          263.0,
+          511.0
+        ],
+        "pixelFootprint": [
+          37.0,
+          32.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "nanyang-model",
+        "pixelCenter": [
+          208.0,
+          375.0
+        ],
+        "pixelFootprint": [
+          52.0,
+          46.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "graduate-canteen-model",
+        "pixelCenter": [
+          284.0,
+          276.0
+        ],
+        "pixelFootprint": [
+          69.0,
+          38.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "west-unnamed-01-model",
+        "pixelCenter": [
+          283.0,
+          348.0
+        ],
+        "pixelFootprint": [
+          63.0,
+          15.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "west-unnamed-02-model",
+        "pixelCenter": [
+          284.0,
+          372.0
+        ],
+        "pixelFootprint": [
+          63.0,
+          16.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "west-unnamed-03-model",
+        "pixelCenter": [
+          284.0,
+          398.0
+        ],
+        "pixelFootprint": [
+          62.0,
+          16.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "west-unnamed-04-model",
+        "pixelCenter": [
+          284.0,
+          425.0
+        ],
+        "pixelFootprint": [
+          62.0,
+          20.0
+        ],
+        "labelConfidence": "map-read",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "west-unnamed-05-model",
+        "pixelCenter": [
+          334.0,
+          259.0
+        ],
+        "pixelFootprint": [
+          19.0,
+          67.0
+        ],
+        "labelConfidence": "unresolved",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "south-unnamed-01-model",
+        "pixelCenter": [
+          396.0,
+          509.0
+        ],
+        "pixelFootprint": [
+          23.0,
+          20.0
+        ],
+        "labelConfidence": "unresolved",
+        "heightStatus": "artistic-estimate"
+      },
+      {
+        "regionId": "south-unnamed-02-model",
+        "pixelCenter": [
+          416.0,
+          532.0
+        ],
+        "pixelFootprint": [
+          25.0,
+          17.0
+        ],
+        "labelConfidence": "unresolved",
+        "heightStatus": "artistic-estimate"
+      }
+    ],
+    "evidenceMatches": [
+      {
+        "regionId": "middle-hall-model",
+        "featureId": "official:sjtu-zhongyuan",
+        "fields": [
+          "height",
+          "levels",
+          "style"
+        ],
+        "sourceHeightMetres": 21.48,
+        "modelWallHeight": 6.96,
+        "modelMaxHeight": 7.16,
+        "verticalMetresPerGameUnit": 3,
+        "modelFloors": 3,
+        "reason": "身份和邻接关系与附件中院一致；简化为三层西式体块，竖向艺术缩放，无水平米制标定"
+      },
+      {
+        "regionId": "wenzhi-model",
+        "relatedRegions": [
+          "wenzhi-wing-model"
+        ],
+        "featureId": "official:sjtu-wenzhi",
+        "fields": [
+          "style"
+        ],
+        "modelTint": "#d5c49a",
+        "modelMassing": "丁字形主厅+后翼",
+        "reason": "采用官网浅黄色墙面、近现代风格和丁字形体量描述；高度缺失仍为估测"
+      },
+      {
+        "regionId": "north-unnamed-03-model",
+        "featureId": "official:sjtu-north-unnamed-03-model",
+        "fields": [
+          "label"
+        ],
+        "modelLabel": "包兆龙图书馆",
+        "reason": "校方规划图可读楼名与相对位置匹配；不是只凭同名搜索结果配对"
+      },
+      {
+        "regionId": "west-unnamed-01-model",
+        "featureId": "official:sjtu-west-unnamed-01-model",
+        "fields": [
+          "label"
+        ],
+        "modelLabel": "第四宿舍",
+        "reason": "校方规划图可读楼名与相对位置匹配；不是只凭同名搜索结果配对"
+      },
+      {
+        "regionId": "west-unnamed-02-model",
+        "featureId": "official:sjtu-west-unnamed-02-model",
+        "fields": [
+          "label"
+        ],
+        "modelLabel": "励志楼",
+        "reason": "校方规划图可读楼名与相对位置匹配；不是只凭同名搜索结果配对"
+      },
+      {
+        "regionId": "west-unnamed-03-model",
+        "featureId": "official:sjtu-west-unnamed-03-model",
+        "fields": [
+          "label"
+        ],
+        "modelLabel": "第五宿舍",
+        "reason": "校方规划图可读楼名与相对位置匹配；不是只凭同名搜索结果配对"
+      },
+      {
+        "regionId": "west-unnamed-04-model",
+        "featureId": "official:sjtu-west-unnamed-04-model",
+        "fields": [
+          "label"
+        ],
+        "modelLabel": "第六宿舍",
+        "reason": "校方规划图可读楼名与相对位置匹配；不是只凭同名搜索结果配对"
+      },
+      {
+        "regionId": "huashan-gate-model",
+        "featureId": "official:sjtu-gates",
+        "fields": [
+          "orientation"
+        ],
+        "rotation": 1.5707963267948966,
+        "passageAxis": "east-west",
+        "confidence": "medium",
+        "reason": "官方地图确认一号门在华山路1954号，附件及规划图位于校园东侧；据此推定主通行方向东西向，轴对齐简化，不声称实测方位角"
+      }
+    ],
+    "imageSha256": "26f31291c26fd0284fce6b615613304fb167e17ad6358b580d90487aee0541cd",
+    "researchLog": [
+      {
+        "id": "official-plan-search",
+        "status": "read",
+        "queries": [
+          "site:sjtu.edu.cn 徐汇校区 校园地图",
+          "site:sjtu.edu.cn 徐汇 第一宿舍 第二食堂"
+        ],
+        "url": "https://jjc.sjtu.edu.cn/info/1531/5351.htm",
+        "result": "读取官方规划图，核对包兆龙图书馆、第四宿舍、励志楼、第五宿舍、第六宿舍及校门邻接关系"
+      },
+      {
+        "id": "gate-address-search",
+        "status": "read",
+        "url": "https://map.sjtu.edu.cn/",
+        "result": "一号门华山路1954号；三号门番禺路655号；五号门广元西路55号。地址不等于测量方位角。"
+      },
+      {
+        "id": "historic-height-style",
+        "status": "read",
+        "urls": [
+          "https://museum.sjtu.edu.cn/info/1070/1592.htm",
+          "https://ahc.sjtu.edu.cn/show.aspx?flag=3&info_id=327&info_lb=62"
+        ],
+        "result": "中院高度、文治堂样式沿用原来已阅读的官方文字"
+      },
+      {
+        "id": "pending-annexes",
+        "status": "unresolved",
+        "regionIds": [
+          "north-unnamed-01-model",
+          "north-unnamed-02-model",
+          "west-unnamed-05-model",
+          "south-unnamed-01-model",
+          "south-unnamed-02-model"
+        ],
+        "result": "官方规划图分辨率及年代差异不足以可靠配准5个附属体块；不强行编造正式名称"
+      }
+    ],
+    "modelingPlan": {
+      "mapBasis": "用户提供的1080×733徐汇地图为布局基准；2017年官方规划图用于补充名称；非2026实测。",
+      "inventory": [
+        {
+          "id": "sport-model",
+          "label": "郑坚固体育中心",
+          "kind": "sports",
+          "regionIds": [
+            "sport-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "qian-library-model",
+          "label": "钱学森图书馆",
+          "kind": "building",
+          "regionIds": [
+            "qian-library-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "qian-library-wing-model",
+          "label": "钱学森图书馆附翼",
+          "kind": "building",
+          "regionIds": [
+            "qian-library-wing-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "tiesheng-model",
+          "label": "铁生馆",
+          "kind": "building",
+          "regionIds": [
+            "tiesheng-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "bei-nine-model",
+          "label": "北九楼",
+          "kind": "building",
+          "regionIds": [
+            "bei-nine-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "dong-twelve-model",
+          "label": "东十二楼",
+          "kind": "building",
+          "regionIds": [
+            "dong-twelve-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "engineering-model",
+          "label": "工程馆",
+          "kind": "building",
+          "regionIds": [
+            "engineering-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "overseas-model",
+          "label": "海外教育学院",
+          "kind": "building",
+          "regionIds": [
+            "overseas-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "north-unnamed-01-model",
+          "label": "北部附属体块 01（名称待核实）",
+          "kind": "building",
+          "regionIds": [
+            "north-unnamed-01-model"
+          ],
+          "nameStatus": "unresolved",
+          "basis": "user-map",
+          "uncertaintyReason": "公开规划图无法可靠区分此附属轮廓的独立楼名；保留体量，不显示占位招牌。"
+        },
+        {
+          "id": "north-unnamed-02-model",
+          "label": "北部附属体块 02（名称待核实）",
+          "kind": "building",
+          "regionIds": [
+            "north-unnamed-02-model"
+          ],
+          "nameStatus": "unresolved",
+          "basis": "user-map",
+          "uncertaintyReason": "公开规划图无法可靠区分此附属轮廓的独立楼名；保留体量，不显示占位招牌。"
+        },
+        {
+          "id": "north-unnamed-03-model",
+          "label": "包兆龙图书馆",
+          "kind": "building",
+          "regionIds": [
+            "north-unnamed-03-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "https://jjc.sjtu.edu.cn/info/1531/5351.htm"
+        },
+        {
+          "id": "new-upper-model",
+          "label": "新上院",
+          "kind": "building",
+          "regionIds": [
+            "new-upper-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "new-upper-wing-model",
+          "label": "新上院北翼",
+          "kind": "building",
+          "regionIds": [
+            "new-upper-wing-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "middle-hall-model",
+          "label": "中院",
+          "kind": "building",
+          "regionIds": [
+            "middle-hall-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "ocean-lab-model",
+          "label": "海洋工程实验楼",
+          "kind": "building",
+          "regionIds": [
+            "ocean-lab-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "teacher-center-model",
+          "label": "教师活动中心",
+          "kind": "building",
+          "regionIds": [
+            "teacher-center-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "old-library-model",
+          "label": "老图书馆",
+          "kind": "building",
+          "regionIds": [
+            "old-library-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "south-two-model",
+          "label": "南二楼",
+          "kind": "building",
+          "regionIds": [
+            "south-two-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "huigu-model",
+          "label": "慧谷科技楼",
+          "kind": "building",
+          "regionIds": [
+            "huigu-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "haoran-model",
+          "label": "浩然高科技大厦",
+          "kind": "building",
+          "regionIds": [
+            "haoran-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "teaching-three-model",
+          "label": "教学三楼",
+          "kind": "building",
+          "regionIds": [
+            "teaching-three-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "high-voltage-model",
+          "label": "高压实验室",
+          "kind": "building",
+          "regionIds": [
+            "high-voltage-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "new-building-model",
+          "label": "新建楼",
+          "kind": "building",
+          "regionIds": [
+            "new-building-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "gym-model",
+          "label": "体育馆",
+          "kind": "building",
+          "regionIds": [
+            "gym-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "office-model",
+          "label": "总办公厅",
+          "kind": "building",
+          "regionIds": [
+            "office-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "mechanical-model",
+          "label": "机械动力楼",
+          "kind": "building",
+          "regionIds": [
+            "mechanical-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "wenzhi-model",
+          "label": "文治堂",
+          "kind": "building",
+          "regionIds": [
+            "wenzhi-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "wenzhi-wing-model",
+          "label": "文治堂后翼",
+          "kind": "building",
+          "regionIds": [
+            "wenzhi-wing-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "second-canteen-model",
+          "label": "第二食堂",
+          "kind": "building",
+          "regionIds": [
+            "second-canteen-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "teaching-one-model",
+          "label": "教学一楼",
+          "kind": "building",
+          "regionIds": [
+            "teaching-one-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "teaching-one-wing-model",
+          "label": "教学一楼西翼",
+          "kind": "building",
+          "regionIds": [
+            "teaching-one-wing-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "taoli-model",
+          "label": "桃李苑",
+          "kind": "building",
+          "regionIds": [
+            "taoli-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "nanyang-model",
+          "label": "南洋大楼",
+          "kind": "building",
+          "regionIds": [
+            "nanyang-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "graduate-canteen-model",
+          "label": "研究生食堂",
+          "kind": "building",
+          "regionIds": [
+            "graduate-canteen-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        },
+        {
+          "id": "west-unnamed-01-model",
+          "label": "第四宿舍",
+          "kind": "building",
+          "regionIds": [
+            "west-unnamed-01-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "https://jjc.sjtu.edu.cn/info/1531/5351.htm"
+        },
+        {
+          "id": "west-unnamed-02-model",
+          "label": "励志楼",
+          "kind": "building",
+          "regionIds": [
+            "west-unnamed-02-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "https://jjc.sjtu.edu.cn/info/1531/5351.htm"
+        },
+        {
+          "id": "west-unnamed-03-model",
+          "label": "第五宿舍",
+          "kind": "building",
+          "regionIds": [
+            "west-unnamed-03-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "https://jjc.sjtu.edu.cn/info/1531/5351.htm"
+        },
+        {
+          "id": "west-unnamed-04-model",
+          "label": "第六宿舍",
+          "kind": "building",
+          "regionIds": [
+            "west-unnamed-04-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "https://jjc.sjtu.edu.cn/info/1531/5351.htm"
+        },
+        {
+          "id": "west-unnamed-05-model",
+          "label": "西北附属体块（名称待核实）",
+          "kind": "building",
+          "regionIds": [
+            "west-unnamed-05-model"
+          ],
+          "nameStatus": "unresolved",
+          "basis": "user-map",
+          "uncertaintyReason": "公开规划图无法可靠区分此附属轮廓的独立楼名；保留体量，不显示占位招牌。"
+        },
+        {
+          "id": "south-unnamed-01-model",
+          "label": "教学一楼东侧附属体块（名称待核实）",
+          "kind": "building",
+          "regionIds": [
+            "south-unnamed-01-model"
+          ],
+          "nameStatus": "unresolved",
+          "basis": "user-map",
+          "uncertaintyReason": "公开规划图无法可靠区分此附属轮廓的独立楼名；保留体量，不显示占位招牌。"
+        },
+        {
+          "id": "south-unnamed-02-model",
+          "label": "教学一楼南侧附属体块（名称待核实）",
+          "kind": "building",
+          "regionIds": [
+            "south-unnamed-02-model"
+          ],
+          "nameStatus": "unresolved",
+          "basis": "user-map",
+          "uncertaintyReason": "公开规划图无法可靠区分此附属轮廓的独立楼名；保留体量，不显示占位招牌。"
+        },
+        {
+          "id": "huashan-gate-model",
+          "label": "上海交通大学",
+          "kind": "gate",
+          "regionIds": [
+            "huashan-gate-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "用户附件及校方地图的校界、道路和门外地址；轴对齐近似",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "gate-three-model",
+          "label": "三号门",
+          "kind": "gate",
+          "regionIds": [
+            "gate-three-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "用户附件及校方地图的校界、道路和门外地址；轴对齐近似",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "gate-five-model",
+          "label": "五号门",
+          "kind": "gate",
+          "regionIds": [
+            "gate-five-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "north-south",
+            "basis": "用户附件及校方地图的校界、道路和门外地址；轴对齐近似",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "sixth-dorm-wing-model",
+          "label": "第六宿舍侧翼",
+          "kind": "building",
+          "regionIds": [
+            "sixth-dorm-wing-model"
+          ],
+          "nameStatus": "map-read",
+          "basis": "user-map"
+        }
+      ],
+      "scope": "图示校内主体建筑、3处门洞、体育场、主要道路和探索点；不包含校外街区及无法区分的小型设备建筑。"
+    },
+    "compatibility": {
+      "generator": "school-map-to-campus >= 2.2",
+      "requires": "quarter-turn gates",
+      "note": "旋转校门需要本次更新后的3Dschool；旧部署版会拒绝rotation，请更新部署dist。"
+    },
+    "externalSources": [
+      {
+        "id": "sjtu-zhongyuan-official",
+        "provider": "official-school-website",
+        "url": "https://museum.sjtu.edu.cn/info/1070/1592.htm",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "上海交通大学校史博物馆：中院，2018-03-16",
+        "license": "Facts summarized; original article and photographs are not redistributed"
+      },
+      {
+        "id": "sjtu-wenzhi-official",
+        "provider": "official-school-website",
+        "url": "https://ahc.sjtu.edu.cn/show.aspx?flag=3&info_id=327&info_lb=62",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "上海交通大学档案文博管理中心：文治堂，2016-12-18",
+        "license": "Facts summarized; original article and photographs are not redistributed"
+      },
+      {
+        "id": "sjtu-official-plan-2017",
+        "provider": "official-school-website",
+        "url": "https://jjc.sjtu.edu.cn/info/1531/5351.htm",
+        "imageUrl": "https://jjc.sjtu.edu.cn/_mediafile/sjtu_jjc2/2017/03/16/13cinkczm5.jpg",
+        "retrievedAt": "2026-09-25",
+        "crs": "illustrated-campus-plan",
+        "attribution": "上海交通大学基建处：徐汇校区规划图（2017-03-16）",
+        "license": "Building labels and spatial relations interpreted; source image not redistributed"
+      },
+      {
+        "id": "sjtu-official-map-gates",
+        "provider": "official-school-website",
+        "url": "https://map.sjtu.edu.cn/",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "上海交通大学校园电子地图：校门地址",
+        "license": "Only factual gate address summaries; map assets not redistributed"
+      }
+    ],
+    "evidenceNote": "Evidence is supplied for traceability. Applied fields and modeling decisions are recorded by the author in source.evidenceMatches; no automatic geometry overwrite."
+  },
+  "campus": {
+    "id": "sjtu-xuhui-map-v2",
+    "name": "上海交通大学·徐汇校区",
+    "bounds": {
+      "width": 228,
+      "depth": 180
+    },
+    "mapBounds": {
+      "width": 240,
+      "depth": 192
+    },
+    "spawn": {
+      "x": 93.6,
+      "z": 8.84,
+      "yaw": -1.5707963267948966
+    },
+    "intro": {
+      "x": 0.0,
+      "z": 0.0,
+      "size": 180
+    },
+    "districts": [
+      {
+        "id": "west",
+        "name": "西区·教学与生活",
+        "x": -61.36,
+        "z": 11.7,
+        "w": 72.8,
+        "d": 86.84,
+        "tint": "#d2d7b9"
+      },
+      {
+        "id": "north",
+        "name": "北区·书香与校史",
+        "x": 38.48,
+        "z": -34.84,
+        "w": 95.16,
+        "d": 68.12,
+        "tint": "#d9d1bb"
+      },
+      {
+        "id": "east",
+        "name": "东区·校园绿庭",
+        "x": 54.34,
+        "z": 17.42,
+        "w": 83.2,
+        "d": 53.56,
+        "tint": "#c1d2b0"
+      },
+      {
+        "id": "south",
+        "name": "南区·运动与科研",
+        "x": 12.22,
+        "z": 45.76,
+        "w": 117.52000000000001,
+        "d": 52.52,
+        "tint": "#cfceb0"
+      }
+    ],
+    "crossings": [],
+    "swans": [],
+    "tasks": [
+      {
+        "id": "huashan-gate",
+        "label": "打卡一号门",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "old-library",
+        "label": "打卡老图书馆",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "teacher-center",
+        "label": "打卡教师活动中心",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "middle-hall",
+        "label": "打卡中院",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "new-upper",
+        "label": "打卡新上院",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "ocean-lab",
+        "label": "打卡海洋工程实验楼",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "qian-library",
+        "label": "打卡钱学森图书馆",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "tiesheng",
+        "label": "打卡铁生馆",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "engineering",
+        "label": "打卡工程馆",
+        "icon": "⌂",
+        "zone": "north"
+      },
+      {
+        "id": "graduate-canteen",
+        "label": "打卡研究生食堂",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "gate-three",
+        "label": "打卡三号门",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "nanyang",
+        "label": "打卡南洋大楼",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "second-canteen",
+        "label": "打卡第二食堂",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "wenzhi",
+        "label": "打卡文治堂",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "teaching-one",
+        "label": "打卡教学一楼",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "taoli",
+        "label": "打卡桃李苑",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "new-building",
+        "label": "打卡新建楼",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "teaching-three",
+        "label": "打卡教学三楼",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "haoran",
+        "label": "打卡浩然高科技大厦",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "high-voltage",
+        "label": "打卡高压实验室",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "gate-five",
+        "label": "打卡五号门",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "sport",
+        "label": "漫步郑坚固体育中心",
+        "icon": "◎",
+        "zone": "south"
+      },
+      {
+        "id": "memories",
+        "label": "收集十二枚徐汇记忆",
+        "icon": "✦",
+        "zone": "all"
+      }
+    ],
+    "landmarks": [
+      {
+        "id": "huashan-gate",
+        "taskId": "huashan-gate",
+        "zone": "east",
+        "title": "一号门",
+        "quote": "面向华山路，向西走进校园",
+        "speech": "你来到了一号门。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 89.96,
+        "z": 8.84,
+        "labelY": 6.5,
+        "approach": {
+          "x": 85.28,
+          "z": 8.84
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "old-library",
+        "taskId": "old-library",
+        "zone": "east",
+        "title": "老图书馆",
+        "quote": "绿庭旁的书香一角",
+        "speech": "你来到了老图书馆。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 72.8,
+        "z": 11.7,
+        "labelY": 9.8,
+        "approach": {
+          "x": 72.8,
+          "z": 21.32
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "teacher-center",
+        "taskId": "teacher-center",
+        "zone": "east",
+        "title": "教师活动中心",
+        "quote": "沿着林荫步道停一停",
+        "speech": "你来到了教师活动中心。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 75.66,
+        "z": -3.9,
+        "labelY": 7.2,
+        "approach": {
+          "x": 75.92,
+          "z": 4.94
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "middle-hall",
+        "taskId": "middle-hall",
+        "zone": "north",
+        "title": "中院",
+        "quote": "老校园的中央坐标",
+        "speech": "校方资料记载，中院原为三层西式建筑。本模型参考这一体量，并按游戏画面缩放；沿南侧步道还可以前往新上院。",
+        "x": 54.08,
+        "z": -12.48,
+        "labelY": 8.96,
+        "approach": {
+          "x": 54.08,
+          "z": -4.68
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "new-upper",
+        "taskId": "new-upper",
+        "zone": "north",
+        "title": "新上院",
+        "quote": "教学楼前的漫步时光",
+        "speech": "你来到了新上院。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 32.24,
+        "z": -15.6,
+        "labelY": 8.6,
+        "approach": {
+          "x": 32.24,
+          "z": -4.68
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "ocean-lab",
+        "taskId": "ocean-lab",
+        "zone": "north",
+        "title": "海洋工程实验楼",
+        "quote": "探索校园里的科研建筑",
+        "speech": "你来到了海洋工程实验楼。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 68.38,
+        "z": -20.02,
+        "labelY": 8.4,
+        "approach": {
+          "x": 83.98,
+          "z": -17.42
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "qian-library",
+        "taskId": "qian-library",
+        "zone": "north",
+        "title": "钱学森图书馆",
+        "quote": "走向校园东北角",
+        "speech": "你来到了钱学森图书馆。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 59.28,
+        "z": -52.0,
+        "labelY": 10.5,
+        "approach": {
+          "x": 47.06,
+          "z": -51.48
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "tiesheng",
+        "taskId": "tiesheng",
+        "zone": "north",
+        "title": "铁生馆",
+        "quote": "北区庭院的一段散步",
+        "speech": "你来到了铁生馆。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 56.68,
+        "z": -37.18,
+        "labelY": 7.3,
+        "approach": {
+          "x": 56.68,
+          "z": -29.12
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "engineering",
+        "taskId": "engineering",
+        "zone": "north",
+        "title": "工程馆",
+        "quote": "从北区继续向校园中心走",
+        "speech": "你来到了工程馆。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 19.5,
+        "z": -39.26,
+        "labelY": 8.6,
+        "approach": {
+          "x": 18.72,
+          "z": -28.86
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "graduate-canteen",
+        "taskId": "graduate-canteen",
+        "zone": "west",
+        "title": "研究生食堂",
+        "quote": "找到西北角的食堂",
+        "speech": "你来到了研究生食堂。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -66.56,
+        "z": -14.04,
+        "labelY": 6.6,
+        "approach": {
+          "x": -66.56,
+          "z": -4.68
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "gate-three",
+        "taskId": "gate-three",
+        "zone": "west",
+        "title": "三号门",
+        "quote": "探索校园西侧入口",
+        "speech": "你来到了三号门。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -88.4,
+        "z": -5.72,
+        "labelY": 6.5,
+        "approach": {
+          "x": -83.98,
+          "z": -5.72
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "nanyang",
+        "taskId": "nanyang",
+        "zone": "west",
+        "title": "南洋大楼",
+        "quote": "沿西侧道路发现高楼",
+        "speech": "你来到了南洋大楼。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -86.32,
+        "z": 11.7,
+        "labelY": 10.2,
+        "approach": {
+          "x": -86.32,
+          "z": 21.84
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "second-canteen",
+        "taskId": "second-canteen",
+        "zone": "west",
+        "title": "第二食堂",
+        "quote": "课间漫步的停靠点",
+        "speech": "你来到了第二食堂。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -38.74,
+        "z": 7.02,
+        "labelY": 6.5,
+        "approach": {
+          "x": -38.74,
+          "z": 12.48
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "wenzhi",
+        "taskId": "wenzhi",
+        "zone": "west",
+        "title": "文治堂",
+        "quote": "体育场西侧的浅色礼堂",
+        "speech": "校方资料描述文治堂采用近现代建筑风格、浅黄色墙面和丁字形布局。模型用主厅与后翼表达这一特征。",
+        "x": -38.22,
+        "z": 23.4,
+        "labelY": 7.4,
+        "approach": {
+          "x": -38.22,
+          "z": 30.68
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "teaching-one",
+        "taskId": "teaching-one",
+        "zone": "west",
+        "title": "教学一楼",
+        "quote": "沿教学区步道继续探索",
+        "speech": "你来到了教学一楼。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -45.5,
+        "z": 37.44,
+        "labelY": 8.1,
+        "approach": {
+          "x": -40.82,
+          "z": 42.38
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "taoli",
+        "taskId": "taoli",
+        "zone": "west",
+        "title": "桃李苑",
+        "quote": "西南角的一段校园日常",
+        "speech": "你来到了桃李苑。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": -72.02,
+        "z": 47.06,
+        "labelY": 8,
+        "approach": {
+          "x": -78.26,
+          "z": 47.06
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "new-building",
+        "taskId": "new-building",
+        "zone": "south",
+        "title": "新建楼",
+        "quote": "体育场东侧的新发现",
+        "speech": "你来到了新建楼。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 12.74,
+        "z": 26.52,
+        "labelY": 9.4,
+        "approach": {
+          "x": 13.0,
+          "z": 32.76
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "teaching-three",
+        "taskId": "teaching-three",
+        "zone": "south",
+        "title": "教学三楼",
+        "quote": "走过南部教学区",
+        "speech": "你来到了教学三楼。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 22.62,
+        "z": 41.08,
+        "labelY": 9.1,
+        "approach": {
+          "x": 22.62,
+          "z": 50.7
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "haoran",
+        "taskId": "haoran",
+        "zone": "south",
+        "title": "浩然高科技大厦",
+        "quote": "寻找东南角的高层建筑",
+        "speech": "你来到了浩然高科技大厦。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 45.5,
+        "z": 38.48,
+        "labelY": 22,
+        "approach": {
+          "x": 55.9,
+          "z": 38.48
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "high-voltage",
+        "taskId": "high-voltage",
+        "zone": "south",
+        "title": "高压实验室",
+        "quote": "漫步南部科研区",
+        "speech": "你来到了高压实验室。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 22.88,
+        "z": 57.2,
+        "labelY": 7.2,
+        "approach": {
+          "x": 22.88,
+          "z": 64.48
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "gate-five",
+        "taskId": "gate-five",
+        "zone": "south",
+        "title": "五号门",
+        "quote": "从东南入口回望校园",
+        "speech": "你来到了五号门。沿步道前往下一处地标，收集属于徐汇校区的漫游记忆。",
+        "x": 59.02,
+        "z": 59.28,
+        "labelY": 6.5,
+        "approach": {
+          "x": 59.02,
+          "z": 64.48
+        },
+        "radius": 3.4
+      },
+      {
+        "id": "sport",
+        "taskId": "sport",
+        "zone": "south",
+        "title": "郑坚固体育中心",
+        "quote": "在跑道边放慢脚步",
+        "speech": "附件中的椭圆形体育中心位于校园西南部。沿跑道漫步，向西可到文治堂，向东可到教学三楼。",
+        "x": -11.96,
+        "z": 32.24,
+        "labelY": 4,
+        "approach": {
+          "x": -27.3,
+          "z": 35.62
+        },
+        "radius": 3.4
+      }
+    ],
+    "memories": [
+      {
+        "id": "xuhui-memory-01",
+        "title": "华山路的第一步",
+        "text": "徐汇漫游记忆 01：华山路的第一步。这是为校园游戏创作的收集文案。",
+        "x": 83.98,
+        "z": 12.48
+      },
+      {
+        "id": "xuhui-memory-02",
+        "title": "老馆前的树影",
+        "text": "徐汇漫游记忆 02：老馆前的树影。这是为校园游戏创作的收集文案。",
+        "x": 76.96,
+        "z": 21.58
+      },
+      {
+        "id": "xuhui-memory-03",
+        "title": "中院南侧",
+        "text": "徐汇漫游记忆 03：中院南侧。这是为校园游戏创作的收集文案。",
+        "x": 48.62,
+        "z": -4.68
+      },
+      {
+        "id": "xuhui-memory-04",
+        "title": "北区书香",
+        "text": "徐汇漫游记忆 04：北区书香。这是为校园游戏创作的收集文案。",
+        "x": 47.06,
+        "z": -31.2
+      },
+      {
+        "id": "xuhui-memory-05",
+        "title": "工程馆旁",
+        "text": "徐汇漫游记忆 05：工程馆旁。这是为校园游戏创作的收集文案。",
+        "x": 18.98,
+        "z": -24.7
+      },
+      {
+        "id": "xuhui-memory-06",
+        "title": "西区课间",
+        "text": "徐汇漫游记忆 06：西区课间。这是为校园游戏创作的收集文案。",
+        "x": -53.04,
+        "z": -0.78
+      },
+      {
+        "id": "xuhui-memory-07",
+        "title": "三号门的风",
+        "text": "徐汇漫游记忆 07：三号门的风。这是为校园游戏创作的收集文案。",
+        "x": -84.5,
+        "z": -5.72
+      },
+      {
+        "id": "xuhui-memory-08",
+        "title": "礼堂边的散步",
+        "text": "徐汇漫游记忆 08：礼堂边的散步。这是为校园游戏创作的收集文案。",
+        "x": -27.3,
+        "z": 26.0
+      },
+      {
+        "id": "xuhui-memory-09",
+        "title": "跑道一圈",
+        "text": "徐汇漫游记忆 09：跑道一圈。这是为校园游戏创作的收集文案。",
+        "x": -11.96,
+        "z": 32.24
+      },
+      {
+        "id": "xuhui-memory-10",
+        "title": "教学区的转角",
+        "text": "徐汇漫游记忆 10：教学区的转角。这是为校园游戏创作的收集文案。",
+        "x": -36.66,
+        "z": 57.46
+      },
+      {
+        "id": "xuhui-memory-11",
+        "title": "科研楼外的夜色",
+        "text": "徐汇漫游记忆 11：科研楼外的夜色。这是为校园游戏创作的收集文案。",
+        "x": 55.9,
+        "z": 47.84
+      },
+      {
+        "id": "xuhui-memory-12",
+        "title": "五号门归途",
+        "text": "徐汇漫游记忆 12：五号门归途。这是为校园游戏创作的收集文案。",
+        "x": 43.94,
+        "z": 64.48
+      }
+    ],
+    "regions": [
+      {
+        "id": "main-avenue",
+        "type": "path",
+        "x": 1.69,
+        "z": -4.68,
+        "w": 180.7,
+        "d": 5.72,
+        "label": "校园东西步道"
+      },
+      {
+        "id": "west-avenue",
+        "type": "path",
+        "x": -78.26,
+        "z": 16.51,
+        "w": 5.2,
+        "d": 54.86
+      },
+      {
+        "id": "teaching-avenue",
+        "type": "path",
+        "x": -53.04,
+        "z": 11.57,
+        "w": 4.68,
+        "d": 41.86
+      },
+      {
+        "id": "west-crosswalk",
+        "type": "path",
+        "x": -53.43,
+        "z": 14.3,
+        "w": 53.56,
+        "d": 3.9
+      },
+      {
+        "id": "teaching-crosswalk",
+        "type": "path",
+        "x": -45.89,
+        "z": 29.38,
+        "w": 40.3,
+        "d": 4.16
+      },
+      {
+        "id": "sport-west",
+        "type": "path",
+        "x": -27.3,
+        "z": 26.65,
+        "w": 4.16,
+        "d": 63.18
+      },
+      {
+        "id": "sport-north",
+        "type": "path",
+        "x": -10.01,
+        "z": 7.02,
+        "w": 38.48,
+        "d": 3.9
+      },
+      {
+        "id": "sport-east",
+        "type": "path",
+        "x": 7.28,
+        "z": 25.48,
+        "w": 4.16,
+        "d": 62.92
+      },
+      {
+        "id": "south-avenue",
+        "type": "path",
+        "x": -27.04,
+        "z": 57.46,
+        "w": 79.04,
+        "d": 4.68,
+        "label": "南部环校步道"
+      },
+      {
+        "id": "south-west-link",
+        "type": "path",
+        "x": -64.22,
+        "z": 49.66,
+        "w": 3.9,
+        "d": 19.5
+      },
+      {
+        "id": "taoli-path",
+        "type": "path",
+        "x": -70.07,
+        "z": 40.82,
+        "w": 20.02,
+        "d": 3.64
+      },
+      {
+        "id": "west-gate-path",
+        "type": "path",
+        "x": -84.5,
+        "z": -5.72,
+        "w": 17.68,
+        "d": 5.2
+      },
+      {
+        "id": "museum-path",
+        "type": "path",
+        "x": 47.06,
+        "z": -44.46,
+        "w": 4.16,
+        "d": 44.72
+      },
+      {
+        "id": "north-crosswalk",
+        "type": "path",
+        "x": 36.92,
+        "z": -23.92,
+        "w": 98.8,
+        "d": 4.68
+      },
+      {
+        "id": "north-east-walk",
+        "type": "path",
+        "x": 83.98,
+        "z": -16.51,
+        "w": 4.68,
+        "d": 90.74
+      },
+      {
+        "id": "north-south-walk",
+        "type": "path",
+        "x": 18.98,
+        "z": -7.41,
+        "w": 4.68,
+        "d": 86.06,
+        "label": "书香步道"
+      },
+      {
+        "id": "northwest-link",
+        "type": "path",
+        "x": -10.14,
+        "z": -16.77,
+        "w": 4.16,
+        "d": 28.34
+      },
+      {
+        "id": "northwest-crosswalk",
+        "type": "path",
+        "x": 4.42,
+        "z": -28.86,
+        "w": 33.28,
+        "d": 4.16
+      },
+      {
+        "id": "northwest-upper",
+        "type": "path",
+        "x": 3.25,
+        "z": -50.44,
+        "w": 30.68,
+        "d": 3.9
+      },
+      {
+        "id": "northwest-vertical",
+        "type": "path",
+        "x": -10.14,
+        "z": -39.65,
+        "w": 3.9,
+        "d": 25.48
+      },
+      {
+        "id": "green-court-west",
+        "type": "path",
+        "x": 42.64,
+        "z": 9.49,
+        "w": 4.16,
+        "d": 37.18
+      },
+      {
+        "id": "green-court-north",
+        "type": "path",
+        "x": 51.48,
+        "z": 4.94,
+        "w": 69.16,
+        "d": 4.16
+      },
+      {
+        "id": "green-court-south",
+        "type": "path",
+        "x": 51.48,
+        "z": 21.58,
+        "w": 69.16,
+        "d": 4.16
+      },
+      {
+        "id": "gate-one-path",
+        "type": "path",
+        "x": 87.23,
+        "z": 8.84,
+        "w": 18.98,
+        "d": 5.72,
+        "label": "一号门步道"
+      },
+      {
+        "id": "south-crosswalk",
+        "type": "path",
+        "x": 31.59,
+        "z": 50.7,
+        "w": 53.04,
+        "d": 4.42
+      },
+      {
+        "id": "south-inner-walk",
+        "type": "path",
+        "x": 35.88,
+        "z": 38.74,
+        "w": 4.16,
+        "d": 34.32
+      },
+      {
+        "id": "east-inner-walk",
+        "type": "path",
+        "x": 55.9,
+        "z": 40.43,
+        "w": 4.16,
+        "d": 36.66
+      },
+      {
+        "id": "east-south-link",
+        "type": "path",
+        "x": 70.85,
+        "z": 24.18,
+        "w": 34.06,
+        "d": 4.16
+      },
+      {
+        "id": "east-connector",
+        "type": "path",
+        "x": 77.22,
+        "z": 35.49,
+        "w": 3.9,
+        "d": 28.08
+      },
+      {
+        "id": "south-low-link",
+        "type": "path",
+        "x": 10.4,
+        "z": 56.81,
+        "w": 4.16,
+        "d": 16.38
+      },
+      {
+        "id": "south-low-walk",
+        "type": "path",
+        "x": 23.4,
+        "z": 64.48,
+        "w": 30.16,
+        "d": 4.16
+      },
+      {
+        "id": "five-gate-west",
+        "type": "path",
+        "x": 48.1,
+        "z": 64.48,
+        "w": 27.56,
+        "d": 4.16
+      },
+      {
+        "id": "five-gate-north",
+        "type": "path",
+        "x": 59.02,
+        "z": 57.59,
+        "w": 4.16,
+        "d": 17.94
+      },
+      {
+        "id": "five-gate-spur",
+        "type": "path",
+        "x": 61.1,
+        "z": 54.08,
+        "w": 14.56,
+        "d": 4.16
+      },
+      {
+        "id": "library-forecourt",
+        "type": "path",
+        "x": 74.1,
+        "z": 21.06,
+        "w": 18.2,
+        "d": 4.16
+      },
+      {
+        "id": "nanyang-forecourt",
+        "type": "path",
+        "x": -86.19,
+        "z": 21.84,
+        "w": 20.02,
+        "d": 4.16
+      },
+      {
+        "id": "western-north-walk",
+        "type": "path",
+        "x": -82.16,
+        "z": -13.65,
+        "w": 3.9,
+        "d": 21.84
+      },
+      {
+        "id": "canteen-front",
+        "type": "path",
+        "x": -65.78,
+        "z": -6.76,
+        "w": 37.18,
+        "d": 4.42
+      },
+      {
+        "id": "gate-one-square",
+        "type": "plaza",
+        "x": 88.66,
+        "z": 9.36,
+        "w": 7.8,
+        "d": 7.02,
+        "label": "一号门广场"
+      },
+      {
+        "id": "west-gate-square",
+        "type": "plaza",
+        "x": -88.4,
+        "z": -5.72,
+        "w": 8.32,
+        "d": 7.28,
+        "label": "三号门广场"
+      },
+      {
+        "id": "five-gate-square",
+        "type": "plaza",
+        "x": 59.02,
+        "z": 61.88,
+        "w": 9.62,
+        "d": 9.36,
+        "label": "五号门广场"
+      },
+      {
+        "id": "museum-square",
+        "type": "plaza",
+        "x": 59.02,
+        "z": -29.12,
+        "w": 18.46,
+        "d": 5.46,
+        "label": "钱学森图书馆前庭"
+      },
+      {
+        "id": "museum-square-link",
+        "type": "path",
+        "x": 59.02,
+        "z": -26.39,
+        "w": 3.9,
+        "d": 9.36
+      },
+      {
+        "id": "sport-model",
+        "type": "sports",
+        "x": -11.96,
+        "z": 32.24,
+        "w": 25.74,
+        "d": 43.94,
+        "label": "郑坚固体育中心"
+      },
+      {
+        "id": "qian-library-model",
+        "type": "building",
+        "x": 59.28,
+        "z": -52.0,
+        "w": 18.72,
+        "d": 17.68,
+        "label": "钱学森图书馆",
+        "recipe": "teaching-block",
+        "h": 8.5,
+        "floors": 3,
+        "tint": 10778717
+      },
+      {
+        "id": "qian-library-wing-model",
+        "type": "building",
+        "x": 66.3,
+        "z": -44.72,
+        "w": 7.8,
+        "d": 5.72,
+        "label": "钱学森图书馆附翼",
+        "recipe": "teaching-block",
+        "h": 6.4,
+        "floors": 2,
+        "tint": 10778717
+      },
+      {
+        "id": "tiesheng-model",
+        "type": "building",
+        "x": 56.68,
+        "z": -37.18,
+        "w": 10.66,
+        "d": 7.28,
+        "label": "铁生馆",
+        "recipe": "teaching-block",
+        "h": 5.3,
+        "floors": 2,
+        "tint": 12957343
+      },
+      {
+        "id": "bei-nine-model",
+        "type": "building",
+        "x": 37.96,
+        "z": -33.8,
+        "w": 11.44,
+        "d": 5.46,
+        "label": "北九楼",
+        "recipe": "teaching-block",
+        "h": 5.8,
+        "floors": 3,
+        "tint": 13747889
+      },
+      {
+        "id": "dong-twelve-model",
+        "type": "building",
+        "x": 38.22,
+        "z": -28.08,
+        "w": 10.92,
+        "d": 4.16,
+        "label": "东十二楼",
+        "recipe": "teaching-block",
+        "h": 5,
+        "floors": 2,
+        "tint": 13810083
+      },
+      {
+        "id": "engineering-model",
+        "type": "building",
+        "x": 19.5,
+        "z": -39.26,
+        "w": 10.92,
+        "d": 14.3,
+        "label": "工程馆",
+        "recipe": "teaching-block",
+        "h": 6.6,
+        "floors": 3,
+        "tint": 13416853
+      },
+      {
+        "id": "overseas-model",
+        "type": "building",
+        "x": -2.34,
+        "z": -41.08,
+        "w": 10.92,
+        "d": 12.22,
+        "label": "海外教育学院",
+        "recipe": "teaching-block",
+        "h": 6.8,
+        "floors": 3,
+        "tint": 14273464
+      },
+      {
+        "id": "north-unnamed-01-model",
+        "type": "building",
+        "x": 36.4,
+        "z": -45.5,
+        "w": 4.16,
+        "d": 6.5,
+        "label": "北部附属体块 01（名称待核实）",
+        "recipe": "academic",
+        "h": 4.5,
+        "floors": 2,
+        "tint": 13022364,
+        "showSign": false
+      },
+      {
+        "id": "north-unnamed-02-model",
+        "type": "building",
+        "x": 36.4,
+        "z": -38.74,
+        "w": 4.16,
+        "d": 4.16,
+        "label": "北部附属体块 02（名称待核实）",
+        "recipe": "academic",
+        "h": 4.1,
+        "floors": 2,
+        "tint": 13022364,
+        "showSign": false
+      },
+      {
+        "id": "north-unnamed-03-model",
+        "type": "building",
+        "x": -1.3,
+        "z": -16.38,
+        "w": 18.2,
+        "d": 10.14,
+        "label": "包兆龙图书馆",
+        "recipe": "teaching-block",
+        "h": 5.5,
+        "floors": 2,
+        "tint": 14209988
+      },
+      {
+        "id": "new-upper-model",
+        "type": "building",
+        "x": 32.24,
+        "z": -15.6,
+        "w": 20.54,
+        "d": 9.88,
+        "label": "新上院",
+        "recipe": "teaching-block",
+        "h": 6.6,
+        "floors": 3,
+        "tint": 12295560
+      },
+      {
+        "id": "new-upper-wing-model",
+        "type": "building",
+        "x": 35.62,
+        "z": -20.8,
+        "w": 11.7,
+        "d": 3.9,
+        "label": "新上院北翼",
+        "recipe": "teaching-block",
+        "h": 6.6,
+        "floors": 3,
+        "tint": 12295560
+      },
+      {
+        "id": "middle-hall-model",
+        "type": "building",
+        "x": 54.08,
+        "z": -12.48,
+        "w": 18.2,
+        "d": 7.02,
+        "label": "中院",
+        "recipe": "teaching-block",
+        "h": 6.96,
+        "floors": 3,
+        "tint": 12161142
+      },
+      {
+        "id": "ocean-lab-model",
+        "type": "building",
+        "x": 68.38,
+        "z": -20.02,
+        "w": 12.22,
+        "d": 9.62,
+        "label": "海洋工程实验楼",
+        "recipe": "teaching-block",
+        "h": 6.4,
+        "floors": 3,
+        "tint": 12958627
+      },
+      {
+        "id": "teacher-center-model",
+        "type": "building",
+        "x": 75.66,
+        "z": -3.9,
+        "w": 12.48,
+        "d": 11.18,
+        "label": "教师活动中心",
+        "recipe": "teaching-block",
+        "h": 5.2,
+        "floors": 2,
+        "tint": 13944236
+      },
+      {
+        "id": "old-library-model",
+        "type": "building",
+        "x": 72.8,
+        "z": 11.7,
+        "w": 11.44,
+        "d": 10.66,
+        "label": "老图书馆",
+        "recipe": "library",
+        "h": 7.8,
+        "floors": 3,
+        "tint": 14274228
+      },
+      {
+        "id": "south-two-model",
+        "type": "building",
+        "x": 66.3,
+        "z": 30.42,
+        "w": 13.78,
+        "d": 7.54,
+        "label": "南二楼",
+        "recipe": "teaching-block",
+        "h": 5.8,
+        "floors": 3,
+        "tint": 13810337
+      },
+      {
+        "id": "huigu-model",
+        "type": "building",
+        "x": 66.04,
+        "z": 41.34,
+        "w": 13.26,
+        "d": 8.58,
+        "label": "慧谷科技楼",
+        "recipe": "teaching-block",
+        "h": 7.1,
+        "floors": 3,
+        "tint": 12107177
+      },
+      {
+        "id": "haoran-model",
+        "type": "building",
+        "x": 45.5,
+        "z": 38.48,
+        "w": 13.78,
+        "d": 17.68,
+        "label": "浩然高科技大厦",
+        "recipe": "teaching-block",
+        "h": 20,
+        "floors": 8,
+        "tint": 11184537
+      },
+      {
+        "id": "teaching-three-model",
+        "type": "building",
+        "x": 22.62,
+        "z": 41.08,
+        "w": 20.8,
+        "d": 10.66,
+        "label": "教学三楼",
+        "recipe": "teaching-block",
+        "h": 7.1,
+        "floors": 3,
+        "tint": 13942434
+      },
+      {
+        "id": "high-voltage-model",
+        "type": "building",
+        "x": 22.88,
+        "z": 57.2,
+        "w": 15.34,
+        "d": 7.54,
+        "label": "高压实验室",
+        "recipe": "teaching-block",
+        "h": 5.2,
+        "floors": 2,
+        "tint": 12828072
+      },
+      {
+        "id": "new-building-model",
+        "type": "building",
+        "x": 12.74,
+        "z": 26.52,
+        "w": 10.4,
+        "d": 7.54,
+        "label": "新建楼",
+        "recipe": "teaching-block",
+        "h": 7.4,
+        "floors": 4,
+        "tint": 13745573
+      },
+      {
+        "id": "gym-model",
+        "type": "building",
+        "x": 14.56,
+        "z": 11.7,
+        "w": 9.1,
+        "d": 11.7,
+        "label": "体育馆",
+        "recipe": "teaching-block",
+        "h": 5.4,
+        "floors": 2,
+        "tint": 12628891
+      },
+      {
+        "id": "office-model",
+        "type": "building",
+        "x": 10.92,
+        "z": -0.52,
+        "w": 9.88,
+        "d": 4.16,
+        "label": "总办公厅",
+        "recipe": "teaching-block",
+        "h": 5.3,
+        "floors": 2,
+        "tint": 13284507
+      },
+      {
+        "id": "mechanical-model",
+        "type": "building",
+        "x": 2.6,
+        "z": 46.02,
+        "w": 3.38,
+        "d": 10.92,
+        "label": "机械动力楼",
+        "recipe": "academic",
+        "h": 5.8,
+        "floors": 3,
+        "tint": 12237992
+      },
+      {
+        "id": "wenzhi-model",
+        "type": "building",
+        "x": -38.22,
+        "z": 23.4,
+        "w": 13.52,
+        "d": 9.62,
+        "label": "文治堂",
+        "recipe": "teaching-block",
+        "h": 5.4,
+        "floors": 2,
+        "tint": 14009498
+      },
+      {
+        "id": "wenzhi-wing-model",
+        "type": "building",
+        "x": -38.22,
+        "z": 17.42,
+        "w": 7.28,
+        "d": 4.68,
+        "label": "文治堂后翼",
+        "recipe": "teaching-block",
+        "h": 5.4,
+        "floors": 2,
+        "tint": 14009498
+      },
+      {
+        "id": "second-canteen-model",
+        "type": "building",
+        "x": -38.74,
+        "z": 7.02,
+        "w": 15.34,
+        "d": 6.76,
+        "label": "第二食堂",
+        "recipe": "teaching-block",
+        "h": 4.5,
+        "floors": 2,
+        "tint": 13681322
+      },
+      {
+        "id": "teaching-one-model",
+        "type": "building",
+        "x": -45.5,
+        "z": 37.44,
+        "w": 28.08,
+        "d": 7.28,
+        "label": "教学一楼",
+        "recipe": "teaching-block",
+        "h": 6.1,
+        "floors": 3,
+        "tint": 13483935
+      },
+      {
+        "id": "teaching-one-wing-model",
+        "type": "building",
+        "x": -52.0,
+        "z": 45.5,
+        "w": 11.18,
+        "d": 8.84,
+        "label": "教学一楼西翼",
+        "recipe": "teaching-block",
+        "h": 6.1,
+        "floors": 3,
+        "tint": 13483935
+      },
+      {
+        "id": "taoli-model",
+        "type": "building",
+        "x": -72.02,
+        "z": 47.06,
+        "w": 9.62,
+        "d": 8.32,
+        "label": "桃李苑",
+        "recipe": "teaching-block",
+        "h": 6,
+        "floors": 3,
+        "tint": 13809566
+      },
+      {
+        "id": "nanyang-model",
+        "type": "building",
+        "x": -86.32,
+        "z": 11.7,
+        "w": 13.52,
+        "d": 11.96,
+        "label": "南洋大楼",
+        "recipe": "teaching-block",
+        "h": 8.2,
+        "floors": 4,
+        "tint": 12102040
+      },
+      {
+        "id": "graduate-canteen-model",
+        "type": "building",
+        "x": -66.56,
+        "z": -14.04,
+        "w": 17.94,
+        "d": 9.88,
+        "label": "研究生食堂",
+        "recipe": "teaching-block",
+        "h": 4.6,
+        "floors": 2,
+        "tint": 13090219
+      },
+      {
+        "id": "west-unnamed-01-model",
+        "type": "building",
+        "x": -66.82,
+        "z": 4.68,
+        "w": 16.38,
+        "d": 3.9,
+        "label": "第四宿舍",
+        "recipe": "teaching-block",
+        "h": 5.1,
+        "floors": 2,
+        "tint": 12893353
+      },
+      {
+        "id": "west-unnamed-02-model",
+        "type": "building",
+        "x": -66.56,
+        "z": 10.92,
+        "w": 16.38,
+        "d": 4.16,
+        "label": "励志楼",
+        "recipe": "teaching-block",
+        "h": 5.1,
+        "floors": 2,
+        "tint": 12893353
+      },
+      {
+        "id": "west-unnamed-03-model",
+        "type": "building",
+        "x": -66.56,
+        "z": 17.68,
+        "w": 16.12,
+        "d": 4.16,
+        "label": "第五宿舍",
+        "recipe": "teaching-block",
+        "h": 5.1,
+        "floors": 2,
+        "tint": 12893353
+      },
+      {
+        "id": "west-unnamed-04-model",
+        "type": "building",
+        "x": -66.56,
+        "z": 24.7,
+        "w": 16.12,
+        "d": 5.2,
+        "label": "第六宿舍",
+        "recipe": "teaching-block",
+        "h": 5.1,
+        "floors": 2,
+        "tint": 12893353
+      },
+      {
+        "id": "west-unnamed-05-model",
+        "type": "building",
+        "x": -53.56,
+        "z": -18.46,
+        "w": 4.94,
+        "d": 17.42,
+        "label": "西北附属体块（名称待核实）",
+        "recipe": "academic",
+        "h": 5.2,
+        "floors": 2,
+        "tint": 12893353,
+        "showSign": false
+      },
+      {
+        "id": "south-unnamed-01-model",
+        "type": "building",
+        "x": -37.44,
+        "z": 46.54,
+        "w": 5.98,
+        "d": 5.2,
+        "label": "教学一楼东侧附属体块（名称待核实）",
+        "recipe": "academic",
+        "h": 4.1,
+        "floors": 2,
+        "tint": 12893353,
+        "showSign": false
+      },
+      {
+        "id": "south-unnamed-02-model",
+        "type": "building",
+        "x": -32.24,
+        "z": 52.52,
+        "w": 6.5,
+        "d": 4.42,
+        "label": "教学一楼南侧附属体块（名称待核实）",
+        "recipe": "academic",
+        "h": 4.1,
+        "floors": 2,
+        "tint": 12893353,
+        "showSign": false
+      },
+      {
+        "id": "huashan-gate-model",
+        "type": "building",
+        "x": 89.96,
+        "z": 8.84,
+        "w": 9.88,
+        "d": 1.82,
+        "label": "上海交通大学",
+        "recipe": "ceremonial-gate",
+        "h": 4.5,
+        "rotation": 1.5707963267948966
+      },
+      {
+        "id": "gate-three-model",
+        "type": "building",
+        "x": -88.4,
+        "z": -5.72,
+        "w": 7.02,
+        "d": 1.82,
+        "label": "三号门",
+        "recipe": "small-gate",
+        "h": 4.5,
+        "rotation": -1.5707963267948966
+      },
+      {
+        "id": "gate-five-model",
+        "type": "building",
+        "x": 59.02,
+        "z": 59.28,
+        "w": 7.02,
+        "d": 1.82,
+        "label": "五号门",
+        "recipe": "small-gate",
+        "h": 4.5
+      },
+      {
+        "id": "huashan-gate-stop",
+        "type": "plaza",
+        "x": 85.28,
+        "z": 8.84,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "old-library-stop",
+        "type": "plaza",
+        "x": 72.8,
+        "z": 21.32,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "teacher-center-stop",
+        "type": "plaza",
+        "x": 75.92,
+        "z": 4.94,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "middle-hall-stop",
+        "type": "plaza",
+        "x": 54.08,
+        "z": -4.68,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "new-upper-stop",
+        "type": "plaza",
+        "x": 32.24,
+        "z": -4.68,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "ocean-lab-stop",
+        "type": "plaza",
+        "x": 83.98,
+        "z": -17.42,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "qian-library-stop",
+        "type": "plaza",
+        "x": 47.06,
+        "z": -51.48,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "tiesheng-stop",
+        "type": "plaza",
+        "x": 56.68,
+        "z": -29.12,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "engineering-stop",
+        "type": "plaza",
+        "x": 18.72,
+        "z": -28.86,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "graduate-canteen-stop",
+        "type": "plaza",
+        "x": -66.56,
+        "z": -4.68,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "gate-three-stop",
+        "type": "plaza",
+        "x": -83.98,
+        "z": -5.72,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "nanyang-stop",
+        "type": "plaza",
+        "x": -86.32,
+        "z": 21.84,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "second-canteen-stop",
+        "type": "plaza",
+        "x": -38.74,
+        "z": 12.48,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "wenzhi-stop",
+        "type": "plaza",
+        "x": -38.22,
+        "z": 30.68,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "teaching-one-stop",
+        "type": "plaza",
+        "x": -40.82,
+        "z": 42.38,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "taoli-stop",
+        "type": "plaza",
+        "x": -78.26,
+        "z": 47.06,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "new-building-stop",
+        "type": "plaza",
+        "x": 13.0,
+        "z": 32.76,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "teaching-three-stop",
+        "type": "plaza",
+        "x": 22.62,
+        "z": 50.7,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "haoran-stop",
+        "type": "plaza",
+        "x": 55.9,
+        "z": 38.48,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "high-voltage-stop",
+        "type": "plaza",
+        "x": 22.88,
+        "z": 64.48,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "gate-five-stop",
+        "type": "plaza",
+        "x": 59.02,
+        "z": 64.48,
+        "w": 3.64,
+        "d": 3.64
+      },
+      {
+        "id": "memory-stop-01",
+        "type": "plaza",
+        "x": 83.98,
+        "z": 12.48,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-02",
+        "type": "plaza",
+        "x": 76.96,
+        "z": 21.58,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-03",
+        "type": "plaza",
+        "x": 48.62,
+        "z": -4.68,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-04",
+        "type": "plaza",
+        "x": 47.06,
+        "z": -31.2,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-05",
+        "type": "plaza",
+        "x": 18.98,
+        "z": -24.7,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-06",
+        "type": "plaza",
+        "x": -53.04,
+        "z": -0.78,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-07",
+        "type": "plaza",
+        "x": -84.5,
+        "z": -5.72,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-08",
+        "type": "plaza",
+        "x": -27.3,
+        "z": 26.0,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-10",
+        "type": "plaza",
+        "x": -36.66,
+        "z": 57.46,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-11",
+        "type": "plaza",
+        "x": 55.9,
+        "z": 47.84,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "memory-stop-12",
+        "type": "plaza",
+        "x": 43.94,
+        "z": 64.48,
+        "w": 3.12,
+        "d": 3.12
+      },
+      {
+        "id": "main-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": -73.84,
+        "z": -2.6,
+        "dx": 153.66,
+        "dz": 0.0,
+        "count": 14
+      },
+      {
+        "id": "east-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": 86.58,
+        "z": -46.28,
+        "dx": 0.0,
+        "dz": 65.52,
+        "count": 8
+      },
+      {
+        "id": "sport-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": -25.22,
+        "z": 12.48,
+        "dx": 0.0,
+        "dz": 33.28,
+        "count": 5
+      },
+      {
+        "id": "south-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": -57.72,
+        "z": 60.58,
+        "dx": 57.2,
+        "dz": 0.0,
+        "count": 6
+      },
+      {
+        "id": "garden-benches",
+        "type": "prop-row",
+        "kind": "bench",
+        "x": 47.58,
+        "z": 2.34,
+        "dx": 26.0,
+        "dz": 0.0,
+        "count": 4
+      },
+      {
+        "id": "sixth-dorm-wing-model",
+        "type": "building",
+        "x": -72.8,
+        "z": 30.42,
+        "w": 5.2,
+        "d": 10.92,
+        "label": "第六宿舍侧翼",
+        "recipe": "teaching-block",
+        "h": 5.1,
+        "floors": 2,
+        "tint": 12893353,
+        "showSign": false
+      }
+    ]
+  }
+}

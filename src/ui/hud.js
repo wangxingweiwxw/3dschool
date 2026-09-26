@@ -1,3 +1,4 @@
+import {regionFootprint} from '../world/voxel.js';
 import { applyCampusIdentity,escapeHtml } from './campusIdentity.js';
 import { characters } from '../player/characters.js';
 import { bindMobileHud } from './mobileHud.js';
@@ -73,7 +74,7 @@ export function drawMap(canvas,game,large=false){
  for(const t of game.world.treeSpots){ctx.fillStyle=t.cherry?'#cca8a466':'#79996c65';ctx.beginPath();ctx.arc(px(t.x),pz(t.z),t.scale*w/mw,0,Math.PI*2);ctx.fill();}
  for(const r of game.campus.regions){
   if(!['path','plaza','road','sports','water','building'].includes(r.type))continue;
-  ctx.fillStyle=r.type==='road'?'#a4a596':r.type==='sports'?'#b7806a':r.type==='water'?'#93b9ab':r.type==='building'?'#acaa8e':'#f6efcf';const rw=(r.w||10)/mw*w,rd=(r.d||4)/md*h;
+  ctx.fillStyle=r.type==='road'?'#a4a596':r.type==='sports'?'#b7806a':r.type==='water'?'#93b9ab':r.type==='building'?'#acaa8e':'#f6efcf';const extent=regionFootprint(r),rw=extent.w/mw*w,rd=extent.d/md*h;
   if(r.type==='sports'){ctx.beginPath();ctx.ellipse(px(r.x),pz(r.z),rw/2,rd/2,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='#9fb784';ctx.beginPath();ctx.ellipse(px(r.x),pz(r.z),rw*.37,rd*.36,0,0,Math.PI*2);ctx.fill();continue;}
   ctx.fillRect(px(r.x)-rw/2,pz(r.z)-rd/2,rw,rd);
   if(r.type==='building'){ctx.strokeStyle='#858f72';ctx.lineWidth=large?1:.4;ctx.strokeRect(px(r.x)-rw/2,pz(r.z)-rd/2,rw,rd);}

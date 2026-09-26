@@ -1,3 +1,5 @@
+import { regionFootprint } from '../world/voxel.js';
+
 import { validateCampus } from '../world/validateCampus.js';
 
 const idPattern = /^[a-z0-9][a-z0-9-]{0,79}$/;
@@ -32,14 +34,19 @@ export function validateCampusPackage(payload) {
   for(const m of c.memories){point(m,'memory');text(m.title,'memory.title');text(m.text,'memory.text');}
   for(const r of c.regions){
     if(!regionTypes.has(r.type))fail(`尚未实现的区域类型 ${r.type}`);number(r.x,`${r.id}.x`);number(r.z,`${r.id}.z`);
-    if(r.rotation!==undefined&&r.rotation!==0)fail(`${r.id}：v1 不接受 rotation（视觉旋转与轴对齐碰撞不一致）`);
+    if(r.rotation!==undefined&&r.rotation!==0){
+      number(r.rotation,`${r.id}.rotation`,-Math.PI*2,Math.PI*2);
+      if(r.type!=='building'||!['ceremonial-gate','small-gate'].includes(r.recipe)||Math.abs(r.rotation/(Math.PI/2)-Math.round(r.rotation/(Math.PI/2)))>1e-8)
+        fail(`${r.id}：仅校门支持 90 度整数倍 rotation；其他配方仍为 0`);
+    }
+    if(r.showSign!==undefined&&typeof r.showSign!=='boolean')fail(`${r.id}.showSign 必须是布尔值`);
     if(r.type==='prop-row'){
       if(!['lamp','bench'].includes(r.kind))fail(`${r.id}.kind 需要 lamp / bench`);
       number(r.count,`${r.id}.count`,1,60);if(!Number.isInteger(r.count))fail('prop-row.count 必须是整数');
       number(r.dx??0,`${r.id}.dx`,-300,300);number(r.dz??0,`${r.id}.dz`,-300,300);
     }else{
       number(r.w,`${r.id}.w`,.5,300);number(r.d,`${r.id}.d`,.5,300);
-      if(Math.abs(r.x)+r.w/2>c.bounds.width/2||Math.abs(r.z)+r.d/2>c.bounds.depth/2)fail(`${r.id} 超出地图边界`);
+      const extent=regionFootprint(r);if(Math.abs(r.x)+extent.w/2>c.bounds.width/2+1e-8||Math.abs(r.z)+extent.d/2>c.bounds.depth/2+1e-8)fail(`${r.id} 超出地图边界`);
     }
     if(r.type==='building'){
       text(r.label,`${r.id}.label`);number(r.h,`${r.id}.h`,1,30);

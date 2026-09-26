@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {regionFootprint} from './voxel.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { makeTree } from './props.js';
 
@@ -17,7 +18,7 @@ export function pathTexture(){
 }
 export function plantGarden(root,campus,palette,registerOccluder=()=>{}){
  const rng=randomSeed(97),width=campus.bounds.width+12,depth=campus.bounds.depth+12;
- const occupied=(x,z,pad=0)=>campus.regions.some(r=>['path','plaza','road','sports','water','building'].includes(r.type)&&Math.abs(x-r.x)<(r.w||12)/2+pad&&Math.abs(z-r.z)<(r.d||8)/2+pad);
+ const occupied=(x,z,pad=0)=>campus.regions.some(r=>['path','plaza','road','sports','water','building'].includes(r.type)&&Math.abs(x-r.x)<regionFootprint(r).w/2+pad&&Math.abs(z-r.z)<regionFootprint(r).d/2+pad);
  const treeSpots=[];
  // Tall, layered greenery frames the campus; the paths and entrance stay clear.
  for(let i=0;i<1900;i++){

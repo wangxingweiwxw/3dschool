@@ -1,0 +1,6899 @@
+{
+  "format": "3dschool-campus",
+  "version": 1,
+  "source": {
+    "kind": "user-map-with-official-evidence",
+    "imageName": "华东师范大学.jpg",
+    "imageSize": [
+      1080,
+      773
+    ],
+    "mapDate": "2001-10 (printed in attachment)",
+    "school": "华东师范大学",
+    "campus": "中山北路校区（普陀校区）",
+    "imageSha256": "a0fa1602d5f537bcdb362c53543eb56cc63b61122f77cc2dafb37c776c5f968b",
+    "coordinateSystem": {
+      "type": "image-relative",
+      "transform": "x=(pixelX-370)*0.30; z=(pixelY-380)*0.30",
+      "orientation": "按图像上北下南近似，忽略指北针与图纸轴线的小角度差",
+      "metresPerGameUnit": null,
+      "scaleBarNote": "原图带150米比例尺，当前只保留相对布局；未将低清扫描图标定为测绘米制。"
+    },
+    "assumptions": [
+      "布局、楼名、宿舍号与师大二附中等机构标签以2001年10月附件为准，不声称还原2026年校区现状。",
+      "全图按照统一0.30游戏单位/像素缩放，北箭头与建筑轴线略有夹角，几何采用图像轴向近似。",
+      "建筑高度、楼层窗口、色彩与屋顶均为艺术化估测；地图功能色不直接当作真实外墙色。",
+      "图书馆官网服务页提到十楼，说明至少存在该楼层；本模型只表达较高体量，6排窗是视觉简化，不代表实测层数或高度。",
+      "办公楼参考校方红砖和三座楼群描述，当前配方使用平屋顶，未精确还原资料中的坡瓦屋顶。",
+      "所有rotation省略，适用于旧版v1导入器。东、西入口用开放式通道+南北两侧门岗表示，保持东西穿行，不冒充真实门楼立面。",
+      "水体由重叠矩形近似弯曲丽娃河及支流。桥位断开水体与水面碰撞，以铺装跨河通道保证可通行；不是架空桥结构，桥下无连续水面。",
+      "网球/篮球场为开放铺装运动区域，未制作专门球场线；主体育场与南体育场保留椭圆跑道。",
+      "南部教工住宅以图示条带/组团体块表达，不逐户编号；组团数字是建模内部编号，未显示墙面招牌。",
+      "两栋无法确认正式楼名的教学体块隐藏招牌，仅在来源清单中保留编号和用途推测；未虚构具体院系现址。",
+      "无水位、精确楼高和立面测量数据；树木、花卉、天鹅、记忆文案为游戏氛围设计。"
+    ],
+    "compatibility": {
+      "format": "3dschool-campus v1",
+      "rotationUsed": false,
+      "note": "使用原有配方与字段；校门开放式近似，避免旧版不接受rotation错误。实际旧版校验另行验证。"
+    },
+    "footprints": [
+      {
+        "regionId": "library-main",
+        "pixelCenter": [
+          427,
+          276
+        ],
+        "pixelFootprint": [
+          51,
+          19
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "library-east",
+        "pixelCenter": [
+          442,
+          238
+        ],
+        "pixelFootprint": [
+          19,
+          62
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "library-north",
+        "pixelCenter": [
+          422,
+          211
+        ],
+        "pixelFootprint": [
+          39,
+          15
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "library-connector",
+        "pixelCenter": [
+          424,
+          242
+        ],
+        "pixelFootprint": [
+          34,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "student-center",
+        "pixelCenter": [
+          413,
+          175
+        ],
+        "pixelFootprint": [
+          38,
+          26
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "student-center-north",
+        "pixelCenter": [
+          394,
+          149
+        ],
+        "pixelFootprint": [
+          27,
+          26
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "west-canteen",
+        "pixelCenter": [
+          242,
+          82
+        ],
+        "pixelFootprint": [
+          42,
+          51
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "west-classrooms",
+        "pixelCenter": [
+          195,
+          94
+        ],
+        "pixelFootprint": [
+          18,
+          49
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "qianfan",
+        "pixelCenter": [
+          468,
+          190
+        ],
+        "pixelFootprint": [
+          26,
+          20
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "northeast-lab",
+        "pixelCenter": [
+          462,
+          152
+        ],
+        "pixelFootprint": [
+          24,
+          40
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "north-technical",
+        "pixelCenter": [
+          419,
+          101
+        ],
+        "pixelFootprint": [
+          82,
+          14
+        ],
+        "nameStatus": "unresolved",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "huada",
+        "pixelCenter": [
+          422,
+          47
+        ],
+        "pixelFootprint": [
+          60,
+          19
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "printing",
+        "pixelCenter": [
+          512,
+          83
+        ],
+        "pixelFootprint": [
+          54,
+          21
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "jinshajiang-main",
+        "pixelCenter": [
+          529,
+          136
+        ],
+        "pixelFootprint": [
+          26,
+          85
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "jinshajiang-north",
+        "pixelCenter": [
+          504,
+          109
+        ],
+        "pixelFootprint": [
+          51,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "foreign-classrooms",
+        "pixelCenter": [
+          506,
+          174
+        ],
+        "pixelFootprint": [
+          42,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "east-dorm-seven",
+        "pixelCenter": [
+          541,
+          279
+        ],
+        "pixelFootprint": [
+          24,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "east-dorm-eight",
+        "pixelCenter": [
+          528,
+          301
+        ],
+        "pixelFootprint": [
+          56,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "east-dorm-nine",
+        "pixelCenter": [
+          511,
+          262
+        ],
+        "pixelFootprint": [
+          33,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "east-canteen",
+        "pixelCenter": [
+          594,
+          311
+        ],
+        "pixelFootprint": [
+          46,
+          42
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "wenshi",
+        "pixelCenter": [
+          596,
+          356
+        ],
+        "pixelFootprint": [
+          42,
+          18
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "auditorium",
+        "pixelCenter": [
+          543,
+          388
+        ],
+        "pixelFootprint": [
+          43,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "reading-room",
+        "pixelCenter": [
+          510,
+          387
+        ],
+        "pixelFootprint": [
+          17,
+          21
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "auditorium-rear",
+        "pixelCenter": [
+          534,
+          369
+        ],
+        "pixelFootprint": [
+          64,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "educational-building",
+        "pixelCenter": [
+          432,
+          333
+        ],
+        "pixelFootprint": [
+          55,
+          26
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "office-north",
+        "pixelCenter": [
+          429,
+          408
+        ],
+        "pixelFootprint": [
+          46,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "office-west",
+        "pixelCenter": [
+          409,
+          389
+        ],
+        "pixelFootprint": [
+          13,
+          31
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "office-east",
+        "pixelCenter": [
+          451,
+          389
+        ],
+        "pixelFootprint": [
+          13,
+          31
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "gym",
+        "pixelCenter": [
+          607,
+          487
+        ],
+        "pixelFootprint": [
+          69,
+          43
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "gym-south",
+        "pixelCenter": [
+          641,
+          515
+        ],
+        "pixelFootprint": [
+          45,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "sports-education",
+        "pixelCenter": [
+          599,
+          541
+        ],
+        "pixelFootprint": [
+          38,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "yifu",
+        "pixelCenter": [
+          542,
+          497
+        ],
+        "pixelFootprint": [
+          32,
+          18
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "yifu-west",
+        "pixelCenter": [
+          514,
+          496
+        ],
+        "pixelFootprint": [
+          30,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "wenfu",
+        "pixelCenter": [
+          539,
+          527
+        ],
+        "pixelFootprint": [
+          36,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "science-hall",
+        "pixelCenter": [
+          404,
+          479
+        ],
+        "pixelFootprint": [
+          28,
+          23
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "xiaojiao",
+        "pixelCenter": [
+          447,
+          502
+        ],
+        "pixelFootprint": [
+          36,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "humanities-nine",
+        "pixelCenter": [
+          449,
+          480
+        ],
+        "pixelFootprint": [
+          40,
+          15
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "education-science",
+        "pixelCenter": [
+          394,
+          518
+        ],
+        "pixelFootprint": [
+          31,
+          29
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "education-science-south",
+        "pixelCenter": [
+          394,
+          539
+        ],
+        "pixelFootprint": [
+          35,
+          15
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "modern-technology",
+        "pixelCenter": [
+          501,
+          560
+        ],
+        "pixelFootprint": [
+          69,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "kindergarten",
+        "pixelCenter": [
+          571,
+          567
+        ],
+        "pixelFootprint": [
+          27,
+          26
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "affiliated-east",
+        "pixelCenter": [
+          646,
+          567
+        ],
+        "pixelFootprint": [
+          24,
+          49
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "affiliated-east-south",
+        "pixelCenter": [
+          631,
+          591
+        ],
+        "pixelFootprint": [
+          53,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "science-complex",
+        "pixelCenter": [
+          199,
+          325
+        ],
+        "pixelFootprint": [
+          69,
+          28
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "science-complex-south",
+        "pixelCenter": [
+          195,
+          349
+        ],
+        "pixelFootprint": [
+          61,
+          19
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "lab-west-river",
+        "pixelCenter": [
+          341,
+          320
+        ],
+        "pixelFootprint": [
+          13,
+          46
+        ],
+        "nameStatus": "unresolved",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "biology",
+        "pixelCenter": [
+          212,
+          384
+        ],
+        "pixelFootprint": [
+          67,
+          15
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "biology-spine",
+        "pixelCenter": [
+          211,
+          415
+        ],
+        "pixelFootprint": [
+          17,
+          47
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "geography",
+        "pixelCenter": [
+          202,
+          466
+        ],
+        "pixelFootprint": [
+          57,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "geography-west",
+        "pixelCenter": [
+          159,
+          435
+        ],
+        "pixelFootprint": [
+          17,
+          59
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "chemistry",
+        "pixelCenter": [
+          299,
+          395
+        ],
+        "pixelFootprint": [
+          77,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "chemistry-wing",
+        "pixelCenter": [
+          328,
+          374
+        ],
+        "pixelFootprint": [
+          16,
+          26
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "chemistry-lab",
+        "pixelCenter": [
+          287,
+          362
+        ],
+        "pixelFootprint": [
+          31,
+          11
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "mathematics",
+        "pixelCenter": [
+          295,
+          471
+        ],
+        "pixelFootprint": [
+          61,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "computer",
+        "pixelCenter": [
+          291,
+          503
+        ],
+        "pixelFootprint": [
+          63,
+          24
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "physics",
+        "pixelCenter": [
+          261,
+          540
+        ],
+        "pixelFootprint": [
+          119,
+          20
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "physics-east",
+        "pixelCenter": [
+          309,
+          565
+        ],
+        "pixelFootprint": [
+          15,
+          33
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "physics-west",
+        "pixelCenter": [
+          245,
+          565
+        ],
+        "pixelFootprint": [
+          14,
+          30
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "estuary-lab",
+        "pixelCenter": [
+          203,
+          502
+        ],
+        "pixelFootprint": [
+          58,
+          18
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "nature-lab",
+        "pixelCenter": [
+          176,
+          491
+        ],
+        "pixelFootprint": [
+          15,
+          22
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "teachers-hotel",
+        "pixelCenter": [
+          421,
+          579
+        ],
+        "pixelFootprint": [
+          52,
+          22
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "union",
+        "pixelCenter": [
+          368,
+          624
+        ],
+        "pixelFootprint": [
+          19,
+          38
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "graduate-canteen",
+        "pixelCenter": [
+          221,
+          639
+        ],
+        "pixelFootprint": [
+          41,
+          31
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "exchange",
+        "pixelCenter": [
+          259,
+          710
+        ],
+        "pixelFootprint": [
+          39,
+          32
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "middle-school",
+        "pixelCenter": [
+          75,
+          654
+        ],
+        "pixelFootprint": [
+          29,
+          38
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "middle-school-south",
+        "pixelCenter": [
+          63,
+          748
+        ],
+        "pixelFootprint": [
+          44,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-six",
+        "pixelCenter": [
+          222,
+          165
+        ],
+        "pixelFootprint": [
+          49,
+          36
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-four",
+        "pixelCenter": [
+          200,
+          212
+        ],
+        "pixelFootprint": [
+          35,
+          29
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-five",
+        "pixelCenter": [
+          214,
+          260
+        ],
+        "pixelFootprint": [
+          59,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-three",
+        "pixelCenter": [
+          178,
+          272
+        ],
+        "pixelFootprint": [
+          13,
+          51
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-five-south",
+        "pixelCenter": [
+          217,
+          289
+        ],
+        "pixelFootprint": [
+          61,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-two",
+        "pixelCenter": [
+          310,
+          144
+        ],
+        "pixelFootprint": [
+          46,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-nineteen",
+        "pixelCenter": [
+          310,
+          119
+        ],
+        "pixelFootprint": [
+          46,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-twentyone",
+        "pixelCenter": [
+          310,
+          94
+        ],
+        "pixelFootprint": [
+          46,
+          14
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-seventeen",
+        "pixelCenter": [
+          269,
+          593
+        ],
+        "pixelFootprint": [
+          49,
+          18
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-sixteen",
+        "pixelCenter": [
+          278,
+          620
+        ],
+        "pixelFootprint": [
+          36,
+          22
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-thirteen",
+        "pixelCenter": [
+          274,
+          651
+        ],
+        "pixelFootprint": [
+          44,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "dorm-twelve",
+        "pixelCenter": [
+          263,
+          678
+        ],
+        "pixelFootprint": [
+          42,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-01",
+        "pixelCenter": [
+          360,
+          667
+        ],
+        "pixelFootprint": [
+          47,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-02",
+        "pixelCenter": [
+          359,
+          689
+        ],
+        "pixelFootprint": [
+          44,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-03",
+        "pixelCenter": [
+          354,
+          711
+        ],
+        "pixelFootprint": [
+          47,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-04",
+        "pixelCenter": [
+          350,
+          731
+        ],
+        "pixelFootprint": [
+          65,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-05",
+        "pixelCenter": [
+          411,
+          617
+        ],
+        "pixelFootprint": [
+          16,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-06",
+        "pixelCenter": [
+          411,
+          636
+        ],
+        "pixelFootprint": [
+          16,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-07",
+        "pixelCenter": [
+          409,
+          668
+        ],
+        "pixelFootprint": [
+          17,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-08",
+        "pixelCenter": [
+          409,
+          700
+        ],
+        "pixelFootprint": [
+          17,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-09",
+        "pixelCenter": [
+          409,
+          722
+        ],
+        "pixelFootprint": [
+          17,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-10",
+        "pixelCenter": [
+          438,
+          616
+        ],
+        "pixelFootprint": [
+          29,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-11",
+        "pixelCenter": [
+          438,
+          634
+        ],
+        "pixelFootprint": [
+          29,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-12",
+        "pixelCenter": [
+          438,
+          662
+        ],
+        "pixelFootprint": [
+          29,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-13",
+        "pixelCenter": [
+          438,
+          704
+        ],
+        "pixelFootprint": [
+          29,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-14",
+        "pixelCenter": [
+          438,
+          724
+        ],
+        "pixelFootprint": [
+          29,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-15",
+        "pixelCenter": [
+          482,
+          616
+        ],
+        "pixelFootprint": [
+          45,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-16",
+        "pixelCenter": [
+          482,
+          635
+        ],
+        "pixelFootprint": [
+          45,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-17",
+        "pixelCenter": [
+          482,
+          663
+        ],
+        "pixelFootprint": [
+          45,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-18",
+        "pixelCenter": [
+          482,
+          704
+        ],
+        "pixelFootprint": [
+          45,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-19",
+        "pixelCenter": [
+          482,
+          725
+        ],
+        "pixelFootprint": [
+          45,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-20",
+        "pixelCenter": [
+          537,
+          615
+        ],
+        "pixelFootprint": [
+          30,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-21",
+        "pixelCenter": [
+          536,
+          638
+        ],
+        "pixelFootprint": [
+          22,
+          15
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-22",
+        "pixelCenter": [
+          536,
+          665
+        ],
+        "pixelFootprint": [
+          28,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-23",
+        "pixelCenter": [
+          536,
+          711
+        ],
+        "pixelFootprint": [
+          29,
+          29
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-24",
+        "pixelCenter": [
+          581,
+          616
+        ],
+        "pixelFootprint": [
+          50,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-25",
+        "pixelCenter": [
+          581,
+          664
+        ],
+        "pixelFootprint": [
+          36,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-26",
+        "pixelCenter": [
+          581,
+          704
+        ],
+        "pixelFootprint": [
+          36,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-27",
+        "pixelCenter": [
+          653,
+          619
+        ],
+        "pixelFootprint": [
+          22,
+          16
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-28",
+        "pixelCenter": [
+          651,
+          649
+        ],
+        "pixelFootprint": [
+          22,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-29",
+        "pixelCenter": [
+          647,
+          674
+        ],
+        "pixelFootprint": [
+          21,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-30",
+        "pixelCenter": [
+          643,
+          701
+        ],
+        "pixelFootprint": [
+          21,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-31",
+        "pixelCenter": [
+          207,
+          665
+        ],
+        "pixelFootprint": [
+          62,
+          17
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-32",
+        "pixelCenter": [
+          197,
+          696
+        ],
+        "pixelFootprint": [
+          61,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "housing-33",
+        "pixelCenter": [
+          186,
+          718
+        ],
+        "pixelFootprint": [
+          64,
+          13
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "teaching-block"
+      },
+      {
+        "regionId": "main-entry-guard-1",
+        "pixelCenter": [
+          671,
+          423
+        ],
+        "pixelFootprint": [
+          12,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "academic"
+      },
+      {
+        "regionId": "main-entry-guard-3",
+        "pixelCenter": [
+          671,
+          451
+        ],
+        "pixelFootprint": [
+          12,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "academic"
+      },
+      {
+        "regionId": "west-entry-guard-1",
+        "pixelCenter": [
+          182,
+          120
+        ],
+        "pixelFootprint": [
+          12,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "academic"
+      },
+      {
+        "regionId": "west-entry-guard-3",
+        "pixelCenter": [
+          182,
+          148
+        ],
+        "pixelFootprint": [
+          12,
+          12
+        ],
+        "nameStatus": "map-read",
+        "heightStatus": "artistic-estimate",
+        "recipe": "academic"
+      }
+    ],
+    "modelingPlan": {
+      "mapBasis": "用户附件华东师范大学校园示意图，2001年10月；以中山北路老校区的河流、建筑、桥和道路相对位置为准。",
+      "inventory": [
+        {
+          "id": "liwa-head",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-head"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-upper",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-upper"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-central",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-central"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-south-upper",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-south-upper"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-south-mid",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-south-mid"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-south-bend",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-south-bend"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-lower",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-lower"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "liwa-tail",
+          "kind": "water",
+          "label": "丽娃河",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "liwa-tail"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "branch-upper",
+          "kind": "water",
+          "label": "丽娃河支流与荷花池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "branch-upper"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "branch-middle",
+          "kind": "water",
+          "label": "丽娃河支流与荷花池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "branch-middle"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "branch-lower",
+          "kind": "water",
+          "label": "丽娃河支流与荷花池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "branch-lower"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "lotus-west",
+          "kind": "water",
+          "label": "丽娃河支流与荷花池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "lotus-west"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "lotus-east",
+          "kind": "water",
+          "label": "丽娃河支流与荷花池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "lotus-east"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "swimming-pool",
+          "kind": "water",
+          "label": "游泳池",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "swimming-pool"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "central-bridge",
+          "kind": "crossing",
+          "label": "丽娃河中央跨河通道",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "central-bridge"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "north-bridge-deck",
+          "kind": "crossing",
+          "label": "丽娃河北段跨河通道",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "north-bridge-deck"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "south-bridge-deck",
+          "kind": "crossing",
+          "label": "丽娃河南段跨河通道",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "south-bridge-deck"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "entry-plaza",
+          "kind": "plaza",
+          "label": "中山北路入口",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "entry-plaza"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "daxia-square",
+          "kind": "plaza",
+          "label": "大桥东侧广场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "daxia-square"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "west-square",
+          "kind": "plaza",
+          "label": "毛主席像前广场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-square"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "library-main",
+          "kind": "building",
+          "label": "图书馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "library-main"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "library-east",
+          "kind": "building",
+          "label": "图书馆东翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "library-east"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "library-north",
+          "kind": "building",
+          "label": "图书馆北翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "library-north"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "library-connector",
+          "kind": "building",
+          "label": "图书馆中部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "library-connector"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "student-center",
+          "kind": "building",
+          "label": "大学生中心",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "student-center"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "student-center-north",
+          "kind": "building",
+          "label": "大学生中心北翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "student-center-north"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "west-canteen",
+          "kind": "building",
+          "label": "河西食堂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-canteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "west-classrooms",
+          "kind": "building",
+          "label": "河西教室",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-classrooms"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "qianfan",
+          "kind": "building",
+          "label": "千帆楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "qianfan"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "northeast-lab",
+          "kind": "building",
+          "label": "教学楼（图示艺术教育区）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "northeast-lab"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "north-technical",
+          "kind": "building",
+          "label": "北部教学楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "north-technical"
+          ],
+          "basis": "user-map",
+          "uncertaintyReason": "原图为部门编号，未找到与2001年轮廓唯一对应的正式楼名。"
+        },
+        {
+          "id": "huada",
+          "kind": "building",
+          "label": "华大楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "huada"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "printing",
+          "kind": "building",
+          "label": "印刷厂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "printing"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "jinshajiang-main",
+          "kind": "building",
+          "label": "金沙江教学楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "jinshajiang-main"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "jinshajiang-north",
+          "kind": "building",
+          "label": "金沙江教学楼北翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "jinshajiang-north"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "foreign-classrooms",
+          "kind": "building",
+          "label": "外语教学楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "foreign-classrooms"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "east-dorm-seven",
+          "kind": "building",
+          "label": "学生宿舍7号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "east-dorm-seven"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "east-dorm-eight",
+          "kind": "building",
+          "label": "学生宿舍8号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "east-dorm-eight"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "east-dorm-nine",
+          "kind": "building",
+          "label": "学生宿舍9号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "east-dorm-nine"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "east-canteen",
+          "kind": "building",
+          "label": "河东食堂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "east-canteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "wenshi",
+          "kind": "building",
+          "label": "文史楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "wenshi"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "auditorium",
+          "kind": "building",
+          "label": "大礼堂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "auditorium"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "reading-room",
+          "kind": "building",
+          "label": "阅览楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "reading-room"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "auditorium-rear",
+          "kind": "building",
+          "label": "大礼堂后部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "auditorium-rear"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "educational-building",
+          "kind": "building",
+          "label": "田家炳教育书院",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "educational-building"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "office-north",
+          "kind": "building",
+          "label": "办公楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "office-north"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "office-west",
+          "kind": "building",
+          "label": "办公楼西楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "office-west"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "office-east",
+          "kind": "building",
+          "label": "办公楼东楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "office-east"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "gym",
+          "kind": "building",
+          "label": "体育馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "gym"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "gym-south",
+          "kind": "building",
+          "label": "体育馆南部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "gym-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "sports-education",
+          "kind": "building",
+          "label": "体育教学楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "sports-education"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "yifu",
+          "kind": "building",
+          "label": "逸夫大楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "yifu"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "yifu-west",
+          "kind": "building",
+          "label": "逸夫大楼西翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "yifu-west"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "wenfu",
+          "kind": "building",
+          "label": "文附楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "wenfu"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "science-hall",
+          "kind": "building",
+          "label": "科学会堂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "science-hall"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xiaojiao",
+          "kind": "building",
+          "label": "小教楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xiaojiao"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "humanities-nine",
+          "kind": "building",
+          "label": "河东教学楼（图示9号）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "humanities-nine"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "education-science",
+          "kind": "building",
+          "label": "教育科学学院教学楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "education-science"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "education-science-south",
+          "kind": "building",
+          "label": "教育科学学院南部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "education-science-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "modern-technology",
+          "kind": "building",
+          "label": "现代教育技术楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "modern-technology"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "kindergarten",
+          "kind": "building",
+          "label": "幼儿园（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "kindergarten"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "affiliated-east",
+          "kind": "building",
+          "label": "师大附小教学楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "affiliated-east"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "affiliated-east-south",
+          "kind": "building",
+          "label": "师大附小南部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "affiliated-east-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "science-complex",
+          "kind": "building",
+          "label": "理科综合楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "science-complex"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "science-complex-south",
+          "kind": "building",
+          "label": "理科综合楼南部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "science-complex-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "lab-west-river",
+          "kind": "building",
+          "label": "河西实验教学楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "lab-west-river"
+          ],
+          "basis": "user-map",
+          "uncertaintyReason": "图示仅有用途/系所编号，无法确认旧楼正式名称。"
+        },
+        {
+          "id": "biology",
+          "kind": "building",
+          "label": "生物馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "biology"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "biology-spine",
+          "kind": "building",
+          "label": "生物馆附翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "biology-spine"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "geography",
+          "kind": "building",
+          "label": "地理馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "geography"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "geography-west",
+          "kind": "building",
+          "label": "地理馆西翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "geography-west"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "chemistry",
+          "kind": "building",
+          "label": "化学馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "chemistry"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "chemistry-wing",
+          "kind": "building",
+          "label": "化学馆东翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "chemistry-wing"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "chemistry-lab",
+          "kind": "building",
+          "label": "化学馆北部",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "chemistry-lab"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "mathematics",
+          "kind": "building",
+          "label": "数学馆",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "mathematics"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "computer",
+          "kind": "building",
+          "label": "计算机楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "computer"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "physics",
+          "kind": "building",
+          "label": "物理楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "physics"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "physics-east",
+          "kind": "building",
+          "label": "物理楼东翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "physics-east"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "physics-west",
+          "kind": "building",
+          "label": "物理楼西翼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "physics-west"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "estuary-lab",
+          "kind": "building",
+          "label": "河口海岸研究楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "estuary-lab"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "nature-lab",
+          "kind": "building",
+          "label": "自然地理实验楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "nature-lab"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "teachers-hotel",
+          "kind": "building",
+          "label": "教师公寓（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "teachers-hotel"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "union",
+          "kind": "building",
+          "label": "工会",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "union"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "graduate-canteen",
+          "kind": "building",
+          "label": "研究生食堂",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "graduate-canteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "exchange",
+          "kind": "building",
+          "label": "国际交流服务中心",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "exchange"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "middle-school",
+          "kind": "building",
+          "label": "师大二附中（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "middle-school"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "middle-school-south",
+          "kind": "building",
+          "label": "师大二附中南楼（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "middle-school-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-six",
+          "kind": "building",
+          "label": "学生宿舍6号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-six"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-four",
+          "kind": "building",
+          "label": "学生宿舍4号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-four"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-five",
+          "kind": "building",
+          "label": "学生宿舍5号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-five"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-three",
+          "kind": "building",
+          "label": "学生宿舍3号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-three"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-five-south",
+          "kind": "building",
+          "label": "学生宿舍5号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-five-south"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-two",
+          "kind": "building",
+          "label": "学生宿舍2号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-two"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-nineteen",
+          "kind": "building",
+          "label": "学生宿舍19号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-nineteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-twentyone",
+          "kind": "building",
+          "label": "学生宿舍21号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-twentyone"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-seventeen",
+          "kind": "building",
+          "label": "学生宿舍17号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-seventeen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-sixteen",
+          "kind": "building",
+          "label": "学生宿舍16号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-sixteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-thirteen",
+          "kind": "building",
+          "label": "学生宿舍13号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-thirteen"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "dorm-twelve",
+          "kind": "building",
+          "label": "学生宿舍12号（图示）",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "dorm-twelve"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-01",
+          "kind": "building",
+          "label": "教工住宅组团 01",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-01"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-02",
+          "kind": "building",
+          "label": "教工住宅组团 02",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-02"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-03",
+          "kind": "building",
+          "label": "教工住宅组团 03",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-03"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-04",
+          "kind": "building",
+          "label": "教工住宅组团 04",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-04"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-05",
+          "kind": "building",
+          "label": "教工住宅组团 05",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-05"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-06",
+          "kind": "building",
+          "label": "教工住宅组团 06",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-06"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-07",
+          "kind": "building",
+          "label": "教工住宅组团 07",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-07"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-08",
+          "kind": "building",
+          "label": "教工住宅组团 08",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-08"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-09",
+          "kind": "building",
+          "label": "教工住宅组团 09",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-09"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-10",
+          "kind": "building",
+          "label": "教工住宅组团 10",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-10"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-11",
+          "kind": "building",
+          "label": "教工住宅组团 11",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-11"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-12",
+          "kind": "building",
+          "label": "教工住宅组团 12",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-12"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-13",
+          "kind": "building",
+          "label": "教工住宅组团 13",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-13"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-14",
+          "kind": "building",
+          "label": "教工住宅组团 14",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-14"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-15",
+          "kind": "building",
+          "label": "教工住宅组团 15",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-15"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-16",
+          "kind": "building",
+          "label": "教工住宅组团 16",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-16"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-17",
+          "kind": "building",
+          "label": "教工住宅组团 17",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-17"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-18",
+          "kind": "building",
+          "label": "教工住宅组团 18",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-18"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-19",
+          "kind": "building",
+          "label": "教工住宅组团 19",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-19"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-20",
+          "kind": "building",
+          "label": "教工住宅组团 20",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-20"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-21",
+          "kind": "building",
+          "label": "教工住宅组团 21",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-21"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-22",
+          "kind": "building",
+          "label": "教工住宅组团 22",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-22"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-23",
+          "kind": "building",
+          "label": "教工住宅组团 23",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-23"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-24",
+          "kind": "building",
+          "label": "教工住宅组团 24",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-24"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-25",
+          "kind": "building",
+          "label": "教工住宅组团 25",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-25"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-26",
+          "kind": "building",
+          "label": "教工住宅组团 26",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-26"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-27",
+          "kind": "building",
+          "label": "教工住宅组团 27",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-27"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-28",
+          "kind": "building",
+          "label": "教工住宅组团 28",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-28"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-29",
+          "kind": "building",
+          "label": "教工住宅组团 29",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-29"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-30",
+          "kind": "building",
+          "label": "教工住宅组团 30",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-30"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-31",
+          "kind": "building",
+          "label": "教工住宅组团 31",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-31"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-32",
+          "kind": "building",
+          "label": "教工住宅组团 32",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-32"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "housing-33",
+          "kind": "building",
+          "label": "教工住宅组团 33",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "housing-33"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "main-entry-guard-1",
+          "kind": "gate",
+          "label": "中山北路正门门岗",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "main-entry-guard-1"
+          ],
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "附件左右两侧校界与门内道路，开放入口+南北两侧门岗"
+          }
+        },
+        {
+          "id": "main-entry-guard-3",
+          "kind": "gate",
+          "label": "中山北路正门门岗",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "main-entry-guard-3"
+          ],
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "附件左右两侧校界与门内道路，开放入口+南北两侧门岗"
+          }
+        },
+        {
+          "id": "main-entry-sign",
+          "kind": "sign",
+          "label": "中山北路正门",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "main-entry-sign"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "west-entry-guard-1",
+          "kind": "gate",
+          "label": "枣阳路后门门岗",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-entry-guard-1"
+          ],
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "附件左右两侧校界与门内道路，开放入口+南北两侧门岗"
+          }
+        },
+        {
+          "id": "west-entry-guard-3",
+          "kind": "gate",
+          "label": "枣阳路后门门岗",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-entry-guard-3"
+          ],
+          "basis": "user-map",
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "附件左右两侧校界与门内道路，开放入口+南北两侧门岗"
+          }
+        },
+        {
+          "id": "west-entry-sign",
+          "kind": "sign",
+          "label": "枣阳路后门",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-entry-sign"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "main-sports",
+          "kind": "sports",
+          "label": "主田径场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "main-sports"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "south-sports",
+          "kind": "sports",
+          "label": "南部运动场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "south-sports"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "tennis",
+          "kind": "court",
+          "label": "网球场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "tennis"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "west-court",
+          "kind": "court",
+          "label": "河西篮球场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "west-court"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "east-court",
+          "kind": "court",
+          "label": "河东篮球场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "east-court"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "clipped-north-housing",
+          "kind": "housing",
+          "label": "上边缘被截断的住宅区",
+          "regionIds": [],
+          "omissionReason": "附件上边缘缺少完整轮廓，不推测延伸范围。"
+        },
+        {
+          "id": "minor-service-sheds",
+          "kind": "building",
+          "label": "零散后勤设备用房",
+          "regionIds": [],
+          "omissionReason": "部分低清小体块合并为邻接楼的附翼或略去，不影响主体道路和校园分区。"
+        }
+      ],
+      "scope": "图示两岸学术生活区、三条跨河通道、南住宅街区和南部运动场；不建图例、道路文字、地图标题和校外背景。"
+    },
+    "researchLog": [
+      {
+        "status": "read",
+        "url": "https://jjc.ecnu.edu.cn/5f/2e/c19424a220974/page.htm",
+        "queries": [
+          "site:ecnu.edu.cn 中山北路校区 办公楼"
+        ],
+        "result": "采用三楼群、红砖清水墙风格；不推定高度。文章页面日期与正文年份不同，未用于年代考证。"
+      },
+      {
+        "status": "read",
+        "url": "https://museum.ecnu.edu.cn/_s362/15042/list.psp",
+        "queries": [
+          "site:ecnu.edu.cn 中山北路校区 图书馆"
+        ],
+        "result": "服务页说明馆舍位于图书馆十楼；仅采用较高建筑的体量提示，不断定总层数。"
+      },
+      {
+        "status": "read",
+        "url": "https://lxs.ecnu.edu.cn/cn/accommodation/list.htm",
+        "result": "官方确认国际交流服务中心邻近南操场，用以核对南区身份和邻接关系；不采用当前住宿政策。"
+      },
+      {
+        "status": "read",
+        "url": "https://eoffice.ecnu.edu.cn/xsdh/",
+        "result": "官方校内导航确认中北校区、中山北路校门；不把未声明坐标系的网页坐标套入扫描图。"
+      },
+      {
+        "status": "unavailable",
+        "url": "https://3dmap.ecnu.edu.cn/",
+        "result": "页面读取超时；未读取或提取其中三维模型。"
+      },
+      {
+        "status": "unresolved",
+        "regionIds": [
+          "north-technical",
+          "lab-west-river"
+        ],
+        "result": "精确楼名检索未能可靠对应2001年图示轮廓，保留为隐藏名称的体块。"
+      }
+    ],
+    "evidenceMatches": [
+      {
+        "regionId": "office-north",
+        "relatedRegions": [
+          "office-west",
+          "office-east"
+        ],
+        "featureId": "official:ecnu-office",
+        "fields": [
+          "style",
+          "massing"
+        ],
+        "modelTint": "#a87960",
+        "reason": "结合原图办公楼位置、三组分体与校方红砖描述；坡屋顶仍未复原。"
+      },
+      {
+        "regionId": "library-main",
+        "featureId": "official:ecnu-library",
+        "fields": [
+          "massing"
+        ],
+        "modelHeight": 13.2,
+        "reason": "官网存在十楼的描述指导较高体量；未把楼层号当总层数，外观为估测。"
+      },
+      {
+        "regionId": "exchange",
+        "featureId": "official:ecnu-exchange",
+        "fields": [
+          "identity"
+        ],
+        "reason": "地图南部位置与官网南操场邻接关系相符；保留附件年代布局。"
+      }
+    ],
+    "externalSources": [
+      {
+        "id": "ecnu-office",
+        "provider": "official-school-website",
+        "url": "https://jjc.ecnu.edu.cn/5f/2e/c19424a220974/page.htm",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "华东师范大学基建处：中北校区办公楼",
+        "license": "Facts summarized; original images and articles not redistributed"
+      },
+      {
+        "id": "ecnu-library",
+        "provider": "official-school-website",
+        "url": "https://museum.ecnu.edu.cn/_s362/15042/list.psp",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "华东师范大学博物馆：服务指南",
+        "license": "Facts summarized; original images and articles not redistributed"
+      },
+      {
+        "id": "ecnu-exchange",
+        "provider": "official-school-website",
+        "url": "https://lxs.ecnu.edu.cn/cn/accommodation/list.htm",
+        "retrievedAt": "2026-09-25",
+        "crs": null,
+        "attribution": "华东师范大学国际教育管理中心：住宿（仅位置邻接）",
+        "license": "Facts summarized; original images and articles not redistributed"
+      }
+    ],
+    "evidenceNote": "Evidence is supplied for traceability. Applied fields and modeling decisions are recorded by the author in source.evidenceMatches; no automatic geometry overwrite."
+  },
+  "campus": {
+    "id": "ecnu-zhongshan-2001-v1",
+    "name": "华东师范大学·中山北路校区",
+    "bounds": {
+      "width": 228,
+      "depth": 252
+    },
+    "mapBounds": {
+      "width": 240,
+      "depth": 264
+    },
+    "spawn": {
+      "x": 91.5,
+      "z": 17.1,
+      "yaw": -1.5707963267948966
+    },
+    "intro": {
+      "x": 0,
+      "z": 0,
+      "size": 180
+    },
+    "districts": [
+      {
+        "id": "northwest",
+        "name": "河西·运动与生活",
+        "x": -39.0,
+        "z": -54.6,
+        "w": 54.0,
+        "d": 94.8,
+        "tint": "#d2dabd"
+      },
+      {
+        "id": "northeast",
+        "name": "河东·书香与学术",
+        "x": 35.1,
+        "z": -45.9,
+        "w": 61.8,
+        "d": 106.2,
+        "tint": "#d4cdb6"
+      },
+      {
+        "id": "west",
+        "name": "河西·理科楼群",
+        "x": -39.0,
+        "z": 29.4,
+        "w": 58.5,
+        "d": 82.5,
+        "tint": "#cfceb6"
+      },
+      {
+        "id": "east",
+        "name": "河东·人文与水岸",
+        "x": 48.3,
+        "z": 29.4,
+        "w": 84.3,
+        "d": 73.5,
+        "tint": "#c3d4b5"
+      },
+      {
+        "id": "south",
+        "name": "南区·师大生活",
+        "x": 15.9,
+        "z": 87.0,
+        "w": 147.0,
+        "d": 50.4,
+        "tint": "#d8ccbf"
+      }
+    ],
+    "crossings": [],
+    "swans": [
+      {
+        "x": -2.1,
+        "z": -45.9
+      },
+      {
+        "x": -0.3,
+        "z": -5.1
+      },
+      {
+        "x": -3.6,
+        "z": 30.0
+      },
+      {
+        "x": -18.3,
+        "z": 74.4
+      }
+    ],
+    "tasks": [
+      {
+        "id": "main-entry",
+        "label": "探索中山北路正门",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "office-north",
+        "label": "探索办公楼",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "library-main",
+        "label": "探索图书馆",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "student-center",
+        "label": "探索大学生中心",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "qianfan",
+        "label": "探索千帆楼",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "jinshajiang-main",
+        "label": "探索金沙江教学楼",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "huada",
+        "label": "探索华大楼",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "west-canteen",
+        "label": "探索河西食堂",
+        "icon": "⌂",
+        "zone": "northwest"
+      },
+      {
+        "id": "west-entry",
+        "label": "探索枣阳路后门",
+        "icon": "⌂",
+        "zone": "northwest"
+      },
+      {
+        "id": "main-sports",
+        "label": "探索主田径场",
+        "icon": "⌂",
+        "zone": "northwest"
+      },
+      {
+        "id": "science-complex",
+        "label": "探索理科综合楼",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "biology",
+        "label": "探索生物馆",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "chemistry",
+        "label": "探索化学馆",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "geography",
+        "label": "探索地理馆",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "mathematics",
+        "label": "探索数学馆",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "computer",
+        "label": "探索计算机楼",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "physics",
+        "label": "探索物理楼",
+        "icon": "⌂",
+        "zone": "west"
+      },
+      {
+        "id": "science-hall",
+        "label": "探索科学会堂",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "yifu",
+        "label": "探索逸夫大楼",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "wenfu",
+        "label": "探索文附楼",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "gym",
+        "label": "探索体育馆",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "auditorium",
+        "label": "探索大礼堂",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "wenshi",
+        "label": "探索文史楼",
+        "icon": "⌂",
+        "zone": "northeast"
+      },
+      {
+        "id": "graduate-canteen",
+        "label": "探索研究生食堂",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "exchange",
+        "label": "探索国际交流服务中心",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "union",
+        "label": "探索工会",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "south-sports",
+        "label": "探索南部运动场",
+        "icon": "⌂",
+        "zone": "south"
+      },
+      {
+        "id": "liwa-central-bridge",
+        "label": "漫步丽娃河中央桥",
+        "icon": "≈",
+        "zone": "east"
+      },
+      {
+        "id": "liwa-north-bridge",
+        "label": "漫步丽娃河北段桥",
+        "icon": "≈",
+        "zone": "northwest"
+      },
+      {
+        "id": "liwa-south-bridge",
+        "label": "漫步丽娃河南段桥",
+        "icon": "≈",
+        "zone": "south"
+      },
+      {
+        "id": "lotus-lakeside",
+        "label": "漫步荷花池畔",
+        "icon": "≈",
+        "zone": "east"
+      },
+      {
+        "id": "memories",
+        "label": "收集十六枚丽娃记忆",
+        "icon": "✦",
+        "zone": "all"
+      }
+    ],
+    "landmarks": [
+      {
+        "id": "main-entry",
+        "taskId": "main-entry",
+        "zone": "east",
+        "title": "中山北路正门",
+        "quote": "从中山北路走进校园",
+        "speech": "这里是附件旧地图中的中山北路正门。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 90.3,
+        "z": 17.1,
+        "labelY": 6,
+        "approach": {
+          "x": 86.7,
+          "z": 17.1
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "office-north",
+        "taskId": "office-north",
+        "zone": "east",
+        "title": "办公楼",
+        "quote": "红砖楼群与大夏记忆",
+        "speech": "校方资料记载，办公楼群采用红砖清水墙，东、西、北三座楼围合布置。这里用红砖色体块表达布局，屋顶与细节仍为简化。",
+        "x": 17.7,
+        "z": 8.4,
+        "labelY": 7.3,
+        "approach": {
+          "x": 17.7,
+          "z": 15.0
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "library-main",
+        "taskId": "library-main",
+        "zone": "northeast",
+        "title": "图书馆",
+        "quote": "丽娃河畔的书香",
+        "speech": "这里是附件旧地图中的图书馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 17.1,
+        "z": -31.2,
+        "labelY": 15.2,
+        "approach": {
+          "x": 16.2,
+          "z": -23.4
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "student-center",
+        "taskId": "student-center",
+        "zone": "northeast",
+        "title": "大学生中心",
+        "quote": "校园生活的热闹一角",
+        "speech": "这里是附件旧地图中的大学生中心。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 12.9,
+        "z": -61.5,
+        "labelY": 7,
+        "approach": {
+          "x": 14.4,
+          "z": -55.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "qianfan",
+        "taskId": "qianfan",
+        "zone": "northeast",
+        "title": "千帆楼",
+        "quote": "沿着河东步道探索",
+        "speech": "这里是附件旧地图中的千帆楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 29.4,
+        "z": -57.0,
+        "labelY": 9.2,
+        "approach": {
+          "x": 29.1,
+          "z": -51.3
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "jinshajiang-main",
+        "taskId": "jinshajiang-main",
+        "zone": "northeast",
+        "title": "金沙江教学楼",
+        "quote": "北部教学区的一站",
+        "speech": "这里是附件旧地图中的金沙江教学楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 47.7,
+        "z": -73.2,
+        "labelY": 9.8,
+        "approach": {
+          "x": 55.2,
+          "z": -66.3
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "huada",
+        "taskId": "huada",
+        "zone": "northeast",
+        "title": "华大楼",
+        "quote": "走向金沙江路一侧",
+        "speech": "这里是附件旧地图中的华大楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 15.6,
+        "z": -99.9,
+        "labelY": 7,
+        "approach": {
+          "x": 15.0,
+          "z": -91.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "west-canteen",
+        "taskId": "west-canteen",
+        "zone": "northwest",
+        "title": "河西食堂",
+        "quote": "河西生活区的烟火气",
+        "speech": "这里是附件旧地图中的河西食堂。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -38.4,
+        "z": -89.4,
+        "labelY": 6.2,
+        "approach": {
+          "x": -38.4,
+          "z": -76.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "west-entry",
+        "taskId": "west-entry",
+        "zone": "northwest",
+        "title": "枣阳路后门",
+        "quote": "校园西侧的出入口",
+        "speech": "这里是附件旧地图中的枣阳路后门。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -56.4,
+        "z": -73.8,
+        "labelY": 6,
+        "approach": {
+          "x": -51.3,
+          "z": -74.4
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "main-sports",
+        "taskId": "main-sports",
+        "zone": "northwest",
+        "title": "主田径场",
+        "quote": "绕着跑道走一圈",
+        "speech": "这里是附件旧地图中的主田径场。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -21.3,
+        "z": -31.8,
+        "labelY": 4,
+        "approach": {
+          "x": -32.1,
+          "z": -24.0
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "science-complex",
+        "taskId": "science-complex",
+        "zone": "west",
+        "title": "理科综合楼",
+        "quote": "河西理科楼群",
+        "speech": "这里是附件旧地图中的理科综合楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -51.3,
+        "z": -16.5,
+        "labelY": 16.5,
+        "approach": {
+          "x": -50.4,
+          "z": -3.6
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "biology",
+        "taskId": "biology",
+        "zone": "west",
+        "title": "生物馆",
+        "quote": "绿荫中的课堂",
+        "speech": "这里是附件旧地图中的生物馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -47.4,
+        "z": 1.2,
+        "labelY": 8.5,
+        "approach": {
+          "x": -41.1,
+          "z": 7.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "chemistry",
+        "taskId": "chemistry",
+        "zone": "west",
+        "title": "化学馆",
+        "quote": "从实验楼走向河岸",
+        "speech": "这里是附件旧地图中的化学馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -21.3,
+        "z": 4.5,
+        "labelY": 9.5,
+        "approach": {
+          "x": -24.6,
+          "z": 10.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "geography",
+        "taskId": "geography",
+        "zone": "west",
+        "title": "地理馆",
+        "quote": "地图里的地理课堂",
+        "speech": "这里是附件旧地图中的地理馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -50.4,
+        "z": 25.8,
+        "labelY": 8.8,
+        "approach": {
+          "x": -42.3,
+          "z": 30.9
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "mathematics",
+        "taskId": "mathematics",
+        "zone": "west",
+        "title": "数学馆",
+        "quote": "河西的一段学习时光",
+        "speech": "这里是附件旧地图中的数学馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -22.5,
+        "z": 27.3,
+        "labelY": 8.5,
+        "approach": {
+          "x": -25.5,
+          "z": 32.1
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "computer",
+        "taskId": "computer",
+        "zone": "west",
+        "title": "计算机楼",
+        "quote": "理科楼群继续向南",
+        "speech": "这里是附件旧地图中的计算机楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -23.7,
+        "z": 36.9,
+        "labelY": 8.5,
+        "approach": {
+          "x": -22.8,
+          "z": 42.6
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "physics",
+        "taskId": "physics",
+        "zone": "west",
+        "title": "物理楼",
+        "quote": "老地图中的物理楼",
+        "speech": "这里是附件旧地图中的物理楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -32.7,
+        "z": 48.0,
+        "labelY": 9.7,
+        "approach": {
+          "x": -31.8,
+          "z": 53.7
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "science-hall",
+        "taskId": "science-hall",
+        "zone": "east",
+        "title": "科学会堂",
+        "quote": "桥东的学术会堂",
+        "speech": "这里是附件旧地图中的科学会堂。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 10.2,
+        "z": 29.7,
+        "labelY": 7.3,
+        "approach": {
+          "x": 10.2,
+          "z": 34.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "yifu",
+        "taskId": "yifu",
+        "zone": "east",
+        "title": "逸夫大楼",
+        "quote": "沿荷花池向南",
+        "speech": "这里是附件旧地图中的逸夫大楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 51.6,
+        "z": 35.1,
+        "labelY": 10.6,
+        "approach": {
+          "x": 58.2,
+          "z": 34.5
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "wenfu",
+        "taskId": "wenfu",
+        "zone": "east",
+        "title": "文附楼",
+        "quote": "人文学术区的一角",
+        "speech": "这里是附件旧地图中的文附楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 50.7,
+        "z": 44.1,
+        "labelY": 8.4,
+        "approach": {
+          "x": 50.7,
+          "z": 49.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "gym",
+        "taskId": "gym",
+        "zone": "east",
+        "title": "体育馆",
+        "quote": "东侧体育活动区",
+        "speech": "这里是附件旧地图中的体育馆。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 71.1,
+        "z": 32.1,
+        "labelY": 9.3,
+        "approach": {
+          "x": 72.3,
+          "z": 21.9
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "auditorium",
+        "taskId": "auditorium",
+        "zone": "northeast",
+        "title": "大礼堂",
+        "quote": "走到礼堂前停一停",
+        "speech": "这里是附件旧地图中的大礼堂。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 51.9,
+        "z": 2.4,
+        "labelY": 8.3,
+        "approach": {
+          "x": 51.6,
+          "z": 7.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "wenshi",
+        "taskId": "wenshi",
+        "zone": "northeast",
+        "title": "文史楼",
+        "quote": "阅读校园的人文脉络",
+        "speech": "这里是附件旧地图中的文史楼。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": 67.8,
+        "z": -7.2,
+        "labelY": 8.8,
+        "approach": {
+          "x": 68.1,
+          "z": -1.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "graduate-canteen",
+        "taskId": "graduate-canteen",
+        "zone": "south",
+        "title": "研究生食堂",
+        "quote": "南部生活区的午后",
+        "speech": "这里是附件旧地图中的研究生食堂。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -44.7,
+        "z": 77.7,
+        "labelY": 6.4,
+        "approach": {
+          "x": -37.2,
+          "z": 82.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "exchange",
+        "taskId": "exchange",
+        "zone": "south",
+        "title": "国际交流服务中心",
+        "quote": "校园南端的交流驿站",
+        "speech": "这里是附件旧地图中的国际交流服务中心。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -33.3,
+        "z": 99.0,
+        "labelY": 8.3,
+        "approach": {
+          "x": -33.0,
+          "z": 106.2
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "union",
+        "taskId": "union",
+        "zone": "south",
+        "title": "工会",
+        "quote": "进入南部住宅街巷",
+        "speech": "这里是附件旧地图中的工会。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -0.6,
+        "z": 73.2,
+        "labelY": 6.4,
+        "approach": {
+          "x": -0.9,
+          "z": 81.3
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "south-sports",
+        "taskId": "south-sports",
+        "zone": "south",
+        "title": "南部运动场",
+        "quote": "老地图中的南部运动空间",
+        "speech": "这里是附件旧地图中的南部运动场。沿步道继续探索两岸楼群，收集这段校园漫游的记忆。",
+        "x": -75.3,
+        "z": 88.2,
+        "labelY": 4,
+        "approach": {
+          "x": -63.9,
+          "z": 89.4
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "liwa-central-bridge",
+        "taskId": "liwa-central-bridge",
+        "zone": "east",
+        "title": "丽娃河中央桥",
+        "quote": "沿水岸连接校园两侧",
+        "speech": "这是为漫游标注的水岸探索点；桥名为游戏中的位置称呼，不冒充学校正式命名。",
+        "x": -0.6,
+        "z": 17.1,
+        "labelY": 3.4,
+        "approach": {
+          "x": -0.6,
+          "z": 17.1
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "liwa-north-bridge",
+        "taskId": "liwa-north-bridge",
+        "zone": "northwest",
+        "title": "丽娃河北段桥",
+        "quote": "沿水岸连接校园两侧",
+        "speech": "这是为漫游标注的水岸探索点；桥名为游戏中的位置称呼，不冒充学校正式命名。",
+        "x": -6.6,
+        "z": -61.8,
+        "labelY": 3.4,
+        "approach": {
+          "x": -6.6,
+          "z": -61.8
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "liwa-south-bridge",
+        "taskId": "liwa-south-bridge",
+        "zone": "south",
+        "title": "丽娃河南段桥",
+        "quote": "沿水岸连接校园两侧",
+        "speech": "这是为漫游标注的水岸探索点；桥名为游戏中的位置称呼，不冒充学校正式命名。",
+        "x": -14.7,
+        "z": 63.9,
+        "labelY": 3.4,
+        "approach": {
+          "x": -14.7,
+          "z": 63.9
+        },
+        "radius": 3.3
+      },
+      {
+        "id": "lotus-lakeside",
+        "taskId": "lotus-lakeside",
+        "zone": "east",
+        "title": "荷花池畔",
+        "quote": "沿水岸连接校园两侧",
+        "speech": "这是为漫游标注的水岸探索点；桥名为游戏中的位置称呼，不冒充学校正式命名。",
+        "x": 51.9,
+        "z": 20.4,
+        "labelY": 3.4,
+        "approach": {
+          "x": 51.9,
+          "z": 20.4
+        },
+        "radius": 3.3
+      }
+    ],
+    "memories": [
+      {
+        "id": "liwa-memory-01",
+        "title": "东门第一步",
+        "text": "丽娃漫游记忆 01：东门第一步。本收集文案为游戏创作。",
+        "x": 83.1,
+        "z": 17.1
+      },
+      {
+        "id": "liwa-memory-02",
+        "title": "丽娃河上的风",
+        "text": "丽娃漫游记忆 02：丽娃河上的风。本收集文案为游戏创作。",
+        "x": 0.0,
+        "z": 17.1
+      },
+      {
+        "id": "liwa-memory-03",
+        "title": "北段水声",
+        "text": "丽娃漫游记忆 03：北段水声。本收集文案为游戏创作。",
+        "x": -6.0,
+        "z": -61.8
+      },
+      {
+        "id": "liwa-memory-04",
+        "title": "书香河岸",
+        "text": "丽娃漫游记忆 04：书香河岸。本收集文案为游戏创作。",
+        "x": 8.1,
+        "z": -28.2
+      },
+      {
+        "id": "liwa-memory-05",
+        "title": "北部庭院",
+        "text": "丽娃漫游记忆 05：北部庭院。本收集文案为游戏创作。",
+        "x": 32.4,
+        "z": -74.4
+      },
+      {
+        "id": "liwa-memory-06",
+        "title": "河西课间",
+        "text": "丽娃漫游记忆 06：河西课间。本收集文案为游戏创作。",
+        "x": -33.9,
+        "z": -59.1
+      },
+      {
+        "id": "liwa-memory-07",
+        "title": "跑道的午后",
+        "text": "丽娃漫游记忆 07：跑道的午后。本收集文案为游戏创作。",
+        "x": -21.3,
+        "z": -33.9
+      },
+      {
+        "id": "liwa-memory-08",
+        "title": "理科楼前",
+        "text": "丽娃漫游记忆 08：理科楼前。本收集文案为游戏创作。",
+        "x": -34.8,
+        "z": -6.9
+      },
+      {
+        "id": "liwa-memory-09",
+        "title": "旧课堂的窗",
+        "text": "丽娃漫游记忆 09：旧课堂的窗。本收集文案为游戏创作。",
+        "x": -34.2,
+        "z": 30.3
+      },
+      {
+        "id": "liwa-memory-10",
+        "title": "物理楼的树影",
+        "text": "丽娃漫游记忆 10：物理楼的树影。本收集文案为游戏创作。",
+        "x": -25.2,
+        "z": 56.4
+      },
+      {
+        "id": "liwa-memory-11",
+        "title": "南段小桥",
+        "text": "丽娃漫游记忆 11：南段小桥。本收集文案为游戏创作。",
+        "x": -14.7,
+        "z": 63.9
+      },
+      {
+        "id": "liwa-memory-12",
+        "title": "会堂旁的路",
+        "text": "丽娃漫游记忆 12：会堂旁的路。本收集文案为游戏创作。",
+        "x": 18.6,
+        "z": 41.7
+      },
+      {
+        "id": "liwa-memory-13",
+        "title": "荷塘一角",
+        "text": "丽娃漫游记忆 13：荷塘一角。本收集文案为游戏创作。",
+        "x": 56.7,
+        "z": 26.1
+      },
+      {
+        "id": "liwa-memory-14",
+        "title": "礼堂前的台阶",
+        "text": "丽娃漫游记忆 14：礼堂前的台阶。本收集文案为游戏创作。",
+        "x": 45.0,
+        "z": 7.5
+      },
+      {
+        "id": "liwa-memory-15",
+        "title": "住宅区的晨光",
+        "text": "丽娃漫游记忆 15：住宅区的晨光。本收集文案为游戏创作。",
+        "x": 24.0,
+        "z": 91.5
+      },
+      {
+        "id": "liwa-memory-16",
+        "title": "南部散步",
+        "text": "丽娃漫游记忆 16：南部散步。本收集文案为游戏创作。",
+        "x": -48.9,
+        "z": 105.0
+      }
+    ],
+    "regions": [
+      {
+        "id": "liwa-head",
+        "type": "water",
+        "x": -6.0,
+        "z": -68.1,
+        "w": 7.8,
+        "d": 6.6,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-upper",
+        "type": "water",
+        "x": -1.95,
+        "z": -42.0,
+        "w": 8.7,
+        "d": 33.6,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-central",
+        "type": "water",
+        "x": -0.15,
+        "z": -6.6,
+        "w": 9.9,
+        "d": 38.4,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-south-upper",
+        "type": "water",
+        "x": -3.3,
+        "z": 30.0,
+        "w": 9.6,
+        "d": 17.4,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-south-mid",
+        "type": "water",
+        "x": -8.4,
+        "z": 44.7,
+        "w": 9.6,
+        "d": 13.2,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-south-bend",
+        "type": "water",
+        "x": -13.8,
+        "z": 55.65,
+        "w": 9.6,
+        "d": 9.9,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-lower",
+        "type": "water",
+        "x": -18.75,
+        "z": 72.9,
+        "w": 9.3,
+        "d": 12.0,
+        "label": "丽娃河"
+      },
+      {
+        "id": "liwa-tail",
+        "type": "water",
+        "x": -22.05,
+        "z": 82.65,
+        "w": 8.7,
+        "d": 8.7,
+        "label": "丽娃河"
+      },
+      {
+        "id": "branch-upper",
+        "type": "water",
+        "x": 28.5,
+        "z": -30.75,
+        "w": 7.2,
+        "d": 15.3,
+        "label": "丽娃河支流与荷花池"
+      },
+      {
+        "id": "branch-middle",
+        "type": "water",
+        "x": 33.0,
+        "z": -8.7,
+        "w": 6.6,
+        "d": 16.2,
+        "label": "丽娃河支流与荷花池"
+      },
+      {
+        "id": "branch-lower",
+        "type": "water",
+        "x": 36.6,
+        "z": 6.3,
+        "w": 6.6,
+        "d": 15.0,
+        "label": "丽娃河支流与荷花池"
+      },
+      {
+        "id": "lotus-west",
+        "type": "water",
+        "x": 41.7,
+        "z": 24.75,
+        "w": 10.2,
+        "d": 5.7,
+        "label": "丽娃河支流与荷花池"
+      },
+      {
+        "id": "lotus-east",
+        "type": "water",
+        "x": 50.4,
+        "z": 29.4,
+        "w": 10.2,
+        "d": 4.8,
+        "label": "丽娃河支流与荷花池"
+      },
+      {
+        "id": "swimming-pool",
+        "type": "water",
+        "x": 41.1,
+        "z": -45.0,
+        "w": 6.3,
+        "d": 12.0,
+        "label": "游泳池"
+      },
+      {
+        "id": "central-avenue",
+        "type": "path",
+        "x": 25.05,
+        "z": 17.1,
+        "w": 139.5,
+        "d": 5.4,
+        "label": "中山北路入口—丽娃河"
+      },
+      {
+        "id": "central-west-end",
+        "type": "path",
+        "x": -48.75,
+        "z": 17.1,
+        "w": 18.9,
+        "d": 5.4
+      },
+      {
+        "id": "west-main",
+        "type": "path",
+        "x": -34.8,
+        "z": -16.65,
+        "w": 5.1,
+        "d": 118.8,
+        "label": "河西步道"
+      },
+      {
+        "id": "west-main-low",
+        "type": "path",
+        "x": -30.9,
+        "z": 54.9,
+        "w": 5.1,
+        "d": 33.9
+      },
+      {
+        "id": "west-main-bend",
+        "type": "path",
+        "x": -32.85,
+        "z": 40.5,
+        "w": 9.0,
+        "d": 5.1
+      },
+      {
+        "id": "west-riverside-upper",
+        "type": "path",
+        "x": -10.8,
+        "z": -34.5,
+        "w": 3.9,
+        "d": 56.1
+      },
+      {
+        "id": "west-riverside-middle",
+        "type": "path",
+        "x": -10.5,
+        "z": 2.55,
+        "w": 3.9,
+        "d": 27.0
+      },
+      {
+        "id": "west-riverside-lower",
+        "type": "path",
+        "x": -15.0,
+        "z": 29.85,
+        "w": 3.9,
+        "d": 21.6
+      },
+      {
+        "id": "west-riverside-bend",
+        "type": "path",
+        "x": -19.2,
+        "z": 47.85,
+        "w": 3.9,
+        "d": 21.6
+      },
+      {
+        "id": "west-bank-cross",
+        "type": "path",
+        "x": -17.1,
+        "z": 39.0,
+        "w": 8.1,
+        "d": 3.9
+      },
+      {
+        "id": "east-bank-main",
+        "type": "path",
+        "x": 8.1,
+        "z": -22.05,
+        "w": 3.9,
+        "d": 79.8,
+        "label": "丽娃河东岸"
+      },
+      {
+        "id": "east-bank-low",
+        "type": "path",
+        "x": 5.7,
+        "z": 32.7,
+        "w": 3.9,
+        "d": 27.3
+      },
+      {
+        "id": "east-bank-bottom",
+        "type": "path",
+        "x": -0.3,
+        "z": 51.9,
+        "w": 3.9,
+        "d": 19.5
+      },
+      {
+        "id": "east-bank-link",
+        "type": "path",
+        "x": 2.7,
+        "z": 44.1,
+        "w": 9.9,
+        "d": 3.9
+      },
+      {
+        "id": "east-academic",
+        "type": "path",
+        "x": 21.9,
+        "z": -37.05,
+        "w": 3.9,
+        "d": 31.8
+      },
+      {
+        "id": "east-academic-south",
+        "type": "path",
+        "x": 26.1,
+        "z": -1.2,
+        "w": 3.9,
+        "d": 34.5
+      },
+      {
+        "id": "north-bridge",
+        "type": "path",
+        "x": -10.5,
+        "z": -61.8,
+        "w": 48.9,
+        "d": 3.9,
+        "label": "北段跨河步道"
+      },
+      {
+        "id": "north-east-cross",
+        "type": "path",
+        "x": 20.85,
+        "z": -52.5,
+        "w": 31.2,
+        "d": 3.9
+      },
+      {
+        "id": "north-courts",
+        "type": "path",
+        "x": -21.3,
+        "z": -67.2,
+        "w": 20.1,
+        "d": 3.9
+      },
+      {
+        "id": "north-west-path",
+        "type": "path",
+        "x": -31.5,
+        "z": -76.95,
+        "w": 3.9,
+        "d": 28.2
+      },
+      {
+        "id": "north-dorm-walk",
+        "type": "path",
+        "x": -13.2,
+        "z": -76.5,
+        "w": 3.9,
+        "d": 27.3
+      },
+      {
+        "id": "north-dorm-cross",
+        "type": "path",
+        "x": -22.35,
+        "z": -89.1,
+        "w": 22.2,
+        "d": 3.9
+      },
+      {
+        "id": "west-canteen-cross",
+        "type": "path",
+        "x": -43.5,
+        "z": -75.0,
+        "w": 29.7,
+        "d": 4.5
+      },
+      {
+        "id": "west-edge",
+        "type": "path",
+        "x": -59.1,
+        "z": -57.3,
+        "w": 3.6,
+        "d": 31.2
+      },
+      {
+        "id": "west-dorm-cross",
+        "type": "path",
+        "x": -46.95,
+        "z": -43.5,
+        "w": 28.2,
+        "d": 3.9
+      },
+      {
+        "id": "west-sports-north",
+        "type": "path",
+        "x": -22.8,
+        "z": -53.4,
+        "w": 27.9,
+        "d": 3.9
+      },
+      {
+        "id": "west-sports-south",
+        "type": "path",
+        "x": -24.3,
+        "z": -9.0,
+        "w": 31.8,
+        "d": 4.2
+      },
+      {
+        "id": "west-lab-cross",
+        "type": "path",
+        "x": -47.55,
+        "z": -3.6,
+        "w": 29.1,
+        "d": 4.2
+      },
+      {
+        "id": "west-lab-edge",
+        "type": "path",
+        "x": -61.2,
+        "z": 29.4,
+        "w": 4.2,
+        "d": 72.0
+      },
+      {
+        "id": "west-lab-south",
+        "type": "path",
+        "x": -39.9,
+        "z": 42.9,
+        "w": 46.5,
+        "d": 4.5
+      },
+      {
+        "id": "west-science-court",
+        "type": "path",
+        "x": -24.15,
+        "z": 22.2,
+        "w": 22.2,
+        "d": 3.9
+      },
+      {
+        "id": "west-math-cross",
+        "type": "path",
+        "x": -24.45,
+        "z": 31.2,
+        "w": 24.6,
+        "d": 3.9
+      },
+      {
+        "id": "north-perimeter",
+        "type": "path",
+        "x": 13.35,
+        "z": -91.5,
+        "w": 27.0,
+        "d": 3.9
+      },
+      {
+        "id": "north-perimeter-south",
+        "type": "path",
+        "x": 1.2,
+        "z": -79.65,
+        "w": 3.9,
+        "d": 27.6
+      },
+      {
+        "id": "northeast-main",
+        "type": "path",
+        "x": 32.7,
+        "z": -70.65,
+        "w": 4.2,
+        "d": 40.5
+      },
+      {
+        "id": "northeast-back",
+        "type": "path",
+        "x": 54.0,
+        "z": -50.85,
+        "w": 4.2,
+        "d": 59.1
+      },
+      {
+        "id": "northeast-cross",
+        "type": "path",
+        "x": 38.25,
+        "z": -52.8,
+        "w": 35.4,
+        "d": 3.9
+      },
+      {
+        "id": "east-mid-cross",
+        "type": "path",
+        "x": 39.3,
+        "z": -19.8,
+        "w": 69.3,
+        "d": 4.5,
+        "label": "河东学术步道"
+      },
+      {
+        "id": "east-court-edge",
+        "type": "path",
+        "x": 57.0,
+        "z": 13.05,
+        "w": 4.5,
+        "d": 98.4
+      },
+      {
+        "id": "east-main-edge",
+        "type": "path",
+        "x": 74.4,
+        "z": -0.3,
+        "w": 4.2,
+        "d": 40.2
+      },
+      {
+        "id": "east-lawn-north",
+        "type": "path",
+        "x": 82.05,
+        "z": -3.6,
+        "w": 18.9,
+        "d": 4.2
+      },
+      {
+        "id": "east-lawn-south",
+        "type": "path",
+        "x": 74.85,
+        "z": 16.8,
+        "w": 39.3,
+        "d": 4.2
+      },
+      {
+        "id": "east-lawn-boundary",
+        "type": "path",
+        "x": 90.0,
+        "z": 20.7,
+        "w": 4.5,
+        "d": 53.1
+      },
+      {
+        "id": "east-lawn-middle",
+        "type": "path",
+        "x": 66.0,
+        "z": 6.3,
+        "w": 19.5,
+        "d": 3.9
+      },
+      {
+        "id": "east-mid-west",
+        "type": "path",
+        "x": 37.8,
+        "z": -11.85,
+        "w": 3.9,
+        "d": 16.8
+      },
+      {
+        "id": "east-mid-cross-south",
+        "type": "path",
+        "x": 56.4,
+        "z": -7.5,
+        "w": 39.9,
+        "d": 3.9
+      },
+      {
+        "id": "east-lake-low",
+        "type": "path",
+        "x": 43.2,
+        "z": 31.8,
+        "w": 41.1,
+        "d": 3.9
+      },
+      {
+        "id": "east-humanities-walk",
+        "type": "path",
+        "x": 24.9,
+        "z": 38.4,
+        "w": 3.9,
+        "d": 38.1
+      },
+      {
+        "id": "east-humanities-cross",
+        "type": "path",
+        "x": 31.35,
+        "z": 39.0,
+        "w": 55.2,
+        "d": 3.9
+      },
+      {
+        "id": "east-humanities-bottom",
+        "type": "path",
+        "x": 31.2,
+        "z": 47.7,
+        "w": 55.5,
+        "d": 3.9
+      },
+      {
+        "id": "east-gym-south",
+        "type": "path",
+        "x": 73.8,
+        "z": 46.8,
+        "w": 34.5,
+        "d": 3.9
+      },
+      {
+        "id": "east-bottom",
+        "type": "path",
+        "x": 46.2,
+        "z": 63.9,
+        "w": 90.9,
+        "d": 4.5,
+        "label": "南部生活区步道"
+      },
+      {
+        "id": "south-bridge",
+        "type": "path",
+        "x": -13.2,
+        "z": 63.9,
+        "w": 36.9,
+        "d": 4.5,
+        "label": "南段跨河步道"
+      },
+      {
+        "id": "south-west-link",
+        "type": "path",
+        "x": -28.5,
+        "z": 63.9,
+        "w": 9.0,
+        "d": 4.2
+      },
+      {
+        "id": "south-west-down",
+        "type": "path",
+        "x": -34.2,
+        "z": 87.3,
+        "w": 4.5,
+        "d": 35.1
+      },
+      {
+        "id": "south-west-cross",
+        "type": "path",
+        "x": -44.25,
+        "z": 73.8,
+        "w": 34.2,
+        "d": 4.5
+      },
+      {
+        "id": "south-west-lower",
+        "type": "path",
+        "x": -48.0,
+        "z": 88.2,
+        "w": 31.5,
+        "d": 3.9
+      },
+      {
+        "id": "south-west-bottom",
+        "type": "path",
+        "x": -45.6,
+        "z": 104.7,
+        "w": 40.5,
+        "d": 4.5
+      },
+      {
+        "id": "south-housing-top",
+        "type": "path",
+        "x": 24.3,
+        "z": 80.1,
+        "w": 67.2,
+        "d": 3.6
+      },
+      {
+        "id": "south-housing-mid",
+        "type": "path",
+        "x": 22.2,
+        "z": 91.5,
+        "w": 78.0,
+        "d": 3.6
+      },
+      {
+        "id": "south-housing-bottom",
+        "type": "path",
+        "x": 30.0,
+        "z": 105.6,
+        "w": 97.2,
+        "d": 4.2
+      },
+      {
+        "id": "south-housing-east",
+        "type": "path",
+        "x": 76.5,
+        "z": 86.85,
+        "w": 3.9,
+        "d": 41.4
+      },
+      {
+        "id": "south-housing-spine",
+        "type": "path",
+        "x": 5.7,
+        "z": 86.25,
+        "w": 3.6,
+        "d": 41.7
+      },
+      {
+        "id": "south-housing-spine-b",
+        "type": "path",
+        "x": 24.0,
+        "z": 85.95,
+        "w": 3.6,
+        "d": 42.3
+      },
+      {
+        "id": "south-housing-spine-c",
+        "type": "path",
+        "x": 42.9,
+        "z": 86.1,
+        "w": 3.6,
+        "d": 42.0
+      },
+      {
+        "id": "south-west-sport",
+        "type": "path",
+        "x": -61.5,
+        "z": 89.4,
+        "w": 4.2,
+        "d": 33.0
+      },
+      {
+        "id": "central-bridge",
+        "type": "plaza",
+        "x": -0.3,
+        "z": 17.1,
+        "w": 21.0,
+        "d": 6.0,
+        "label": "丽娃河中央跨河通道"
+      },
+      {
+        "id": "north-bridge-deck",
+        "type": "plaza",
+        "x": -6.0,
+        "z": -61.8,
+        "w": 12.6,
+        "d": 4.2,
+        "label": "丽娃河北段跨河通道"
+      },
+      {
+        "id": "south-bridge-deck",
+        "type": "plaza",
+        "x": -14.7,
+        "z": 63.9,
+        "w": 18.3,
+        "d": 4.8,
+        "label": "丽娃河南段跨河通道"
+      },
+      {
+        "id": "entry-plaza",
+        "type": "plaza",
+        "x": 88.8,
+        "z": 17.7,
+        "w": 7.5,
+        "d": 10.2,
+        "label": "中山北路入口"
+      },
+      {
+        "id": "daxia-square",
+        "type": "plaza",
+        "x": 18.3,
+        "z": 18.6,
+        "w": 15.6,
+        "d": 7.5,
+        "label": "大桥东侧广场"
+      },
+      {
+        "id": "west-square",
+        "type": "plaza",
+        "x": -38.4,
+        "z": 16.8,
+        "w": 8.1,
+        "d": 13.2,
+        "label": "毛主席像前广场"
+      },
+      {
+        "id": "library-main",
+        "type": "building",
+        "x": 17.1,
+        "z": -31.2,
+        "w": 15.3,
+        "d": 5.7,
+        "label": "图书馆",
+        "h": 13.2,
+        "floors": 6,
+        "recipe": "teaching-block",
+        "tint": 12560777,
+        "showSign": true
+      },
+      {
+        "id": "library-east",
+        "type": "building",
+        "x": 21.6,
+        "z": -42.6,
+        "w": 5.7,
+        "d": 18.6,
+        "label": "图书馆东翼",
+        "h": 13.2,
+        "floors": 6,
+        "recipe": "teaching-block",
+        "tint": 12560777,
+        "showSign": false
+      },
+      {
+        "id": "library-north",
+        "type": "building",
+        "x": 15.6,
+        "z": -50.7,
+        "w": 11.7,
+        "d": 4.5,
+        "label": "图书馆北翼",
+        "h": 10.5,
+        "floors": 5,
+        "recipe": "teaching-block",
+        "tint": 12560777,
+        "showSign": false
+      },
+      {
+        "id": "library-connector",
+        "type": "building",
+        "x": 16.2,
+        "z": -41.4,
+        "w": 10.2,
+        "d": 4.8,
+        "label": "图书馆中部",
+        "h": 11.5,
+        "floors": 5,
+        "recipe": "teaching-block",
+        "tint": 12560777,
+        "showSign": false
+      },
+      {
+        "id": "student-center",
+        "type": "building",
+        "x": 12.9,
+        "z": -61.5,
+        "w": 11.4,
+        "d": 7.8,
+        "label": "大学生中心",
+        "h": 5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13284508,
+        "showSign": true
+      },
+      {
+        "id": "student-center-north",
+        "type": "building",
+        "x": 7.2,
+        "z": -69.3,
+        "w": 8.1,
+        "d": 7.8,
+        "label": "大学生中心北翼",
+        "h": 5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13284508,
+        "showSign": false
+      },
+      {
+        "id": "west-canteen",
+        "type": "building",
+        "x": -38.4,
+        "z": -89.4,
+        "w": 12.6,
+        "d": 15.3,
+        "label": "河西食堂",
+        "h": 4.2,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 14070938,
+        "showSign": true
+      },
+      {
+        "id": "west-classrooms",
+        "type": "building",
+        "x": -52.5,
+        "z": -85.8,
+        "w": 5.4,
+        "d": 14.7,
+        "label": "河西教室",
+        "h": 5.6,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14010797,
+        "showSign": true
+      },
+      {
+        "id": "qianfan",
+        "type": "building",
+        "x": 29.4,
+        "z": -57.0,
+        "w": 7.8,
+        "d": 6.0,
+        "label": "千帆楼",
+        "h": 7.2,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 14732972,
+        "showSign": true
+      },
+      {
+        "id": "northeast-lab",
+        "type": "building",
+        "x": 27.6,
+        "z": -68.4,
+        "w": 7.2,
+        "d": 12.0,
+        "label": "教学楼（图示艺术教育区）",
+        "h": 6.2,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12109236,
+        "showSign": true
+      },
+      {
+        "id": "north-technical",
+        "type": "building",
+        "x": 14.7,
+        "z": -83.7,
+        "w": 24.6,
+        "d": 4.2,
+        "label": "北部教学楼",
+        "h": 6.3,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13220247,
+        "showSign": false
+      },
+      {
+        "id": "huada",
+        "type": "building",
+        "x": 15.6,
+        "z": -99.9,
+        "w": 18.0,
+        "d": 5.7,
+        "label": "华大楼",
+        "h": 5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12957608,
+        "showSign": true
+      },
+      {
+        "id": "printing",
+        "type": "building",
+        "x": 42.6,
+        "z": -89.1,
+        "w": 16.2,
+        "d": 6.3,
+        "label": "印刷厂",
+        "h": 4,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12959406,
+        "showSign": true
+      },
+      {
+        "id": "jinshajiang-main",
+        "type": "building",
+        "x": 47.7,
+        "z": -73.2,
+        "w": 7.8,
+        "d": 25.5,
+        "label": "金沙江教学楼",
+        "h": 7.8,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12953486,
+        "showSign": true
+      },
+      {
+        "id": "jinshajiang-north",
+        "type": "building",
+        "x": 40.2,
+        "z": -81.3,
+        "w": 15.3,
+        "d": 4.8,
+        "label": "金沙江教学楼北翼",
+        "h": 7.8,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12953486,
+        "showSign": false
+      },
+      {
+        "id": "foreign-classrooms",
+        "type": "building",
+        "x": 40.8,
+        "z": -61.8,
+        "w": 12.6,
+        "d": 5.1,
+        "label": "外语教学楼",
+        "h": 6.6,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12953486,
+        "showSign": true
+      },
+      {
+        "id": "east-dorm-seven",
+        "type": "building",
+        "x": 51.3,
+        "z": -30.3,
+        "w": 7.2,
+        "d": 4.8,
+        "label": "学生宿舍7号（图示）",
+        "h": 5.2,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14141348,
+        "showSign": true
+      },
+      {
+        "id": "east-dorm-eight",
+        "type": "building",
+        "x": 47.4,
+        "z": -23.7,
+        "w": 16.8,
+        "d": 3.6,
+        "label": "学生宿舍8号（图示）",
+        "h": 5.2,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14141348,
+        "showSign": true
+      },
+      {
+        "id": "east-dorm-nine",
+        "type": "building",
+        "x": 42.3,
+        "z": -35.4,
+        "w": 9.9,
+        "d": 3.9,
+        "label": "学生宿舍9号（图示）",
+        "h": 5.2,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14141348,
+        "showSign": true
+      },
+      {
+        "id": "east-canteen",
+        "type": "building",
+        "x": 67.2,
+        "z": -20.7,
+        "w": 13.8,
+        "d": 12.6,
+        "label": "河东食堂",
+        "h": 4.5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13809048,
+        "showSign": true
+      },
+      {
+        "id": "wenshi",
+        "type": "building",
+        "x": 67.8,
+        "z": -7.2,
+        "w": 12.6,
+        "d": 5.4,
+        "label": "文史楼",
+        "h": 6.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13742745,
+        "showSign": true
+      },
+      {
+        "id": "auditorium",
+        "type": "building",
+        "x": 51.9,
+        "z": 2.4,
+        "w": 12.9,
+        "d": 5.1,
+        "label": "大礼堂",
+        "h": 6.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 11040094,
+        "showSign": true
+      },
+      {
+        "id": "reading-room",
+        "type": "building",
+        "x": 42.0,
+        "z": 2.1,
+        "w": 5.1,
+        "d": 6.3,
+        "label": "阅览楼（图示）",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 11040094,
+        "showSign": true
+      },
+      {
+        "id": "auditorium-rear",
+        "type": "building",
+        "x": 49.2,
+        "z": -3.3,
+        "w": 19.2,
+        "d": 4.2,
+        "label": "大礼堂后部",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12759963,
+        "showSign": false
+      },
+      {
+        "id": "educational-building",
+        "type": "building",
+        "x": 18.6,
+        "z": -14.1,
+        "w": 16.5,
+        "d": 7.8,
+        "label": "田家炳教育书院",
+        "h": 9,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12560785,
+        "showSign": true
+      },
+      {
+        "id": "office-north",
+        "type": "building",
+        "x": 17.7,
+        "z": 8.4,
+        "w": 13.8,
+        "d": 3.9,
+        "label": "办公楼",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 11041120,
+        "showSign": true
+      },
+      {
+        "id": "office-west",
+        "type": "building",
+        "x": 11.7,
+        "z": 2.7,
+        "w": 3.9,
+        "d": 9.3,
+        "label": "办公楼西楼",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 11041120,
+        "showSign": false
+      },
+      {
+        "id": "office-east",
+        "type": "building",
+        "x": 24.3,
+        "z": 2.7,
+        "w": 3.9,
+        "d": 9.3,
+        "label": "办公楼东楼",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 11041120,
+        "showSign": false
+      },
+      {
+        "id": "gym",
+        "type": "building",
+        "x": 71.1,
+        "z": 32.1,
+        "w": 20.7,
+        "d": 12.9,
+        "label": "体育馆",
+        "h": 7.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13613209,
+        "showSign": true
+      },
+      {
+        "id": "gym-south",
+        "type": "building",
+        "x": 81.3,
+        "z": 40.5,
+        "w": 13.5,
+        "d": 5.1,
+        "label": "体育馆南部",
+        "h": 5.5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13613209,
+        "showSign": false
+      },
+      {
+        "id": "sports-education",
+        "type": "building",
+        "x": 68.7,
+        "z": 48.3,
+        "w": 11.4,
+        "d": 5.1,
+        "label": "体育教学楼（图示）",
+        "h": 6,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13744539,
+        "showSign": true
+      },
+      {
+        "id": "yifu",
+        "type": "building",
+        "x": 51.6,
+        "z": 35.1,
+        "w": 9.6,
+        "d": 5.4,
+        "label": "逸夫大楼",
+        "h": 8.6,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12759962,
+        "showSign": true
+      },
+      {
+        "id": "yifu-west",
+        "type": "building",
+        "x": 43.2,
+        "z": 34.8,
+        "w": 9.0,
+        "d": 3.6,
+        "label": "逸夫大楼西翼",
+        "h": 6.3,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12759962,
+        "showSign": false
+      },
+      {
+        "id": "wenfu",
+        "type": "building",
+        "x": 50.7,
+        "z": 44.1,
+        "w": 10.8,
+        "d": 5.1,
+        "label": "文附楼",
+        "h": 6.4,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13812128,
+        "showSign": true
+      },
+      {
+        "id": "science-hall",
+        "type": "building",
+        "x": 10.2,
+        "z": 29.7,
+        "w": 8.4,
+        "d": 6.9,
+        "label": "科学会堂",
+        "h": 5.3,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13481624,
+        "showSign": true
+      },
+      {
+        "id": "xiaojiao",
+        "type": "building",
+        "x": 23.1,
+        "z": 36.6,
+        "w": 10.8,
+        "d": 4.8,
+        "label": "小教楼",
+        "h": 6.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13613461,
+        "showSign": true
+      },
+      {
+        "id": "humanities-nine",
+        "type": "building",
+        "x": 23.7,
+        "z": 30.0,
+        "w": 12.0,
+        "d": 4.5,
+        "label": "河东教学楼（图示9号）",
+        "h": 5.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13153172,
+        "showSign": true
+      },
+      {
+        "id": "education-science",
+        "type": "building",
+        "x": 7.2,
+        "z": 41.4,
+        "w": 9.3,
+        "d": 8.7,
+        "label": "教育科学学院教学楼（图示）",
+        "h": 7.8,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 13087639,
+        "showSign": true
+      },
+      {
+        "id": "education-science-south",
+        "type": "building",
+        "x": 7.2,
+        "z": 47.7,
+        "w": 10.5,
+        "d": 4.5,
+        "label": "教育科学学院南部",
+        "h": 7.8,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 13087639,
+        "showSign": false
+      },
+      {
+        "id": "modern-technology",
+        "type": "building",
+        "x": 39.3,
+        "z": 54.0,
+        "w": 20.7,
+        "d": 4.2,
+        "label": "现代教育技术楼（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13090989,
+        "showSign": true
+      },
+      {
+        "id": "kindergarten",
+        "type": "building",
+        "x": 60.3,
+        "z": 56.1,
+        "w": 8.1,
+        "d": 7.8,
+        "label": "幼儿园（图示）",
+        "h": 3.2,
+        "floors": 1,
+        "recipe": "teaching-block",
+        "tint": 14272680,
+        "showSign": true
+      },
+      {
+        "id": "affiliated-east",
+        "type": "building",
+        "x": 82.8,
+        "z": 56.1,
+        "w": 7.2,
+        "d": 14.7,
+        "label": "师大附小教学楼（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13350292,
+        "showSign": true
+      },
+      {
+        "id": "affiliated-east-south",
+        "type": "building",
+        "x": 78.3,
+        "z": 63.3,
+        "w": 15.9,
+        "d": 3.6,
+        "label": "师大附小南部",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13350292,
+        "showSign": false
+      },
+      {
+        "id": "science-complex",
+        "type": "building",
+        "x": -51.3,
+        "z": -16.5,
+        "w": 20.7,
+        "d": 8.4,
+        "label": "理科综合楼",
+        "h": 14.5,
+        "floors": 7,
+        "recipe": "teaching-block",
+        "tint": 11974564,
+        "showSign": true
+      },
+      {
+        "id": "science-complex-south",
+        "type": "building",
+        "x": -52.5,
+        "z": -9.3,
+        "w": 18.3,
+        "d": 5.7,
+        "label": "理科综合楼南部",
+        "h": 12,
+        "floors": 6,
+        "recipe": "teaching-block",
+        "tint": 11974564,
+        "showSign": false
+      },
+      {
+        "id": "lab-west-river",
+        "type": "building",
+        "x": -8.7,
+        "z": -18.0,
+        "w": 3.9,
+        "d": 13.8,
+        "label": "河西实验教学楼",
+        "h": 6.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12627604,
+        "showSign": false
+      },
+      {
+        "id": "biology",
+        "type": "building",
+        "x": -47.4,
+        "z": 1.2,
+        "w": 20.1,
+        "d": 4.5,
+        "label": "生物馆",
+        "h": 6.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12890264,
+        "showSign": true
+      },
+      {
+        "id": "biology-spine",
+        "type": "building",
+        "x": -47.7,
+        "z": 10.5,
+        "w": 5.1,
+        "d": 14.1,
+        "label": "生物馆附翼",
+        "h": 6.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12890264,
+        "showSign": false
+      },
+      {
+        "id": "geography",
+        "type": "building",
+        "x": -50.4,
+        "z": 25.8,
+        "w": 17.1,
+        "d": 4.8,
+        "label": "地理馆",
+        "h": 6.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13350554,
+        "showSign": true
+      },
+      {
+        "id": "geography-west",
+        "type": "building",
+        "x": -63.3,
+        "z": 16.5,
+        "w": 5.1,
+        "d": 17.7,
+        "label": "地理馆西翼",
+        "h": 6.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13350554,
+        "showSign": false
+      },
+      {
+        "id": "chemistry",
+        "type": "building",
+        "x": -21.3,
+        "z": 4.5,
+        "w": 23.1,
+        "d": 5.1,
+        "label": "化学馆",
+        "h": 7.5,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12825242,
+        "showSign": true
+      },
+      {
+        "id": "chemistry-wing",
+        "type": "building",
+        "x": -12.6,
+        "z": -1.8,
+        "w": 4.8,
+        "d": 7.8,
+        "label": "化学馆东翼",
+        "h": 7.5,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 12825242,
+        "showSign": false
+      },
+      {
+        "id": "chemistry-lab",
+        "type": "building",
+        "x": -24.9,
+        "z": -5.4,
+        "w": 9.3,
+        "d": 3.3,
+        "label": "化学馆北部",
+        "h": 5,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12825242,
+        "showSign": false
+      },
+      {
+        "id": "mathematics",
+        "type": "building",
+        "x": -22.5,
+        "z": 27.3,
+        "w": 18.3,
+        "d": 4.8,
+        "label": "数学馆",
+        "h": 6.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14008734,
+        "showSign": true
+      },
+      {
+        "id": "computer",
+        "type": "building",
+        "x": -23.7,
+        "z": 36.9,
+        "w": 18.9,
+        "d": 7.2,
+        "label": "计算机楼",
+        "h": 6.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13024421,
+        "showSign": true
+      },
+      {
+        "id": "physics",
+        "type": "building",
+        "x": -32.7,
+        "z": 48.0,
+        "w": 35.7,
+        "d": 6.0,
+        "label": "物理楼",
+        "h": 7.7,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 13219225,
+        "showSign": true
+      },
+      {
+        "id": "physics-east",
+        "type": "building",
+        "x": -18.3,
+        "z": 55.5,
+        "w": 4.5,
+        "d": 9.9,
+        "label": "物理楼东翼",
+        "h": 7.7,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 13219225,
+        "showSign": false
+      },
+      {
+        "id": "physics-west",
+        "type": "building",
+        "x": -37.5,
+        "z": 55.5,
+        "w": 4.2,
+        "d": 9.0,
+        "label": "物理楼西翼",
+        "h": 7.7,
+        "floors": 4,
+        "recipe": "teaching-block",
+        "tint": 13219225,
+        "showSign": false
+      },
+      {
+        "id": "estuary-lab",
+        "type": "building",
+        "x": -50.1,
+        "z": 36.6,
+        "w": 17.4,
+        "d": 5.4,
+        "label": "河口海岸研究楼（图示）",
+        "h": 6.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12170397,
+        "showSign": true
+      },
+      {
+        "id": "nature-lab",
+        "type": "building",
+        "x": -58.2,
+        "z": 33.3,
+        "w": 4.5,
+        "d": 6.6,
+        "label": "自然地理实验楼",
+        "h": 5.1,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12826524,
+        "showSign": true
+      },
+      {
+        "id": "teachers-hotel",
+        "type": "building",
+        "x": 15.3,
+        "z": 59.7,
+        "w": 15.6,
+        "d": 6.6,
+        "label": "教师公寓（图示）",
+        "h": 5.5,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13944498,
+        "showSign": true
+      },
+      {
+        "id": "union",
+        "type": "building",
+        "x": -0.6,
+        "z": 73.2,
+        "w": 5.7,
+        "d": 11.4,
+        "label": "工会",
+        "h": 4.4,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 12025960,
+        "showSign": true
+      },
+      {
+        "id": "graduate-canteen",
+        "type": "building",
+        "x": -44.7,
+        "z": 77.7,
+        "w": 12.3,
+        "d": 9.3,
+        "label": "研究生食堂",
+        "h": 4.4,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13285276,
+        "showSign": true
+      },
+      {
+        "id": "exchange",
+        "type": "building",
+        "x": -33.3,
+        "z": 99.0,
+        "w": 11.7,
+        "d": 9.6,
+        "label": "国际交流服务中心",
+        "h": 6.3,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 12038307,
+        "showSign": true
+      },
+      {
+        "id": "middle-school",
+        "type": "building",
+        "x": -88.5,
+        "z": 82.2,
+        "w": 8.7,
+        "d": 11.4,
+        "label": "师大二附中（图示）",
+        "h": 6.1,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13811101,
+        "showSign": true
+      },
+      {
+        "id": "middle-school-south",
+        "type": "building",
+        "x": -92.1,
+        "z": 110.4,
+        "w": 13.2,
+        "d": 5.1,
+        "label": "师大二附中南楼（图示）",
+        "h": 5.2,
+        "floors": 2,
+        "recipe": "teaching-block",
+        "tint": 13811101,
+        "showSign": true
+      },
+      {
+        "id": "dorm-six",
+        "type": "building",
+        "x": -44.4,
+        "z": -64.5,
+        "w": 14.7,
+        "d": 10.8,
+        "label": "学生宿舍6号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-four",
+        "type": "building",
+        "x": -51.0,
+        "z": -50.4,
+        "w": 10.5,
+        "d": 8.7,
+        "label": "学生宿舍4号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-five",
+        "type": "building",
+        "x": -46.8,
+        "z": -36.0,
+        "w": 17.7,
+        "d": 4.2,
+        "label": "学生宿舍5号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-three",
+        "type": "building",
+        "x": -57.6,
+        "z": -32.4,
+        "w": 3.9,
+        "d": 15.3,
+        "label": "学生宿舍3号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-five-south",
+        "type": "building",
+        "x": -45.9,
+        "z": -27.3,
+        "w": 18.3,
+        "d": 4.2,
+        "label": "学生宿舍5号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-two",
+        "type": "building",
+        "x": -18.0,
+        "z": -70.8,
+        "w": 13.8,
+        "d": 4.2,
+        "label": "学生宿舍2号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-nineteen",
+        "type": "building",
+        "x": -18.0,
+        "z": -78.3,
+        "w": 13.8,
+        "d": 4.2,
+        "label": "学生宿舍19号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-twentyone",
+        "type": "building",
+        "x": -18.0,
+        "z": -85.8,
+        "w": 13.8,
+        "d": 4.2,
+        "label": "学生宿舍21号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-seventeen",
+        "type": "building",
+        "x": -30.3,
+        "z": 63.9,
+        "w": 14.7,
+        "d": 5.4,
+        "label": "学生宿舍17号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-sixteen",
+        "type": "building",
+        "x": -27.6,
+        "z": 72.0,
+        "w": 10.8,
+        "d": 6.6,
+        "label": "学生宿舍16号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-thirteen",
+        "type": "building",
+        "x": -28.8,
+        "z": 81.3,
+        "w": 13.2,
+        "d": 5.1,
+        "label": "学生宿舍13号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "dorm-twelve",
+        "type": "building",
+        "x": -32.1,
+        "z": 89.4,
+        "w": 12.6,
+        "d": 5.1,
+        "label": "学生宿舍12号（图示）",
+        "h": 5.8,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 14207142,
+        "showSign": true
+      },
+      {
+        "id": "housing-01",
+        "type": "building",
+        "x": -3.0,
+        "z": 86.1,
+        "w": 14.1,
+        "d": 3.9,
+        "label": "教工住宅组团 01",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-02",
+        "type": "building",
+        "x": -3.3,
+        "z": 92.7,
+        "w": 13.2,
+        "d": 3.9,
+        "label": "教工住宅组团 02",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-03",
+        "type": "building",
+        "x": -4.8,
+        "z": 99.3,
+        "w": 14.1,
+        "d": 3.9,
+        "label": "教工住宅组团 03",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-04",
+        "type": "building",
+        "x": -6.0,
+        "z": 105.3,
+        "w": 19.5,
+        "d": 3.9,
+        "label": "教工住宅组团 04",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-05",
+        "type": "building",
+        "x": 12.3,
+        "z": 71.1,
+        "w": 4.8,
+        "d": 4.8,
+        "label": "教工住宅组团 05",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-06",
+        "type": "building",
+        "x": 12.3,
+        "z": 76.8,
+        "w": 4.8,
+        "d": 3.9,
+        "label": "教工住宅组团 06",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-07",
+        "type": "building",
+        "x": 11.7,
+        "z": 86.4,
+        "w": 5.1,
+        "d": 3.9,
+        "label": "教工住宅组团 07",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-08",
+        "type": "building",
+        "x": 11.7,
+        "z": 96.0,
+        "w": 5.1,
+        "d": 3.9,
+        "label": "教工住宅组团 08",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-09",
+        "type": "building",
+        "x": 11.7,
+        "z": 102.6,
+        "w": 5.1,
+        "d": 3.9,
+        "label": "教工住宅组团 09",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-10",
+        "type": "building",
+        "x": 20.4,
+        "z": 70.8,
+        "w": 8.7,
+        "d": 3.6,
+        "label": "教工住宅组团 10",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-11",
+        "type": "building",
+        "x": 20.4,
+        "z": 76.2,
+        "w": 8.7,
+        "d": 3.6,
+        "label": "教工住宅组团 11",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-12",
+        "type": "building",
+        "x": 20.4,
+        "z": 84.6,
+        "w": 8.7,
+        "d": 3.6,
+        "label": "教工住宅组团 12",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-13",
+        "type": "building",
+        "x": 20.4,
+        "z": 97.2,
+        "w": 8.7,
+        "d": 3.9,
+        "label": "教工住宅组团 13",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-14",
+        "type": "building",
+        "x": 20.4,
+        "z": 103.2,
+        "w": 8.7,
+        "d": 3.9,
+        "label": "教工住宅组团 14",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-15",
+        "type": "building",
+        "x": 33.6,
+        "z": 70.8,
+        "w": 13.5,
+        "d": 3.6,
+        "label": "教工住宅组团 15",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-16",
+        "type": "building",
+        "x": 33.6,
+        "z": 76.5,
+        "w": 13.5,
+        "d": 3.6,
+        "label": "教工住宅组团 16",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-17",
+        "type": "building",
+        "x": 33.6,
+        "z": 84.9,
+        "w": 13.5,
+        "d": 3.6,
+        "label": "教工住宅组团 17",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-18",
+        "type": "building",
+        "x": 33.6,
+        "z": 97.2,
+        "w": 13.5,
+        "d": 3.9,
+        "label": "教工住宅组团 18",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-19",
+        "type": "building",
+        "x": 33.6,
+        "z": 103.5,
+        "w": 13.5,
+        "d": 3.9,
+        "label": "教工住宅组团 19",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-20",
+        "type": "building",
+        "x": 50.1,
+        "z": 70.5,
+        "w": 9.0,
+        "d": 3.6,
+        "label": "教工住宅组团 20",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-21",
+        "type": "building",
+        "x": 49.8,
+        "z": 77.4,
+        "w": 6.6,
+        "d": 4.5,
+        "label": "教工住宅组团 21",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-22",
+        "type": "building",
+        "x": 49.8,
+        "z": 85.5,
+        "w": 8.4,
+        "d": 4.8,
+        "label": "教工住宅组团 22",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-23",
+        "type": "building",
+        "x": 49.8,
+        "z": 99.3,
+        "w": 8.7,
+        "d": 8.7,
+        "label": "教工住宅组团 23",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-24",
+        "type": "building",
+        "x": 63.3,
+        "z": 70.8,
+        "w": 15.0,
+        "d": 3.6,
+        "label": "教工住宅组团 24",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-25",
+        "type": "building",
+        "x": 63.3,
+        "z": 85.2,
+        "w": 10.8,
+        "d": 4.8,
+        "label": "教工住宅组团 25",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-26",
+        "type": "building",
+        "x": 63.3,
+        "z": 97.2,
+        "w": 10.8,
+        "d": 4.8,
+        "label": "教工住宅组团 26",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-27",
+        "type": "building",
+        "x": 84.9,
+        "z": 71.7,
+        "w": 6.6,
+        "d": 4.8,
+        "label": "教工住宅组团 27",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-28",
+        "type": "building",
+        "x": 84.3,
+        "z": 80.7,
+        "w": 6.6,
+        "d": 3.6,
+        "label": "教工住宅组团 28",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-29",
+        "type": "building",
+        "x": 83.1,
+        "z": 88.2,
+        "w": 6.3,
+        "d": 3.6,
+        "label": "教工住宅组团 29",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-30",
+        "type": "building",
+        "x": 81.9,
+        "z": 96.3,
+        "w": 6.3,
+        "d": 3.6,
+        "label": "教工住宅组团 30",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-31",
+        "type": "building",
+        "x": -48.9,
+        "z": 85.5,
+        "w": 18.6,
+        "d": 5.1,
+        "label": "教工住宅组团 31",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-32",
+        "type": "building",
+        "x": -51.9,
+        "z": 94.8,
+        "w": 18.3,
+        "d": 3.9,
+        "label": "教工住宅组团 32",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "housing-33",
+        "type": "building",
+        "x": -55.2,
+        "z": 101.4,
+        "w": 19.2,
+        "d": 3.9,
+        "label": "教工住宅组团 33",
+        "h": 4.9,
+        "floors": 3,
+        "recipe": "teaching-block",
+        "tint": 13088684,
+        "showSign": false
+      },
+      {
+        "id": "main-entry-guard-1",
+        "type": "building",
+        "x": 90.3,
+        "z": 12.9,
+        "w": 3.6,
+        "d": 3.6,
+        "label": "中山北路正门门岗",
+        "h": 3.3,
+        "floors": 1,
+        "recipe": "academic",
+        "tint": 14206373,
+        "showSign": false
+      },
+      {
+        "id": "main-entry-guard-3",
+        "type": "building",
+        "x": 90.3,
+        "z": 21.3,
+        "w": 3.6,
+        "d": 3.6,
+        "label": "中山北路正门门岗",
+        "h": 3.3,
+        "floors": 1,
+        "recipe": "academic",
+        "tint": 14206373,
+        "showSign": false
+      },
+      {
+        "id": "main-entry-sign",
+        "type": "building",
+        "x": 88.2,
+        "z": 23.7,
+        "w": 2.7,
+        "d": 1.5,
+        "label": "中山北路正门",
+        "recipe": "wayfinding",
+        "h": 3.2
+      },
+      {
+        "id": "west-entry-guard-1",
+        "type": "building",
+        "x": -56.4,
+        "z": -78.0,
+        "w": 3.6,
+        "d": 3.6,
+        "label": "枣阳路后门门岗",
+        "h": 3.3,
+        "floors": 1,
+        "recipe": "academic",
+        "tint": 14206373,
+        "showSign": false
+      },
+      {
+        "id": "west-entry-guard-3",
+        "type": "building",
+        "x": -56.4,
+        "z": -69.6,
+        "w": 3.6,
+        "d": 3.6,
+        "label": "枣阳路后门门岗",
+        "h": 3.3,
+        "floors": 1,
+        "recipe": "academic",
+        "tint": 14206373,
+        "showSign": false
+      },
+      {
+        "id": "west-entry-sign",
+        "type": "building",
+        "x": -58.5,
+        "z": -67.2,
+        "w": 2.7,
+        "d": 1.5,
+        "label": "枣阳路后门",
+        "recipe": "wayfinding",
+        "h": 3.2
+      },
+      {
+        "id": "main-sports",
+        "type": "sports",
+        "x": -21.3,
+        "z": -31.8,
+        "w": 21.6,
+        "d": 39.9,
+        "label": "主田径场"
+      },
+      {
+        "id": "south-sports",
+        "type": "sports",
+        "x": -75.3,
+        "z": 88.2,
+        "w": 21.0,
+        "d": 37.2,
+        "label": "南部运动场"
+      },
+      {
+        "id": "tennis",
+        "type": "plaza",
+        "x": -3.3,
+        "z": -77.7,
+        "w": 17.1,
+        "d": 12.6,
+        "label": "网球场"
+      },
+      {
+        "id": "west-court",
+        "type": "plaza",
+        "x": -21.6,
+        "z": -59.7,
+        "w": 15.6,
+        "d": 10.2,
+        "label": "河西篮球场"
+      },
+      {
+        "id": "east-court",
+        "type": "plaza",
+        "x": 48.0,
+        "z": -14.4,
+        "w": 18.9,
+        "d": 11.7,
+        "label": "河东篮球场"
+      },
+      {
+        "id": "main-entry-stop",
+        "type": "plaza",
+        "x": 86.7,
+        "z": 17.1,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "office-north-stop",
+        "type": "plaza",
+        "x": 17.7,
+        "z": 15.0,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "library-main-stop",
+        "type": "plaza",
+        "x": 16.2,
+        "z": -23.4,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "student-center-stop",
+        "type": "plaza",
+        "x": 14.4,
+        "z": -55.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "qianfan-stop",
+        "type": "plaza",
+        "x": 29.1,
+        "z": -51.3,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "jinshajiang-main-stop",
+        "type": "plaza",
+        "x": 55.2,
+        "z": -66.3,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "huada-stop",
+        "type": "plaza",
+        "x": 15.0,
+        "z": -91.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "west-canteen-stop",
+        "type": "plaza",
+        "x": -38.4,
+        "z": -76.8,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "west-entry-stop",
+        "type": "plaza",
+        "x": -51.3,
+        "z": -74.4,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "main-sports-stop",
+        "type": "plaza",
+        "x": -32.1,
+        "z": -24.0,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "science-complex-stop",
+        "type": "plaza",
+        "x": -50.4,
+        "z": -3.6,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "biology-stop",
+        "type": "plaza",
+        "x": -41.1,
+        "z": 7.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "chemistry-stop",
+        "type": "plaza",
+        "x": -24.6,
+        "z": 10.8,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "geography-stop",
+        "type": "plaza",
+        "x": -42.3,
+        "z": 30.9,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "mathematics-stop",
+        "type": "plaza",
+        "x": -25.5,
+        "z": 32.1,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "computer-stop",
+        "type": "plaza",
+        "x": -22.8,
+        "z": 42.6,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "physics-stop",
+        "type": "plaza",
+        "x": -31.8,
+        "z": 53.7,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "science-hall-stop",
+        "type": "plaza",
+        "x": 10.2,
+        "z": 34.8,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "yifu-stop",
+        "type": "plaza",
+        "x": 58.2,
+        "z": 34.5,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "wenfu-stop",
+        "type": "plaza",
+        "x": 50.7,
+        "z": 49.8,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "gym-stop",
+        "type": "plaza",
+        "x": 72.3,
+        "z": 21.9,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "auditorium-stop",
+        "type": "plaza",
+        "x": 51.6,
+        "z": 7.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "wenshi-stop",
+        "type": "plaza",
+        "x": 68.1,
+        "z": -1.8,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "graduate-canteen-stop",
+        "type": "plaza",
+        "x": -37.2,
+        "z": 82.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "exchange-stop",
+        "type": "plaza",
+        "x": -33.0,
+        "z": 106.2,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "union-stop",
+        "type": "plaza",
+        "x": -0.9,
+        "z": 81.3,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "south-sports-stop",
+        "type": "plaza",
+        "x": -63.9,
+        "z": 89.4,
+        "w": 3.3,
+        "d": 3.3
+      },
+      {
+        "id": "memory-stop-01",
+        "type": "plaza",
+        "x": 83.1,
+        "z": 17.1,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-02",
+        "type": "plaza",
+        "x": 0.0,
+        "z": 17.1,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-03",
+        "type": "plaza",
+        "x": -6.0,
+        "z": -61.8,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-04",
+        "type": "plaza",
+        "x": 8.1,
+        "z": -28.2,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-05",
+        "type": "plaza",
+        "x": 32.4,
+        "z": -74.4,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-06",
+        "type": "plaza",
+        "x": -33.9,
+        "z": -59.1,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-08",
+        "type": "plaza",
+        "x": -34.8,
+        "z": -6.9,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-09",
+        "type": "plaza",
+        "x": -34.2,
+        "z": 30.3,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-10",
+        "type": "plaza",
+        "x": -25.2,
+        "z": 56.4,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-11",
+        "type": "plaza",
+        "x": -14.7,
+        "z": 63.9,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-12",
+        "type": "plaza",
+        "x": 18.6,
+        "z": 41.7,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-13",
+        "type": "plaza",
+        "x": 56.7,
+        "z": 26.1,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-14",
+        "type": "plaza",
+        "x": 45.0,
+        "z": 7.5,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-15",
+        "type": "plaza",
+        "x": 24.0,
+        "z": 91.5,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "memory-stop-16",
+        "type": "plaza",
+        "x": -48.9,
+        "z": 105.0,
+        "w": 3.0,
+        "d": 3.0
+      },
+      {
+        "id": "central-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": 24.9,
+        "z": 19.8,
+        "dx": 111.0,
+        "dz": 0.0,
+        "count": 17
+      },
+      {
+        "id": "river-east-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": 10.5,
+        "z": -28.2,
+        "dx": 0.0,
+        "dz": 74.39999999999999,
+        "count": 11
+      },
+      {
+        "id": "west-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": -37.2,
+        "z": -6.6,
+        "dx": 0.0,
+        "dz": 100.5,
+        "count": 13
+      },
+      {
+        "id": "south-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": 37.2,
+        "z": 66.3,
+        "dx": 84.0,
+        "dz": 0.0,
+        "count": 11
+      },
+      {
+        "id": "east-lamps",
+        "type": "prop-row",
+        "kind": "lamp",
+        "x": 59.4,
+        "z": 12.6,
+        "dx": 0.0,
+        "dz": 93.0,
+        "count": 12
+      },
+      {
+        "id": "river-benches",
+        "type": "prop-row",
+        "kind": "bench",
+        "x": 7.2,
+        "z": -1.8,
+        "dx": 0.0,
+        "dz": 24.3,
+        "count": 5
+      }
+    ]
+  }
+}

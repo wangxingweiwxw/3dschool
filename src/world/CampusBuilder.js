@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
 import { palettes } from './palette.js';
-import { box,voxelMat,colliderFromSize } from './voxel.js';
+import { box,voxelMat,colliderFromSize,colliderFromLocalBox } from './voxel.js';
 import { recipes } from './buildings.js';
 import { buildSportsField } from './expandedBuildings.js';
 import { makeLamp,makeBench,makeSwan,makePetalSystem } from './props.js';
@@ -48,11 +48,11 @@ export function buildCampus(campus){
  // Entry walls follow the gate when the campus layout changes.
  const gate=campus.regions.find(r=>r.id===(campus.entryGateId||'handan-gate'));
  if(gate)for(const s of [-1,1]){
-   const x=gate.x+s*11;
-   const wall=new THREE.Group();staticRoot.add(wall);
-   box(wall,9,1.1,.7,0xbaae91,x,.55,gate.z);box(wall,9.3,.17,.9,c.cream,x,1.15,gate.z);
+   const x=s*11;
+   const wall=new THREE.Group();wall.position.set(gate.x,0,gate.z);wall.rotation.y=gate.rotation||0;staticRoot.add(wall);
+   box(wall,9,1.1,.7,0xbaae91,x,.55,0);box(wall,9.3,.17,.9,c.cream,x,1.15,0);
    occlusion.register(wall,{id:`gate-wall-${s}`});
-   colliders.push(colliderFromSize(x,gate.z,9,.7,0));
+   colliders.push(colliderFromLocalBox(gate,x,0,9,.7,0));
  }
  batchStatic(staticRoot,occlusion);
  for(const b of campus.swans){const swan=makeSwan(c);swan.position.set(b.x,.15,b.z);swan.userData.home=b;root.add(swan);decorations.swans.push(swan);}

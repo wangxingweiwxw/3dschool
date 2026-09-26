@@ -1,15 +1,15 @@
 import * as THREE from "three";
 import { expandedRecipes } from './expandedBuildings.js';
-import { box, cylinder, sphere, signBoard, colliderFromSize, voxelMat } from "./voxel.js";
+import { box, cylinder, sphere, signBoard, colliderFromSize, colliderFromLocalBox, voxelMat } from "./voxel.js";
 
-function gatePillars(region, w) {
-  const rot = region.rotation || 0;
-  const dx = Math.cos(rot) * (w / 2);
-  const dz = Math.sin(rot) * (w / 2);
-  return [
-    colliderFromSize(region.x - dx, region.z - dz, 1.5, 1.6, 0.1),
-    colliderFromSize(region.x + dx, region.z + dz, 1.5, 1.6, 0.1),
-  ];
+function gatePillars(region, w, ceremonial=false) {
+  const result=[];
+  for(const side of [-1,1]) {
+    result.push(colliderFromLocalBox(region,side*(w/2-(ceremonial?.4:0)),0,
+      ceremonial?1.6:1.1,ceremonial?1.6:1.1));
+    if(ceremonial)result.push(colliderFromLocalBox(region,side*(w/2-1.4),0,.35,2.2));
+  }
+  return result;
 }
 
 function root(x, z, rot) {
@@ -32,7 +32,7 @@ export function buildCeremonialGate(region, c) {
   signBoard(g, region.label || "复旦大学", w * 0.72, 0.7, 0, 3.45, -0.58, Math.PI);
   box(g, 0.35, 1.1, 2.2, c.creamDark, -w / 2 + 1.4, 0.55, 0);
   box(g, 0.35, 1.1, 2.2, c.creamDark, w / 2 - 1.4, 0.55, 0);
-  return { group: g, colliders: gatePillars(region, w) };
+  return { group: g, colliders: gatePillars(region, w, true) };
 }
 
 export function buildSmallGate(region, c) {
