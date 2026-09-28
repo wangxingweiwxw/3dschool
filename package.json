@@ -1,0 +1,23 @@
+{
+    "name": "3dschool",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && node scripts/build-cloudflare.mjs",
+        "dev:worker": "wrangler dev --config wrangler.worker.jsonc",
+        "dev:pages": "wrangler pages dev",
+        "test:auth": "node --test scripts/verify-auth.mjs && node scripts/verify-auth-cloudflare.mjs",
+        "preview": "vite preview --host",
+        "osm:update": "node scripts/update-fudan-osm.mjs"
+    },
+    "dependencies": {
+        "three": "^0.170.0"
+    },
+    "devDependencies": {
+        "miniflare": "5.20260926.0-alpha",
+        "vite": "^6.2.0",
+        "wrangler": "^4.142.0"
+    }
+}

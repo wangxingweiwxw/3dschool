@@ -1,0 +1,1029 @@
+{
+  "format": "3dschool-campus",
+  "version": 1,
+  "source": {
+    "kind": "user-supplied-campus-map",
+    "input": "用户提供的同济大学四平路校区平面图：C:/Users/wangx/.workbuddy/clipboard-images/clipboard-2026-09-25T05-00-36-476Z-d6299526.jpg",
+    "scope": "主校区（图中部蓝色标注线围合区域）；南校区（跨路东南侧）与图下方赤峰路以南宿舍片区未建成",
+    "orientation": "图片上方暂作北方；校园中心为原点，东为 +X，南为 +Z。原图为斜视三维鸟瞰图而非正射平面图，位置按可见邻接关系转写；无比例尺，坐标均为游戏单位",
+    "interpretation": "东侧主入口为四平路1239号门（图中黄色箭头），南侧两个入口为赤峰路50号门与赤峰路18号门。已识别楼名：西北五楼、西北二楼、学四楼、学三楼（北侧宿舍群）、西南一楼、西南三楼、西南九楼、西南八楼（西侧宿舍群）、干训北楼、干训南楼、青年楼、解放楼（中南部）；中心高层塔楼按官方图书馆资料判定为图书馆主楼；东南部跑道为田径场；北部有一处无标注水池。蓝色闭合线与红帽图标为注释，不建成物体。",
+    "modelingPlan": {
+      "mapBasis": "用户提供的斜视鸟瞰校园图（含校名logo与'同济大学四平路校区平面图'标题）；斜视导致北部建筑横向压缩，位置按邻接关系近似；未做透视校正，不宣称米制精度",
+      "inventory": [
+        {
+          "id": "gate-siping",
+          "kind": "gate",
+          "label": "四平路1239号门",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "gate-siping-model"
+          ],
+          "orientation": {
+            "passageAxis": "east-west",
+            "basis": "四平路位于校区东侧，图中黄色箭头指向西入场；门梁沿南北、穿行东西，rotation=+90°"
+          }
+        },
+        {
+          "id": "gate-chifeng-50",
+          "kind": "gate",
+          "label": "赤峰路50号门",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "gate-chifeng-50-model"
+          ],
+          "orientation": {
+            "passageAxis": "north-south",
+            "basis": "图中南侧偏西入口，赤峰路沿东西向，入场方向朝北"
+          }
+        },
+        {
+          "id": "gate-chifeng-18",
+          "kind": "gate",
+          "label": "赤峰路18号门",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "gate-chifeng-18-model"
+          ],
+          "orientation": {
+            "passageAxis": "north-south",
+            "basis": "图中南侧中部入口，入场方向朝北"
+          }
+        },
+        {
+          "id": "library-main",
+          "kind": "building",
+          "label": "图书馆主楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "library-model"
+          ],
+          "basis": "user-map+official-lib-site",
+          "note": "图中中心高层塔楼；官方图书馆页确认四平路校区图书馆含主楼与裙房书库结构，主楼最高十一层；引擎 floors 上限 10，模型取 10 层近似并在 assumptions 记录"
+        },
+        {
+          "id": "xibei-5",
+          "kind": "building",
+          "label": "西北五楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xibei-5-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xibei-2",
+          "kind": "building",
+          "label": "西北二楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xibei-2-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xue-4",
+          "kind": "building",
+          "label": "学四楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xue-4-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xue-3",
+          "kind": "building",
+          "label": "学三楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xue-3-model"
+          ],
+          "basis": "user-map",
+          "note": "学三学四相邻构成宿舍社区，位置关系与官方宿舍资料一致"
+        },
+        {
+          "id": "xinan-1",
+          "kind": "building",
+          "label": "西南一楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xinan-1-model"
+          ],
+          "basis": "user-map",
+          "note": "文物级宿舍楼，门前大草坪为默认草地，未单独建模"
+        },
+        {
+          "id": "xinan-3",
+          "kind": "building",
+          "label": "西南三楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xinan-3-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xinan-9",
+          "kind": "building",
+          "label": "西南九楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xinan-9-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "xinan-8",
+          "kind": "building",
+          "label": "西南八楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "xinan-8-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "ganxun-n",
+          "kind": "building",
+          "label": "干训北楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "ganxun-n-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "ganxun-s",
+          "kind": "building",
+          "label": "干训南楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "ganxun-s-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "qingnian",
+          "kind": "building",
+          "label": "青年楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "qingnian-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "jiefang",
+          "kind": "building",
+          "label": "解放楼",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "jiefang-model"
+          ],
+          "basis": "user-map"
+        },
+        {
+          "id": "sports-field",
+          "kind": "sports",
+          "label": "田径场",
+          "nameStatus": "map-read",
+          "regionIds": [
+            "sports-center"
+          ],
+          "basis": "user-map",
+          "note": "图中东南部红色跑道与绿色场地"
+        },
+        {
+          "id": "north-pond",
+          "kind": "water",
+          "label": "北部水池",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "north-pond"
+          ],
+          "uncertaintyReason": "图中水体无文字标注；官方资料显示附近有三好坞食堂，未确认该水体名称，不放正式招牌"
+        },
+        {
+          "id": "annex-01",
+          "kind": "building",
+          "label": "北部附楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-01-model"
+          ],
+          "uncertaintyReason": "斜视图北部楼群文字过小无法辨认，保留中性内部名称并隐藏墙面招牌"
+        },
+        {
+          "id": "annex-02",
+          "kind": "building",
+          "label": "中院系楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-02-model"
+          ],
+          "uncertaintyReason": "中心区西侧体块无标注"
+        },
+        {
+          "id": "annex-03",
+          "kind": "building",
+          "label": "东侧院系楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-03-model"
+          ],
+          "uncertaintyReason": "图书馆以东体块无标注"
+        },
+        {
+          "id": "annex-04",
+          "kind": "building",
+          "label": "图书馆裙房",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-04-model"
+          ],
+          "uncertaintyReason": "官方资料确认图书馆有裙房书库，但图中无法区分裙房边界，隐藏招牌"
+        },
+        {
+          "id": "annex-05",
+          "kind": "building",
+          "label": "西南附楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-05-model"
+          ],
+          "uncertaintyReason": "西南一楼以东体块无标注"
+        },
+        {
+          "id": "annex-06",
+          "kind": "building",
+          "label": "南部院系楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-06-model"
+          ],
+          "uncertaintyReason": "解放楼以南体块无标注"
+        },
+        {
+          "id": "annex-07",
+          "kind": "building",
+          "label": "西北食堂",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-07-model"
+          ],
+          "uncertaintyReason": "官方宿舍资料提到西北食堂位于学三学四附近，图中无法确认具体体块，位置按资料邻接近似并隐藏招牌"
+        },
+        {
+          "id": "annex-08",
+          "kind": "building",
+          "label": "东南附楼",
+          "nameStatus": "unresolved",
+          "regionIds": [
+            "annex-08-model"
+          ],
+          "uncertaintyReason": "田径场以西体块无标注"
+        }
+      ]
+    },
+    "researchLog": [
+      {
+        "id": "library-structure",
+        "status": "read",
+        "url": "https://www.lib.tongji.edu.cn/index.php?classid=12022",
+        "queries": [
+          "同济大学四平路校区 图书馆 主楼 裙房"
+        ],
+        "result": "官方图书馆页确认四平路校区图书馆含主楼（最高十一层）与裙房书库/阅览结构；主楼层数与裙房存在采用该来源"
+      },
+      {
+        "id": "dorm-names",
+        "status": "read",
+        "url": "https://www.sohu.com/a/927592860_121106832",
+        "queries": [
+          "同济大学 四平路校区 西南一楼 西北楼 学三 学四 宿舍"
+        ],
+        "result": "官方宿舍指南确认四平路校区宿舍为西南一/二/三/七/八/九、西北一至五、学三/学四/学五、博士楼；西南一楼为文物级老楼且门前有大草坪；学三学四相邻；与图中标注一致"
+      },
+      {
+        "id": "dorm-details",
+        "status": "read",
+        "url": "https://m.okaoyan.com/gaozhaobang/sushe/671749.html",
+        "queries": [
+          "同济大学 西南一楼 文物级 大草坪 西北食堂 三好坞"
+        ],
+        "result": "确认西南一楼靠近西南教超与西苑食堂、门前大草坪；学三学四邻近西北食堂与三好坞学生食堂；'三好坞'在水体语境下未获确认，水池保持 unresolved"
+      },
+      {
+        "id": "official-map-fetch",
+        "status": "unavailable",
+        "url": "https://map.tongji.edu.cn/",
+        "queries": [
+          "同济大学 校园地图"
+        ],
+        "result": "官方地图站网络抓取失败（fetch failed），未获得逐楼官方方位；布局以用户图为准"
+      }
+    ],
+    "assumptions": [
+      "斜视鸟瞰图按邻接关系转写为正交布局，楼栋朝向统一取正面朝南或朝路；不宣称实测方位角",
+      "平面图不含建筑高度、屋顶与立面；图书馆主楼层数采用官方文字（最高十一层），因引擎 floors 上限 10 建模取 10 层近似；其余外观均为风格化估测",
+      "蓝色标注线、红帽图标、黄色箭头均为注释，不建成物体",
+      "主校区与南校区之间的城市道路、北侧高架、校外街区不建模",
+      "西南一楼门前大草坪与西北食堂等位置为依据官方文字的近似摆放"
+    ],
+    "omitted": [
+      "南校区（跨路东南侧）",
+      "赤峰路以南的宿舍片区与沿街建筑",
+      "校外道路、高架与周边街区",
+      "无法辨认楼名的小型附属体块（保留 8 个隐藏招牌的中性附楼）"
+    ],
+    "method": "依据用户斜视鸟瞰图转写布局，结合同济大学官方图书馆页与官方宿舍指南核对楼名与邻接关系；使用 2.2.0-complete-campus 内置独立生成器建模，未使用 OSM/Overpass"
+  },
+  "campus": {
+    "id": "tongji-siping-v22",
+    "name": "同济大学四平路校区",
+    "shortName": "同济四平",
+    "subtitle": "从四平路1239号门出发，漫游同济校园",
+    "motto": "同舟共济",
+    "bounds": {
+      "width": 190,
+      "depth": 170
+    },
+    "mapBounds": {
+      "width": 200,
+      "depth": 180
+    },
+    "spawn": {
+      "x": 80,
+      "z": 8,
+      "yaw": -1.5707963267948966
+    },
+    "intro": {
+      "x": 0,
+      "z": 0,
+      "size": 165
+    },
+    "districts": [
+      {
+        "id": "north",
+        "name": "北部宿舍区",
+        "x": -25,
+        "z": -50,
+        "w": 120,
+        "d": 40,
+        "tint": "#b9c8d4"
+      },
+      {
+        "id": "central",
+        "name": "图书馆中心区",
+        "x": 5,
+        "z": -5,
+        "w": 90,
+        "d": 60,
+        "tint": "#c8d4c2"
+      },
+      {
+        "id": "west",
+        "name": "西南宿舍区",
+        "x": -55,
+        "z": 25,
+        "w": 60,
+        "d": 70,
+        "tint": "#d4c8b9"
+      },
+      {
+        "id": "east",
+        "name": "东部教学区",
+        "x": 60,
+        "z": 20,
+        "w": 50,
+        "d": 80,
+        "tint": "#c2ccd4"
+      },
+      {
+        "id": "south",
+        "name": "南部运动与生活区",
+        "x": 0,
+        "z": 60,
+        "w": 140,
+        "d": 40,
+        "tint": "#c9d2b9"
+      }
+    ],
+    "crossings": [],
+    "swans": [
+      {
+        "x": 18,
+        "z": -32
+      },
+      {
+        "x": 21,
+        "z": -31
+      }
+    ],
+    "tasks": [
+      {
+        "id": "gate-siping",
+        "label": "从四平路1239号门进校",
+        "icon": "⌂",
+        "zone": "east"
+      },
+      {
+        "id": "library",
+        "label": "探访图书馆主楼",
+        "icon": "▣",
+        "zone": "central"
+      },
+      {
+        "id": "xinan-one",
+        "label": "漫步西南一楼与大草坪",
+        "icon": "▤",
+        "zone": "west"
+      },
+      {
+        "id": "sports",
+        "label": "环绕东南田径场",
+        "icon": "◎",
+        "zone": "south"
+      },
+      {
+        "id": "memories",
+        "label": "收集校园记忆",
+        "icon": "✦",
+        "zone": "all"
+      }
+    ],
+    "landmarks": [
+      {
+        "id": "gate-siping",
+        "taskId": "gate-siping",
+        "zone": "east",
+        "title": "四平路1239号门",
+        "quote": "同济的主校门",
+        "speech": "图中黄色箭头指示的四平路1239号门在校区东侧，进门后沿主路向西就是图书馆中心区。",
+        "x": 88,
+        "z": 8,
+        "labelY": 5,
+        "approach": {
+          "x": 78,
+          "z": 8
+        },
+        "radius": 5
+      },
+      {
+        "id": "library",
+        "taskId": "library",
+        "zone": "central",
+        "title": "图书馆主楼",
+        "quote": "校园中心的十一层主楼",
+        "speech": "图书馆主楼是校园中心的最高建筑，官方资料显示主楼最高十一层，裙房里是书库与阅览区。",
+        "x": 38,
+        "z": -4,
+        "labelY": 17,
+        "approach": {
+          "x": 26,
+          "z": 14
+        },
+        "radius": 6
+      },
+      {
+        "id": "xinan-one",
+        "taskId": "xinan-one",
+        "zone": "west",
+        "title": "西南一楼",
+        "quote": "文物级宿舍楼",
+        "speech": "西南一楼是同济的文物级老宿舍楼，门前的大草坪是同学们聚会活动的地方。",
+        "x": -60,
+        "z": -5,
+        "labelY": 6,
+        "approach": {
+          "x": -48,
+          "z": 8
+        },
+        "radius": 6
+      },
+      {
+        "id": "sports",
+        "taskId": "sports",
+        "zone": "south",
+        "title": "东南田径场",
+        "quote": "红色跑道与绿茵场",
+        "speech": "校园东南部的田径场带着红色跑道，是体育课和夜跑的去处。",
+        "x": 55,
+        "z": 55,
+        "labelY": 6,
+        "approach": {
+          "x": 36,
+          "z": 38
+        },
+        "radius": 6
+      },
+      {
+        "id": "gate-chifeng-50",
+        "zone": "south",
+        "title": "赤峰路50号门",
+        "quote": "西南侧入口",
+        "speech": "赤峰路50号门在校园西南角，进门向北可到西南宿舍群。",
+        "x": -30,
+        "z": 80,
+        "labelY": 4,
+        "approach": {
+          "x": -30,
+          "z": 70
+        },
+        "radius": 5
+      },
+      {
+        "id": "gate-chifeng-18",
+        "zone": "south",
+        "title": "赤峰路18号门",
+        "quote": "南面入口",
+        "speech": "赤峰路18号门在校园南侧中部，进门向北通往解放楼与青年楼一带。",
+        "x": 15,
+        "z": 80,
+        "labelY": 4,
+        "approach": {
+          "x": 15,
+          "z": 70
+        },
+        "radius": 5
+      },
+      {
+        "id": "north-pond",
+        "zone": "north",
+        "title": "北部水池",
+        "quote": "宿舍楼间的水景",
+        "speech": "北部学三学四一带有个小水池，图上没有标注名字，池上还有两只天鹅。",
+        "x": 18,
+        "z": -32,
+        "labelY": 2,
+        "approach": {
+          "x": 18,
+          "z": -22
+        },
+        "radius": 5
+      },
+      {
+        "id": "qingnian",
+        "zone": "central",
+        "title": "青年楼与解放楼",
+        "quote": "中南部的老楼",
+        "speech": "青年楼和解放楼在中南部，是图中标注清楚的两栋老楼。",
+        "x": 6,
+        "z": 42,
+        "labelY": 5,
+        "approach": {
+          "x": -2,
+          "z": 42
+        },
+        "radius": 5
+      }
+    ],
+    "memories": [
+      {
+        "id": "memory-gate",
+        "title": "四平路1239号门",
+        "text": "同舟共济的起点，从主校门开启校园漫步。",
+        "x": 78,
+        "z": 8
+      },
+      {
+        "id": "memory-library",
+        "title": "图书馆主楼",
+        "text": "校园中心的十一层主楼，十一层书香。",
+        "x": 26,
+        "z": 14
+      },
+      {
+        "id": "memory-xinan",
+        "title": "西南一大草坪",
+        "text": "文物级老楼前的大草坪，聚会与日晒的好地方。",
+        "x": -48,
+        "z": 8
+      },
+      {
+        "id": "memory-sports",
+        "title": "东南田径场",
+        "text": "红色跑道围出的运动时光。",
+        "x": 36,
+        "z": 38
+      },
+      {
+        "id": "memory-pond",
+        "title": "北部水池",
+        "text": "学三学四楼间的安静水景。",
+        "x": 18,
+        "z": -22
+      }
+    ],
+    "regions": [
+      {
+        "id": "main-walk",
+        "type": "path",
+        "x": 0,
+        "z": 8,
+        "w": 160,
+        "d": 5
+      },
+      {
+        "id": "north-walk",
+        "type": "path",
+        "x": -17,
+        "z": -45,
+        "w": 105,
+        "d": 5
+      },
+      {
+        "id": "south-walk",
+        "type": "path",
+        "x": 10,
+        "z": 45,
+        "w": 100,
+        "d": 5
+      },
+      {
+        "id": "spine-walk",
+        "type": "path",
+        "x": 20,
+        "z": 2,
+        "w": 5,
+        "d": 105
+      },
+      {
+        "id": "west-walk",
+        "type": "path",
+        "x": -45,
+        "z": 20,
+        "w": 5,
+        "d": 60
+      },
+      {
+        "id": "east-walk",
+        "type": "path",
+        "x": 62,
+        "z": 20,
+        "w": 5,
+        "d": 50
+      },
+      {
+        "id": "gate-chifeng-50-walk",
+        "type": "path",
+        "x": -30,
+        "z": 64,
+        "w": 5,
+        "d": 30
+      },
+      {
+        "id": "gate-chifeng-18-walk",
+        "type": "path",
+        "x": 15,
+        "z": 63,
+        "w": 5,
+        "d": 32
+      },
+      {
+        "id": "library-plaza",
+        "type": "plaza",
+        "x": 32,
+        "z": 8,
+        "w": 18,
+        "d": 8
+      },
+      {
+        "id": "xinan-plaza",
+        "type": "plaza",
+        "x": -48,
+        "z": 8,
+        "w": 14,
+        "d": 8
+      },
+      {
+        "id": "sports-center",
+        "type": "sports",
+        "x": 55,
+        "z": 57,
+        "w": 32,
+        "d": 26
+      },
+      {
+        "id": "north-pond",
+        "type": "water",
+        "x": 18,
+        "z": -32,
+        "w": 13,
+        "d": 8
+      },
+      {
+        "id": "gate-siping-model",
+        "type": "building",
+        "recipe": "ceremonial-gate",
+        "label": "同济大学",
+        "x": 88,
+        "z": 8,
+        "w": 10,
+        "d": 1.8,
+        "h": 4.5,
+        "rotation": 1.5707963267948966
+      },
+      {
+        "id": "gate-chifeng-50-model",
+        "type": "building",
+        "recipe": "small-gate",
+        "label": "赤峰路50号门",
+        "x": -30,
+        "z": 80,
+        "w": 7,
+        "d": 1.8,
+        "h": 4
+      },
+      {
+        "id": "gate-chifeng-18-model",
+        "type": "building",
+        "recipe": "small-gate",
+        "label": "赤峰路18号门",
+        "x": 15,
+        "z": 80,
+        "w": 7,
+        "d": 1.8,
+        "h": 4
+      },
+      {
+        "id": "library-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "图书馆",
+        "x": 38,
+        "z": -4,
+        "w": 12,
+        "d": 11,
+        "h": 17,
+        "floors": 10
+      },
+      {
+        "id": "annex-04-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "图书馆裙房",
+        "showSign": false,
+        "x": 38,
+        "z": 6,
+        "w": 14,
+        "d": 7,
+        "h": 6,
+        "floors": 3
+      },
+      {
+        "id": "xibei-5-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西北五楼",
+        "x": -60,
+        "z": -55,
+        "w": 16,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "xibei-2-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西北二楼",
+        "x": -26,
+        "z": -55,
+        "w": 14,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "xue-4-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "学四楼",
+        "x": 25,
+        "z": -53,
+        "w": 13,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "xue-3-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "学三楼",
+        "x": 25,
+        "z": -43,
+        "w": 13,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "annex-01-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "北部附楼",
+        "showSign": false,
+        "x": -12,
+        "z": -60,
+        "w": 12,
+        "d": 6,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "annex-07-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西北食堂",
+        "showSign": false,
+        "x": 8,
+        "z": -60,
+        "w": 12,
+        "d": 6,
+        "h": 4,
+        "floors": 2
+      },
+      {
+        "id": "xinan-1-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西南一楼",
+        "x": -60,
+        "z": -5,
+        "w": 20,
+        "d": 8,
+        "h": 5,
+        "floors": 4
+      },
+      {
+        "id": "annex-05-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西南附楼",
+        "showSign": false,
+        "x": -38,
+        "z": -5,
+        "w": 12,
+        "d": 7,
+        "h": 5,
+        "floors": 4
+      },
+      {
+        "id": "xinan-3-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西南三楼",
+        "x": -55,
+        "z": 22,
+        "w": 14,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "xinan-9-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西南九楼",
+        "x": -60,
+        "z": 42,
+        "w": 14,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "xinan-8-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "西南八楼",
+        "x": -46,
+        "z": 52,
+        "w": 13,
+        "d": 7,
+        "h": 5,
+        "floors": 5
+      },
+      {
+        "id": "annex-02-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "中院系楼",
+        "showSign": false,
+        "x": -12,
+        "z": 0,
+        "w": 14,
+        "d": 9,
+        "h": 6,
+        "floors": 5
+      },
+      {
+        "id": "annex-03-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "东侧院系楼",
+        "showSign": false,
+        "x": 60,
+        "z": -10,
+        "w": 13,
+        "d": 8,
+        "h": 6,
+        "floors": 5
+      },
+      {
+        "id": "annex-08-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "东南附楼",
+        "showSign": false,
+        "x": 62,
+        "z": 32,
+        "w": 12,
+        "d": 7,
+        "h": 5,
+        "floors": 4
+      },
+      {
+        "id": "ganxun-n-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "干训北楼",
+        "x": -25,
+        "z": 57,
+        "w": 10,
+        "d": 6,
+        "h": 4,
+        "floors": 3
+      },
+      {
+        "id": "ganxun-s-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "干训南楼",
+        "x": -25,
+        "z": 65,
+        "w": 10,
+        "d": 6,
+        "h": 4,
+        "floors": 3
+      },
+      {
+        "id": "qingnian-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "青年楼",
+        "x": 6,
+        "z": 38,
+        "w": 10,
+        "d": 6,
+        "h": 4,
+        "floors": 3
+      },
+      {
+        "id": "jiefang-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "解放楼",
+        "x": 8,
+        "z": 48,
+        "w": 10,
+        "d": 6,
+        "h": 4,
+        "floors": 3
+      },
+      {
+        "id": "annex-06-model",
+        "type": "building",
+        "recipe": "teaching-block",
+        "label": "南部院系楼",
+        "showSign": false,
+        "x": 32,
+        "z": 22,
+        "w": 12,
+        "d": 7,
+        "h": 5,
+        "floors": 4
+      },
+      {
+        "id": "lamps-main",
+        "type": "prop-row",
+        "kind": "lamp",
+        "count": 8,
+        "x": 40,
+        "z": 12,
+        "dx": 70
+      },
+      {
+        "id": "benches-library",
+        "type": "prop-row",
+        "kind": "bench",
+        "count": 4,
+        "x": 24,
+        "z": 12,
+        "dx": 12
+      }
+    ]
+  }
+}

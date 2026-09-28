@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "3dschool",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-09-28",
+  "vars": {
+    "ZHIHU_APP_ID": "850",
+    "ZHIHU_REDIRECT_URI": "https://3dschool.chipai.cc/zhihu-callback"
+  },
+  "d1_databases": [{
+    "binding": "AUTH_DB",
+    "database_name": "3dschool-auth",
+    "database_id": "960c27c0-6d13-4dc8-a486-033b3fda3f14",
+    "migrations_dir": "cloudflare/migrations"
+  }]
+}
