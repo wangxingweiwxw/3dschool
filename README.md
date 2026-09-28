@@ -97,7 +97,7 @@ python C:/Users/win/.codex/skills/school-map-to-campus/scripts/import_package.py
 
 已支持 Cloudflare Pages / Workers 无服务器知乎 OAuth 登录，游客仍可直接漫游。右上角「登录」发起授权，成功后显示账号昵称；校园进度仍为浏览器本地存档。App Key 仅从 Cloudflare Secret 读取，不进入前端。
 
-部署需要初始化 D1、绑定 `AUTH_DB` 并设置 `ZHIHU_APP_ID`、`ZHIHU_REDIRECT_URI`、Secret `ZHIHU_APP_KEY`，详见 [完整部署步骤](docs/cloudflare-zhihu-login.md)。GitHub 构建命令使用 `npm run build`，输出 `dist`，会同时生成 Pages `_worker.js`。只有普通静态资源托管时不提供登录服务。
+当前默认使用 Workers Builds：根目录 `wrangler.jsonc` 和 `wrangler.worker.jsonc` 均包含后端入口 `cloudflare/worker.js`、静态资源与 `AUTH_DB` 绑定。GitHub 构建命令为 `npm run build`，部署命令为 `npx wrangler deploy`。部署需要初始化 D1，并在这个 Worker 上添加运行时 Secret `ZHIHU_APP_KEY`，详见 [完整部署步骤](docs/cloudflare-zhihu-login.md)。如果原 Worker 只有静态资源，先发布包含后端入口的新版本，再添加 Secret。可选 Pages 配置保留在 `cloudflare/pages-config.example.jsonc`，使用 Pages 时需将其复制为根配置。只有普通静态资源托管时不提供登录服务。
 
 ## 首页校园选择与部署
 
