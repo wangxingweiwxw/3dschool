@@ -4,20 +4,20 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import worker, {returnPath} from '../cloudflare/worker.js';
 
-const origin='https://3dschool.chipai.cc';
+const origin='https://museum.chipai.cc';
 class D1 {
   constructor(){this.db=new DatabaseSync(':memory:');this.db.exec(readFileSync(new URL('../cloudflare/migrations/0001_auth.sql',import.meta.url),'utf8'));}
   prepare(sql){const stmt=this.db.prepare(sql);let values=[];const query={bind(...v){values=v;return query;},async first(){return stmt.get(...values)||null;},async run(){return stmt.run(...values);}};return query;}
   async batch(statements){this.db.exec('BEGIN');try{const result=[];for(const s of statements)result.push(await s.run());this.db.exec('COMMIT');return result;}catch(e){this.db.exec('ROLLBACK');throw e;}}
 }
-function setup(){return {AUTH_DB:new D1(),ZHIHU_APP_ID:'850',ZHIHU_APP_KEY:'test-provider-key',ZHIHU_REDIRECT_URI:origin+'/zhihu-callback',ASSETS:{fetch:()=>new Response('static')}};}
+function setup(){return {AUTH_DB:new D1(),ZHIHU_APP_ID:'851',ZHIHU_APP_KEY:'test-provider-key',ZHIHU_REDIRECT_URI:origin+'/zhihu-callback',ASSETS:{fetch:()=>new Response('static')}};}
 function req(path,options={}){return new Request(origin+path,options);}
 function post(path,body={},cookies=''){return req(path,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookies},body:JSON.stringify(body)});}
 function cookies(response){return response.headers.getSetCookie().map(c=>c.split(';')[0]).join('; ');}
 async function begin(env,returnTo='/?campus=tongji-siping-v22'){
   const response=await worker.fetch(post('/api/auth/login',{returnTo}),env);
   assert.equal(response.status,200);const data=await response.json(),url=new URL(data.url);
-  assert.equal(url.origin,'https://openapi.zhihu.com');assert.equal(url.searchParams.get('app_id'),'850');
+  assert.equal(url.origin,'https://openapi.zhihu.com');assert.equal(url.searchParams.get('app_id'),'851');
   assert.equal(url.searchParams.get('redirect_uri'),env.ZHIHU_REDIRECT_URI);
   assert.match(response.headers.get('set-cookie'),/HttpOnly; Secure; SameSite=Lax/);
   return {state:url.searchParams.get('state'),cookie:cookies(response)};
@@ -91,5 +91,5 @@ test('configuration, same-origin mutations, allowlisted returns, methods and sta
     const broken={...env,[missing]:undefined};assert.equal((await (await worker.fetch(req('/api/auth/session'),broken)).json()).configured,false);
   }
   const preview=await worker.fetch(new Request('https://preview.pages.dev/api/auth/session'),env);assert.equal((await preview.json()).configured,false);
-  assert.equal((await worker.fetch(post('/api/auth/login'),{...env,ZHIHU_REDIRECT_URI:'http://3dschool.chipai.cc/zhihu-callback'})).status,503);
+  assert.equal((await worker.fetch(post('/api/auth/login'),{...env,ZHIHU_REDIRECT_URI:'http://museum.chipai.cc/zhihu-callback'})).status,503);
 });

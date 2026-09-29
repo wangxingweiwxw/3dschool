@@ -20,7 +20,7 @@ async def main():
             if endpoint=='logout':state['user']=None;result={'ok':True}
             elif endpoint=='login':
                 assert 'campus=sjtu-xuhui-map-v2' in route.request.post_data_json['returnTo']
-                result={'url':'https://openapi.zhihu.com/authorize?app_id=850&state=mock'}
+                result={'url':'https://openapi.zhihu.com/authorize?app_id=851&state=mock'}
             else:result=state
             await route.fulfill(json=result)
         await page.route('**/api/auth/*',api)

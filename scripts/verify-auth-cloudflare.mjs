@@ -2,11 +2,11 @@
 import {Miniflare,convertV4MiniflareOptions} from 'miniflare';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
-const origin='https://3dschool.chipai.cc';
+const origin='https://museum.chipai.cc';
 let exchanges=0;
 const mf=new Miniflare(convertV4MiniflareOptions({
   modules:true,scriptPath:'cloudflare/worker.js',compatibilityDate:'2026-09-28',
-  bindings:{ZHIHU_APP_ID:'850',ZHIHU_APP_KEY:'fake-key',ZHIHU_REDIRECT_URI:origin+'/zhihu-callback'},
+  bindings:{ZHIHU_APP_ID:'851',ZHIHU_APP_KEY:'fake-key',ZHIHU_REDIRECT_URI:origin+'/zhihu-callback'},
   d1Databases:['AUTH_DB'],
   outboundService:async request=>{
     if(request.url==='https://openapi.zhihu.com/access_token'){
