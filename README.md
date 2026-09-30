@@ -79,7 +79,7 @@ node node_modules/vite/bin/vite.js build
 
 导入生成的文件夹：
 
-**直接在网页导入**：点击右上角“校园”，选择技能输出的 `campus.json` 或完整模型包 ZIP，查看学校名称与体量后点击“进入这座校园”。文件保存在当前网站的浏览器 IndexedDB 中，刷新后可继续；“我的校园”列表可重新进入、移除或返回复旦。此方式不上传服务器，只在导入时使用的浏览器与网站地址生效；换设备或清除网站数据后需重新导入。同名不同版本分别保存进度，重复导入相同文件会复用原记录。JSON 上限 2 MB、ZIP 上限 80 MB，ZIP 只解压校园 JSON，不加载大型 GLB。
+**直接在网页导入**：点击右上角“校园”，选择技能输出的 `campus.json` 或完整模型包 ZIP，查看学校名称与体量后点击“进入这座校园”。知乎登录后保存至“账号校园”，另一设备登录同一账号即可进入；游客导入仅保存在当前浏览器 IndexedDB 的“本机校园”，不上传服务器。已有本机校园可在登录后点击“同步到账号”，本机副本继续保留。角色与探索进度仍在各设备本地保存。同名不同版本分别保存，重复导入相同内容复用原记录。每个账号最多 20 个校园，JSON 上限 2 MB、ZIP 上限 80 MB；云端保存漫游所需 JSON，不保存 ZIP 中的 GLB、预览或报告。纯静态托管仍支持游客本地导入。
 
 **随网站部署给所有玩家**：使用下面的命令将 JSON 安装到项目，再重新构建部署。
 
@@ -96,6 +96,8 @@ python C:/Users/win/.codex/skills/school-map-to-campus/scripts/import_package.py
 ## 知乎登录与 Cloudflare 部署
 
 已支持 Cloudflare Pages / Workers 无服务器知乎 OAuth 登录，游客仍可直接漫游。右上角「登录」发起授权，成功后显示账号昵称；校园进度仍为浏览器本地存档。App Key 仅从 Cloudflare Secret 读取，不进入前端。
+
+账号校园使用现有 `AUTH_DB` D1，按知乎用户 ID 隔离。已部署登录的站点只需执行新增的 [0002_cloud_campuses.sql](cloudflare/migrations/0002_cloud_campuses.sql)，再更新 GitHub 源码并部署，无需新建 D1 或 R2。详见 [账号校园升级步骤](docs/cloud-campus-sync.md)。
 
 当前默认使用 Workers Builds：根目录 `wrangler.jsonc` 和 `wrangler.worker.jsonc` 均包含后端入口 `cloudflare/worker.js`、静态资源与 `AUTH_DB` 绑定。GitHub 构建命令为 `npm run build`，部署命令为 `npx wrangler deploy`。部署需要初始化 D1，并在这个 Worker 上添加运行时 Secret `ZHIHU_APP_KEY`，详见 [完整部署步骤](docs/cloudflare-zhihu-login.md)。如果原 Worker 只有静态资源，先发布包含后端入口的新版本，再添加 Secret。可选 Pages 配置保留在 `cloudflare/pages-config.example.jsonc`，使用 Pages 时需将其复制为根配置。只有普通静态资源托管时不提供登录服务。
 

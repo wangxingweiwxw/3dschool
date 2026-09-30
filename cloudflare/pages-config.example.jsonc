@@ -4,8 +4,8 @@
   "pages_build_output_dir": "./dist",
   "compatibility_date": "2026-09-28",
   "vars": {
-    "ZHIHU_APP_ID": "851",
-    "ZHIHU_REDIRECT_URI": "https://museum.chipai.cc/zhihu-callback"
+    "ZHIHU_APP_ID": "850",
+    "ZHIHU_REDIRECT_URI": "https://3dschool.chipai.cc/zhihu-callback"
   },
   "d1_databases": [{
     "binding": "AUTH_DB",

@@ -16,9 +16,10 @@ import { validateCampus } from '../world/validateCampus.js';
 
 const SAVE_KEY='fudan-garden-adventure-v2';
 export class Game {
- constructor(canvas,campus=fudanCampus,localCampusKey=null){
+ constructor(canvas,campus=fudanCampus,localCampusKey=null,cloudCampusKey=null){
   this.canvas=canvas;this.campus=campus;this.customCampus=campus!==fudanCampus;this.saveKey=this.customCampus?'3dschool-campus:'+campus.id+':v1':SAVE_KEY;this.input=new Input();this.clock=new THREE.Clock();this.playing=false;this.route=[];this.done=new Set();this.speechTimer=0;this.lastSpeechId='';this.completed=false;this.angle=.28;this.zoom=36;this.evening=false;this.timeOfDay='day';this.sound=false;this.mapTimer=0;this.saveTimer=0;
   if(localCampusKey)this.saveKey='3dschool-local-campus:'+localCampusKey+':v1';
+  if(cloudCampusKey)this.saveKey='3dschool-cloud-campus:'+cloudCampusKey+':v1';
   this.setupRenderer();this.setupScene();validateCampus(this.campus);this.world=buildCampus(this.campus);this.scene.add(this.world.root);this.environment=new CampusEnvironment(this.scene,this.world,this.hemi,this.sun,this.renderer);this.characters={fox:new ArcticFox(),nana:new XiaoNa(),ming:new XiaoMing()};this.environment.registerCharacters(this.characters);this.characterId='fox';this.fox=this.characters.fox;this.scene.add(this.fox.group);this.nav=new Navigation(this.campus,(x,z)=>this.blocked(x,z));this.hud=bindHud(this,this.campus);
   const gl=this.renderer.getContext();this.world.occlusion.msaaSamples.value=Math.max(1,gl.getParameter(gl.SAMPLES));
   const ring=new THREE.Mesh(new THREE.RingGeometry(.76,.84,40),new THREE.MeshBasicMaterial({color:0xffe4a3,transparent:true,opacity:.6,side:THREE.DoubleSide}));ring.rotation.x=-Math.PI/2;ring.position.y=.15;this.playerRing=ring;this.scene.add(ring);

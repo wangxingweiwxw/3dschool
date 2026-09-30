@@ -95,10 +95,7 @@ export function pointInCollider(x, z, c) {
 }
 
 // Quarter-turn campus gates share one transform for collision and occupied area.
-export function regionFootprint(r) {
-  const c=Math.abs(Math.cos(r.rotation||0)),s=Math.abs(Math.sin(r.rotation||0));
-  return {w:c*(r.w||12)+s*(r.d||8),d:s*(r.w||12)+c*(r.d||8)};
-}
+export { regionFootprint } from '../data/campusGeometry.js';
 export function colliderFromLocalBox(r,x,z,w,d,pad=0.1) {
   const c=Math.cos(r.rotation||0),s=Math.sin(r.rotation||0);
   return colliderFromSize(r.x+c*x+s*z,r.z-s*x+c*z,

@@ -1,0 +1,11 @@
+3Dschool account campus sync source release
+Built locally: 2026-09-30T15:41:52
+Includes per-user D1 campus storage, guest local import, explicit local-to-account sync.
+Apply cloudflare/migrations/0002_cloud_campuses.sql to existing 3dschool-auth before deploying source.
+
+SHA256 for required files:
+32a4e69003ba80a31dd76cc2649d49d5049384548c6a8b9ed20a77113cceacd5  cloudflare/campuses.js
+169cc064c1c2de61c13d826e17a73df799ad6b8140b5ee91d1d65a4150f01ee5  cloudflare/migrations/0002_cloud_campuses.sql
+32bfb0b74aa3cc6af7e34f62b290ef7e8f5ad1ece6a6d51900eaa4b5c6455ca4  src/data/cloudCampuses.js
+d10ea11e1299397bad259b28358dec53575defd4b6085faa060ffa4710f4ebd9  src/ui/campusImport.js
+5b53f3980d5c8c3a71ed770801c1f10b47f517813ff44a2f77d17a5ca7b666a5  docs/cloud-campus-sync.md

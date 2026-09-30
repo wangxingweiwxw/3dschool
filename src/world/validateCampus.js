@@ -1,4 +1,4 @@
-﻿import { recipes } from "./buildings.js";
+import { campusRecipes } from '../data/campusGeometry.js';
 
 const requiredArrays = ["tasks", "landmarks", "memories", "regions"];
 
@@ -22,7 +22,7 @@ export function validateCampus(campus) {
     if (["building", "prop-row"].includes(region.type) && !Number.isFinite(region.x)) {
       throw new TypeError(`Region ${region.id} needs a numeric x coordinate`);
     }
-    if (region.type === "building" && !recipes[region.recipe]) throw new TypeError(`Unknown building recipe: ${region.recipe}`);
+    if (region.type === "building" && !campusRecipes.has(region.recipe)) throw new TypeError(`Unknown building recipe: ${region.recipe}`);
   }
   return campus;
 }

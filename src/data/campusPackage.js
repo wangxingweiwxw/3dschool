@@ -1,4 +1,4 @@
-import { regionFootprint } from '../world/voxel.js';
+import { regionFootprint } from './campusGeometry.js';
 
 import { validateCampus } from '../world/validateCampus.js';
 

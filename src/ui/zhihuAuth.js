@@ -17,13 +17,14 @@ export function bindZhihuAuth() {
     <p id="auth-status" role="status" aria-live="polite"></p>
     <button class="primary auth-login" id="zhihu-login" disabled>使用知乎登录 <span>↗</span></button>
     <button class="secondary" id="zhihu-logout" hidden>退出登录</button>
-    <p class="auth-note">登录仅用于识别你的知乎身份。校园进度保存在当前浏览器，暂不提供账号云同步。</p>`;
+    <p class="auth-note">登录后导入的自定义校园可跨设备访问。角色和探索进度仍保存在当前浏览器；游客导入的校园仅保存在本机。</p>`;
   document.getElementById('app').append(dialog);
   const $=id=>document.getElementById(id),status=$('auth-status');
   let state={configured:false,user:null},busy=false,expiryTimer;
   const notice=text=>{status.textContent=text;};
   const open=()=>{window.__game?.input.reset();if(!dialog.open)dialog.showModal();};
   const render=()=>{
+    window.dispatchEvent(new CustomEvent('school-auth-change',{detail:{user:state.user}}));
     button.textContent=state.user?'账号':'登录';button.title=state.user?'知乎账号 · '+state.user.name:'使用知乎登录';
     dialog.querySelector('.auth-profile').hidden=!state.user;$('auth-name').textContent=state.user?.name||'';
     $('zhihu-login').hidden=!!state.user;$('zhihu-login').disabled=busy||!state.configured;

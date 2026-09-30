@@ -1,4 +1,5 @@
 // Shared by Pages advanced mode and Workers Static Assets. No Node.js APIs.
+import {handleCampuses} from './campuses.js';
 const AUTHORIZE = 'https://openapi.zhihu.com/authorize';
 const TOKEN = 'https://openapi.zhihu.com/access_token';
 const PROFILE = 'https://openapi.zhihu.com/user';
@@ -47,7 +48,7 @@ export function returnPath(value, origin) {
   const u = new URL(value, origin);
   if (u.origin !== origin || !['/', '/index.html'].includes(u.pathname)) return '/';
   const out = new URL('/', origin);
-  for (const key of ['campus', 'localCampus']) {
+  for (const key of ['campus', 'localCampus', 'cloudCampus']) {
     const v = u.searchParams.get(key);
     if (v && /^[a-zA-Z0-9_-]{1,160}$/.test(v)) out.searchParams.set(key, v);
   }
@@ -155,6 +156,10 @@ async function logout(request, env, config) {
   if (ops.length) await env.AUTH_DB.batch(ops);
   return json({ok:true},200,[setCookie(SESSION,'',0),setCookie(FLOW,'',0)]);
 }
+async function sessionUser(request,env) {
+ const id=cookie(request,SESSION);if(!validId(id))return null;
+ return env.AUTH_DB.prepare('SELECT user_id FROM auth_sessions WHERE session_hash = ? AND expires_at > ?').bind(await digest(id),Math.floor(Date.now()/1000)).first();
+}
 
 export default {
   async fetch(request,env) {
@@ -164,6 +169,11 @@ export default {
       return env.ASSETS.fetch(request);
     }
     const methods = {'/api/auth/session':'GET','/api/auth/login':'POST','/api/auth/logout':'POST','/zhihu-callback':'GET'};
+    if(path==='/api/campuses'||path.startsWith('/api/campuses/')){
+      const config=settings(env,request);if(!config)return json({error:'unavailable'},503);
+      try{return await handleCampuses(request,env,{user:await sessionUser(request,env),config,json,digest,sameOrigin});}
+      catch{return json({error:'unavailable'},503);}
+    }
     if (!methods[path]) return json({error:'not_found'},404);
     if (request.method !== methods[path]) return new Response(null,{status:405,headers:headers({Allow:methods[path]})});
     const config = settings(env,request);
